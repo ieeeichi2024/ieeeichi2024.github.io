@@ -2,6 +2,8 @@
 
 Homepage for IEEE ICHI 2022.
 
+This website is built upon Python `flask` and `frozen-flask` packages for managing the source codes and generating the static version. 
+
 For development, run:
 
 ```bash
