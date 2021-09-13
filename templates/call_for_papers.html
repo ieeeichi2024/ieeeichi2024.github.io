@@ -6,7 +6,7 @@ Call for Papers
 
 {% block content %}
 <div class="position-relative overflow-hidden pt-5 mb-5 text-center bg-light cover-image"
-    style="background-image: url('./static/image/rst-1.jpg');">
+    style="background-image: url('./static/image/rst-9.jpg');">
     <div class="col-md-10 p-lg-5 mx-auto my-5 text-white min-height-12">
         <h1 class="pt-5 display-4 fw-bold">
             CALL FOR PAPERS
@@ -156,38 +156,25 @@ Call for Papers
             <h2>Program Committee Co-Chairs</h2>
 
             <div class="col-md-4">
-                <h5>
-                    Analytics
+                <h5 class="mt-2">
+                    Analytics Tack
                 </h5>
-                <p>XXX</p>
+                
+                {% include 'committees/placeholder.html' %}
             </div>
             
             <div class="col-md-4">
-                <h5>
+                <h5 class="mt-2">
                     Human Factors Track
                 </h5>
-                <p>
-                    Yang Gong, MD, PhD<br>
-                    School of Biomedical Informatics<br>
-                    University of Texas Health Science Center at Houston, Houston, TX, USA
-                </p>
-                <img class="people-profile-photo"
-                    src="./static/people/p-gongyang.jpg" 
-                    alt="Yang Gong, MD, PhD">
+                {% include 'committees/yang.html' %}
             </div>
             
             <div class="col-md-4">
-                <h5>
+                <h5 class="mt-2">
                     Systems Track
                 </h5>
-                <p>
-                    Kalyan Pasupathy, PhD<br>
-                    Department of Biomedical and Health Information Sciences<br>
-                    University of Illinois Chicago, Chicago, IL, USA
-                </p>
-                <img class="people-profile-photo"
-                    src="./static/people/p-kalyan.jpg" 
-                    alt="Kalyan Pasupathy, PhD">
+                {% include 'committees/kalyan.html' %}
             </div>
         </div>
     </div>

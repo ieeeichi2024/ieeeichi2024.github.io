@@ -49,6 +49,11 @@ def call_for_tutorials():
     return render_template('call_for_tutorials.html')
 
 
+@app.route("/attending.html")
+def attending():
+    return render_template('attending.html')
+
+
 @app.route("/program.html")
 def program():
     return render_template('program.html')
@@ -68,4 +73,4 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
-        app.run(debug=True)
+        app.run(host='0.0.0.0', debug=True)
