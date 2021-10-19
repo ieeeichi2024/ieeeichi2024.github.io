@@ -4,6 +4,7 @@ from flask import render_template
 from flask_frozen import Freezer
 
 FREEZER_DESTINATION = 'docs'
+URL_EASYCHAIR_SUBMISSION = 'https://easychair.org/conferences/?conf=ieeeichi2022'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -72,5 +73,6 @@ def committees():
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
+        print('* built static version by Flask-Freezer')
     else:
         app.run(host='0.0.0.0', debug=True)

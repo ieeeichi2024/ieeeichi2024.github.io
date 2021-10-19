@@ -67,6 +67,11 @@ Home
             width: 100%;
         }
 
+        .people-profile-email {
+            color: #777777;
+            font-size: .95em;
+        }
+
         .link-white {
             color: white;
             text-decoration: none;
@@ -114,6 +119,21 @@ Home
 
         .fs-sm {
             font-size: .8em;
+        }
+
+        .footer_logo img {
+            height: 25px;
+            width: auto;
+        }
+
+        .footer_link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer_link:hover {
+            color: white;
+            text-decoration: underline;
         }
 
         @media (min-width: 768px) {
@@ -273,7 +293,8 @@ Home
 </h5>
 <p>
     <!-- Department of AI and Informatics<br> -->
-    Mayo Clinic, Rochester, MN, USA
+    Mayo Clinic, Rochester, MN, USA<br>
+    <span class="people-profile-email">Liu.Hongfang@mayo.edu</span>
 </p>
                 </div>
 
@@ -286,7 +307,8 @@ Home
 </h5>
 <p>
     <!-- Department of Electrical & Computer Engineering<br> -->
-    University of Illinois Urbana-Champaign, Champaign, IL, USA
+    University of Illinois Urbana-Champaign, Champaign, IL, USA <br>
+    <span class="people-profile-email">rkiyer@illinois.edu</span>
 </p>
                 </div>
             </div>
@@ -324,8 +346,8 @@ Home
 
     </main>
 
-    <footer class="bg-ichiblue-light text-white py-5">
-        <div class="container">
+    <footer class="bg-ichiblue-light text-white">
+        <div class="container pt-4 pb-3">
             <div class="row">
                 <div class="col-12 col-md-3 mb-3">
                     IEEE ICHI 2022<br>
@@ -371,6 +393,31 @@ Home
                     </ul>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="bg-ichiblue py-4">
+            <div class="container">
+                <div class="d-flex flex-row mb-3">
+                    <a class="footer_logo me-3" 
+                        href="https://www.ieee.org" target="_blank">
+                        <img height="35" src="/static/image/ieee-logo-white.svg" alt="IEEE">
+                    </a>
+                    <a class="footer_logo me-3" 
+                        href="https://www.computer.org" 
+                        target="_blank">
+                        <img height="35" src="/static/image/ieee-cs-logo-white.svg" alt="IEEE Computer Society">
+                    </a>
+                </div>
+    
+                <div class="d-flex flex-col lg:flex-row justify-content-between text-sm">
+                    <div>
+                        <span>© 2021 IEEE. Sponsored by the IEEE Computer Society.</span>
+                    </div>
+                    <div>
+                        <a class="footer_link" href="https://www.ieee.org/security-privacy.html" target="_new">IEEE Privacy Policy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
