@@ -15,6 +15,11 @@ def index():
     return render_template('index.html')
 
 
+@app.route("/call_for_sponsors.html")
+def call_for_sponsors():
+    return render_template('call_for_sponsors.html')
+
+
 @app.route("/call_for_contributions.html")
 def call_for_contributions():
     return render_template('call_for_contributions.html')
