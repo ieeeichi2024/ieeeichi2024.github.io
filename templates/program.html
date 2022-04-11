@@ -223,6 +223,12 @@ Program
         font-size: .9em;
     }
 
+    .session-details {
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        border-bottom: 1px solid #efefef;
+    }
+
     .session-info {
         padding-top: 0;
         padding-bottom: 1em;
@@ -285,7 +291,7 @@ Program
                                     8:30 AM
                                 </div>
                             </td>
-                            <td colspan="4" class="td-slot">
+                            <td colspan="6" class="td-slot">
                                 <div class="slot slot-break">
                                     Registration
                                 </div>
@@ -337,7 +343,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 2 
                                     </span>
@@ -351,7 +357,7 @@ Program
                                     10:30 AM
                                 </div>
                             </td>
-                            <td colspan="4" class="td-slot">
+                            <td colspan="6" class="td-slot">
                                 <div class="slot slot-break">
                                     <i class="fas fa-coffee"></i>
                                     Coffee Break
@@ -406,7 +412,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 2
                                     </span>
@@ -421,7 +427,7 @@ Program
                                     1:00 PM
                                 </div>
                             </td>
-                            <td colspan="4" class="td-slot">
+                            <td colspan="6" class="td-slot">
                                 <div class="slot slot-break">
                                     <i class="fas fa-utensils"></i> Lunch
                                 </div>
@@ -464,7 +470,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-3')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 3
                                     </span>
@@ -472,7 +478,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 2
                                     </span>
@@ -487,7 +493,7 @@ Program
                                     3:00 PM
                                 </div>
                             </td>
-                            <td colspan="4" class="td-slot">
+                            <td colspan="6" class="td-slot">
                                 <div class="slot slot-break">
                                     <i class="fas fa-coffee"></i>
                                     Coffee Break
@@ -522,7 +528,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-3')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 3
                                     </span>
@@ -530,7 +536,7 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
                                     <span class="txt-sm">
                                         Tutorial 2 
                                     </span>
@@ -552,27 +558,11 @@ Program
                                 data-bs-parent="#acc_jun11">
                                 <div class="accordion-body">
 
-
-                                    <div class="session-details">
-                                        <div id="session-w-1" class="session-info">
-                                            <h4>
-                                                <a target="_blank"
-                                                    href="https://www.healthnlp.info/">
-                                                    HealthNLP 2022
-                                                </a>
-                                            </h4>
-
-                                            <p>
-                                                ...
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-
-
                                     <div class="session-details">
                                         <div id="session-w-2" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 102
+                                            </div>
                                             <h4>
                                                 <a target="_blank"
                                                     href="https://sites.pitt.edu/~lzhou1/HIEDU2022.html">
@@ -580,7 +570,6 @@ Program
                                                 </a>
                                             </h4>
 
-                                            
 
                                             <ul>
                                                 <li>
@@ -630,10 +619,31 @@ Program
                                     </div>
 
 
+                                    <div class="session-details">
+                                        <div id="session-w-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 103
+                                            </div>
+                                            <h4>
+                                                <a target="_blank"
+                                                    href="https://www.healthnlp.info/">
+                                                    HealthNLP 2022
+                                                </a>
+                                            </h4>
+
+                                            <p>
+                                                TBD
+                                            </p>
+                                        </div>
+
+                                    </div>
 
 
                                     <div class="session-details">
                                         <div id="session-w-3" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 104
+                                            </div>
                                             <h4>
                                                 <a target="_blank"
                                                     href="https://www.um.es/aike/events/XAI-Healthcare/">
@@ -646,7 +656,7 @@ Program
                                             </p>
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -657,14 +667,15 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-d-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 101
+                                            </div>
                                             <h4>
                                                 Doctoral Consortium
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -675,14 +686,15 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-t-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 105
+                                            </div>
                                             <h4>
-                                                Tutorial 1
+                                                Tutorial 1: Computational Drug Target Prediction: Benchmark and Experiments
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -693,14 +705,34 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-t-2" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 106
+                                            </div>
                                             <h4>
-                                                Tutorial 2
+                                                Tutorial 2: Prescriptive Healthcare Analytics: a Tutorial on Discrete Optimization and Simulation
                                             </h4>
 
-                                            
+                                            <p>
+                                                TBD
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                    <div class="session-details">
+                                        <div id="session-t-3" class="session-info">
+                                            <div class="session-dur-loc">
+                                                @Suite 106
+                                            </div>
+                                            <h4>
+                                                Tutorial 3: Data Science for Healthcare via an E-Learning Statistics Platform
+                                            </h4>
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -917,7 +949,7 @@ Program
                             </td>
                             <td colspan="3" class="td-slot">
                                 <div onclick="show_session_info('p-1')" class="slot slot-large slot-session slot-session-p">
-                                    Poster Session
+                                    Poster &amp; Demo Session
                                     <br>
                                     @Ballroom Lobby West and South
                                 </div>
@@ -954,14 +986,16 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-k-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                8:30 - 10:00 AM 
+                                                @Ballroom
+                                            </div>
                                             <h4>
                                                 Welcome Session and Keynote 1
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -973,10 +1007,10 @@ Program
 
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @Suite 101
+                                                @Suite 102
                                             </div>
                                             <h4>
-                                                Analytics Session 1: Event Prediction
+                                                Analytics Session 1: ML Methodology
                                             </h4>
 
                                             
@@ -989,10 +1023,10 @@ Program
                                         <div id="session-a-2" class="session-info">
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @Suite 102
+                                                @Suite 103
                                             </div>
                                             <h4>
-                                                Analytics Session 2: Healthcare Analytics
+                                                Analytics Session 2: Imaging
                                             </h4>
                                             
                                         </div>
@@ -1004,12 +1038,15 @@ Program
                                         <div id="session-a-3" class="session-info">
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @Suite 103
+                                                @Suite 104
                                             </div>
                                             <h4>
-                                                Analytics Session 3: Imaging
+                                                Analytics Session 3: PGHD and Text Analytics
                                             </h4>
                                             
+                                            <p>
+                                                TBD
+                                            </p>
                                         </div>
 
                                     </div>
@@ -1018,14 +1055,17 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-k-2" class="session-info">
+                                            <div class="session-dur-loc">
+                                                1:00 - 2:00 PM 
+                                                @Ballroom
+                                            </div>
+                                        
                                             <h4>
                                                 Keynote 2
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1034,14 +1074,16 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-a-4" class="session-info">
+                                            <div class="session-dur-loc">
+                                                2:30 - 4:00 PM 
+                                                @Suite 102
+                                            </div>
                                             <h4>
-                                                Analytics Session 4
+                                                Analytics Session 4: Healthcare Analytics
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1049,14 +1091,18 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-s-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                2:30 - 4:00 PM 
+                                                @Suite 103
+                                            </div>
                                             <h4>
-                                                System Session 4
+                                                System Session 1: Design and Development
                                             </h4>
 
                                             
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1064,12 +1110,16 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-h-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                2:30 - 4:00 PM 
+                                                @Suite 104
+                                            </div>
                                             <h4>
-                                                Human Factors Session 1
+                                                Human Factors Session 1: Human-centered Design
                                             </h4>
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1078,15 +1128,15 @@ Program
                                     <div class="session-details">
                                         <div id="session-p-1" class="session-info">
                                             <h4>
-                                                Poster Session
+                                                Poster &amp; Demo Session
                                             </h4>
 
                                             <p>
-                                                @ Exhibit Hall 3
+                                                @Ballroom Lobby West and South
                                             </p>
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1188,7 +1238,7 @@ Program
                                         Systems S.2
                                     </span>
                                     <br>
-                                    <b>Wearables & Monitoring</b>
+                                    <b>Wearables &amp; Monitoring</b>
                                     <br>
                                     <span class="session-loc">@Suite 103</span>
                                 </div>
@@ -1284,7 +1334,7 @@ Program
                             </td>
                             <td colspan="3" class="td-slot">
                                 <div onclick="show_session_info('p-1')" class="slot slot-large slot-session slot-session-p">
-                                    Poster Session
+                                    Poster &amp; Demo Session
                                     <br>
                                     @Ballroom Lobby West and South
                                 </div>
@@ -1321,14 +1371,16 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-k-3" class="session-info">
+                                            <div class="session-dur-loc">
+                                                8:30 - 10:00 AM 
+                                                @Ballroom
+                                            </div>
                                             <h4>
                                                 Keynote 3
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1337,46 +1389,18 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-a-5" class="session-info">
+                                            <div class="session-dur-loc">
+                                                10:30 AM - 12:00 PM 
+                                                @Suite 102
+                                            </div>
                                             <h4>
-                                                Analytics Session 5
+                                                Analytics Session 5: Prediction &amp; Classifition
                                             </h4>
 
                                             
 
                                             <p>
-                                                ...
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-
-
-                                    <div class="session-details">
-                                        <div id="session-a-6" class="session-info">
-                                            <h4>
-                                                Analytics Session 6
-                                            </h4>
-
-                                            
-
-                                            <p>
-                                                ...
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-
-
-                                    <div class="session-details">
-                                        <div id="session-a-7" class="session-info">
-                                            <h4>
-                                                Analytics Session 7
-                                            </h4>
-
-                                            <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1386,14 +1410,18 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-s-2" class="session-info">
+                                            <div class="session-dur-loc">
+                                                10:30 AM - 12:00 PM 
+                                                @Suite 103
+                                            </div>
                                             <h4>
-                                                System Session 2
+                                                System Session 2: Wearables &amp; Monitoring
                                             </h4>
 
                                             
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1403,12 +1431,56 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-h-2" class="session-info">
+                                            <div class="session-dur-loc">
+                                                10:30 AM - 12:00 PM 
+                                                @Suite 104
+                                            </div>
                                             <h4>
-                                                Human Factors Session 2
+                                                Human Factors Session 2: Self Management
                                             </h4>
 
                                             <p>
-                                                ...
+                                                TBD
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="session-details">
+                                        <div id="session-a-6" class="session-info">
+                                            <div class="session-dur-loc">
+                                                1:00 - 2:30 PM 
+                                                @Suite 102
+                                            </div>
+                                            <h4>
+                                                Analytics Session 6: Event Prediction
+                                            </h4>
+
+                                            
+
+                                            <p>
+                                                TBD
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="session-details">
+                                        <div id="session-a-7" class="session-info">
+                                            <div class="session-dur-loc">
+                                                1:00 - 2:30 PM 
+                                                @Suite 103
+                                            </div>
+                                            <h4>
+                                                Analytics Session 7: Visualization &amp; Explainable AI
+                                            </h4>
+
+                                            <p>
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1418,12 +1490,16 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-h-3" class="session-info">
+                                            <div class="session-dur-loc">
+                                                1:00 - 2:30 PM 
+                                                @Suite 104
+                                            </div>
                                             <h4>
-                                                Human Factors Session 3
+                                                Human Factors Session 3: AI-based Applications
                                             </h4>
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1509,6 +1585,31 @@ Program
                                 </div>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="4" class="td-slot">
+                                <div class="slot slot-blank-break">
+                                    &nbsp;
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-time">
+                                <div class="time time-line">
+                                    &nbsp;
+                                </div>
+                                <div class="time time-bottom time-bottom-down">
+                                    12:30 PM
+                                </div>
+                            </td>
+                            <td onclick="show_session_info('k-5')" 
+                                colspan="3" class="td-slot">
+                                <div class="slot slot-large slot-session slot-session-k">
+                                    Close Session
+                                    <br>
+                                    <span class="session-loc">@Ballroom</span>
+                                </div>
+                            </td>
+                        </tr>
                     </table>
 
                     <div class="accordion" id="acc_jun14">
@@ -1527,6 +1628,10 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-k-4" class="session-info">
+                                            <div class="session-dur-loc">
+                                                8:30 - 10:00 AM 
+                                                @Ballroom
+                                            </div>
                                             <h4>
                                                 Keynote 4
                                             </h4>
@@ -1534,7 +1639,7 @@ Program
                                             
 
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
@@ -1543,18 +1648,39 @@ Program
 
                                     <div class="session-details">
                                         <div id="session-i-1" class="session-info">
+                                            <div class="session-dur-loc">
+                                                10:30 AM - 12:00 PM 
+                                                @Ballroom
+                                            </div>
                                             <h4>
                                                 Industry Session
                                             </h4>
 
-                                            
-
                                             <p>
-                                                ...
+                                                TBD
                                             </p>
                                         </div>
 
                                     </div>
+
+
+                                    <div class="session-details">
+                                        <div id="session-k-5" class="session-info">
+                                            <div class="session-dur-loc">
+                                                12:00 - 12:30 PM 
+                                                @Ballroom
+                                            </div>
+                                            <h4>
+                                                Close Session
+                                            </h4>
+
+                                            <p>
+                                                TBD
+                                            </p>
+                                        </div>
+
+                                    </div>
+
 
                                 </div>
                             </div>
