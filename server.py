@@ -83,8 +83,33 @@ def program():
         'i-1', 'i-2',        # industry 
         'p-1', 'p-2',        # poster
     ]
+    import csv
+    session_dict = {}
+    with open('presentations.csv', newline='', encoding='utf-8-sig') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            s_code = row['Code']
+            # s_name = row['Session']
+            p_title = row['Title']
+            # p_authors = row['Authors']
+
+            # print(row)
+
+            if s_code is None or s_code == '':
+                continue
+
+            if s_code not in session_dict:
+                # it's a new session
+                session_dict[s_code] = []
+
+            # put this paper into session_dict
+            session_dict[s_code].append(
+                dict(row)
+            )
+
     return render_template(
-        'program.html'
+        'program.html',
+        session_dict=session_dict
     )
 
 
