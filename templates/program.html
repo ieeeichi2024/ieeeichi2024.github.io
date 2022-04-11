@@ -225,8 +225,10 @@ Program
 
     .session-paper {
         padding-left: 0.5em;
+        padding-bottom: 1em;
         margin-bottom: 1em;
-        border-left: 5px solid #d8d8d8;
+        /* border-left: 5px solid #d8d8d8; */
+        border-bottom: 1px solid #efefef;
     }
 
     .paper-title {
@@ -1026,6 +1028,7 @@ Program
                                             <h4>
                                                 Analytics Session 1: ML Methodology
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-1'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1045,6 +1048,7 @@ Program
                                                 Analytics Session 2: Imaging
                                             </h4>
                                             
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-2'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1063,6 +1067,7 @@ Program
                                                 Analytics Session 3: PGHD and Text Analytics
                                             </h4>
                                             
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-3'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1100,6 +1105,7 @@ Program
                                             <h4>
                                                 Analytics Session 4: Healthcare Analytics
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-4'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1116,6 +1122,7 @@ Program
                                             <h4>
                                                 System Session 1: Design and Development
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['s-1'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1132,6 +1139,7 @@ Program
                                             <h4>
                                                 Human Factors Session 1: Human-centered Design
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['h-1'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1410,6 +1418,7 @@ Program
                                             <h4>
                                                 Analytics Session 5: Prediction &amp; Classifition
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-5'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1428,6 +1437,7 @@ Program
                                             <h4>
                                                 System Session 2: Wearables &amp; Monitoring
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['s-2'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1446,6 +1456,7 @@ Program
                                             <h4>
                                                 Human Factors Session 2: Self Management
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['h-2'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1464,6 +1475,7 @@ Program
                                             <h4>
                                                 Analytics Session 6: Event Prediction
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-6'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1482,6 +1494,7 @@ Program
                                             <h4>
                                                 Analytics Session 7: Visualization &amp; Explainable AI
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['a-7'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
@@ -1500,6 +1513,7 @@ Program
                                             <h4>
                                                 Human Factors Session 3: AI-based Applications
                                             </h4>
+                                            {% include '_program_legend.html' %}
                                             {% for p in session_dict['h-3'] %}
                                                 {% include '_program_session_paper.html' %}
                                             {% endfor %}
