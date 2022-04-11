@@ -1,5 +1,11 @@
 <div class="session-paper">
     <div class="paper-title">
+        {% if p['Decision'] == 'AC' %}
+        
+        {% else %}
+        <span class="badge bg-info">S</span>
+        {% endif %}
+
         {{ p['Title'] }}
     </div>
     <div class="paper-authors">

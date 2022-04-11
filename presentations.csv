@@ -1,59 +1,63 @@
-﻿Authors,Title,Session,Code
-"Yumna Anwar, Sean M Mullan, Octav Chipara, Alberto M Segre and Philip Polgreen",Audio-Based Cough Detection in Clinic Waiting Rooms,Event Prediction,a-6
-"Ibrahim Hammoud, Prateek Prasanna, Iv Ramakrishnan, Adam Singer, Mark Henry and Henry Thode",EventScore: An Automated Real-time Early Warning Score for Clinical Events,Event Prediction,a-6
-"Jiacheng Liu, Meghna Singh, Lisa Kirkland and Jaideep Srivastava",Reduce the Cold Start of COVID-19 In-hospital Mortality Prediction Models via Transfer Learning,Event Prediction,a-6
-"Omar Ibrahim, Sunyang Fu, Maria Vassilaki, Michelle Mielke, Jennifer Sauver, Ronald Petersen and Sunghwan Sohn",Detection of Dementia Signals from Longitudinal Clinical Visits Using One-Class Classification,Event Prediction,a-6
-"Ali Jazayeri, Michal Monselise, Niusha Jafari, Nikita Nikita, Christopher Yang and Lu-Yao Grace",A Network-based Modeling Approach to Identify the Common Disease Classes in Patients with Late-stage Prostate Cancer,Healthcare Analytics,a-4
-Rui Li and Jing Gao,Multi-modal Contrastive Learning for Healthcare Data Analytics,Healthcare Analytics,a-4
-Haifeng Wang,Dynamic Network Connectivity Analysis for Understanding Attention Deficit Hyperactivity Disorder,Healthcare Analytics,a-4
-"Devanshi Damani, Anoushka Kapoor, Priyadharshini Sivsubramaniam, Nasibeh Farahani, Moein Enayato, Jeffrey Geske, Michael Acherman, Johan Bos, Kalyan Pasupathy, Philip Aroaz, Shivaram Arunachalam and Adelaide Arruda-Olson",Biventricular involvement in hypertrophic cardiomyopathy: Preliminary analysis of cardiac MRIs with visual Right Ventricular Hypertrophy,Healthcare Analytics,a-4
-"Zehao Yu, Xi Yang, Yiqing Chen, Ruogu Fang, William R Hogan, Yan Gong and Yonghui Wu",Identify Cancer Patients at  Similarity Estimation using Electronic Health Record and Genetic Data,Healthcare Analytics,a-4
-"Sourav Dey Roy, Priya Saha, Niharika Nath and Mrinal Kanti Bhowmik","AGMC-TU Pap-Smear Cytological Image Dataset: Creation, Annotation, and Analysis towards Early Detection of Cervical Cancer",Imaging,a-2
-Zachariah Douglas and Haifeng Wang,Bayesian optimization-derived batch size and learning rate scheduling in deep neural network training for head and neck tumor segmentation,Imaging,a-2
-Muhammad Zubair Khan,Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy,Imaging,a-2
-Shengjie Bi and David Kotz,Eating detection with a head-mounted video camera,Imaging,a-2
-Sayantan Kumar,NormVAE: Normative Modelling on Neuroimaging Data using Variational Autoencoders,Imaging,a-2
-"Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson",Quantitative Analysis of Visual Movement Data from a Rehabilitation-based Mobile App,Imaging,a-2
-Tossapol Pomsuwan and Alex Freitas,New Variations of Random Survival Forests and Applications to Age-Related Disease Data,ML Methodology,a-1
-Luca Bonomi and Liyue Fan,Sharing Time-to-Event Data with Privacy Protection,ML Methodology,a-1
-"Xinpeng Shen, Sisi Ma, Prashanthi Vemuri, Pedro Caraballo and Gyorgy Simon",A novel method for handling Missing Not at Random Data in the electronic health records,ML Methodology,a-1
-Fateme Akbari and Kamran Sartipi,A Transformer-based Model for Older Adult Behavior Change Detection,ML Methodology,a-1
-"Sungrim Moon, Huan He and Jungwei Fan",Effects of Information Masking in the Task-Specific Finetuning of a Transformers-Based Clinical Question-Answering Framework,ML Methodology,a-1
-"Noushin Salek Faramarzi, Akanksha Dara and Ritwik Banerjee",Combining Attention-based Models with the MeSH Ontology for Semantic Textual Similarity in Clinical Notes,PGHD and Text Analytics,a-3
-"Yao Ge, Yuting Guo, Yuan-Chi Yang, Mohammed Ali Al-Garadi and Abeed Sarker",A comparison of few-shot and traditional named entity recognition models for medical text,PGHD and Text Analytics,a-3
-"Kurt Miller, Sunyang Fu, Kris Abah, Andrea Maraboto Escarria, Kevin Peterson, Hongfang Liu, Lacey Hart, Nelly Tan and Ming Huang",Aspect-based Sentiment Analysis of Radiology Patient Experience Surveys: A Cohort Study,PGHD and Text Analytics,a-3
-"Can Zheng, Yanshan Wang and Xiaowei Jia",Graph-Augmented Cyclic Learning Framework for Similarity Estimation of Medical Clinical Notes,PGHD and Text Analytics,a-3
-"Maksims Kazijevs, Furkan Akyelken and Manar Samad",Mining Social Media Data to Predict COVID-19 Case Counts,PGHD and Text Analytics,a-3
-"Michal Muszynski, Jeffrey Okyere, Ruchi Mahindru and Thomas Brunschwiler","Cough Diary based on Sound Classification, Source Validation and Event Detection",Prediction and Classifition,a-5
-"Ge Gao, Farzaneh Khoshnevisan and Min Chi",Reconstructing Missing EHRs Using Time-Aware Within- and Cross-Visit Information for Septic Shock Early Prediction,Prediction and Classifition,a-5
-Akhil Shiju and Zhe He,Classifying Drug Ratings Using User Reviews with Transformer-Based Language Models,Prediction and Classifition,a-5
-Kanika Sood and Prathyusha Gundlapally,Risk-Based Breast Cancer Prognosis Using Minimal Patient Characteristics,Prediction and Classifition,a-5
-"Sagnik Dakshit, Barbara Mukami Maweu, Sristi Dakshit and Balakrishnan Prabhakaran",Core-set Selection Using Metrics-based Explantations (CSUME) for multiclass ECG,Visualization & Explainable AI,a-7
-"Florian Vögtle, Peter Haddawy, Myat Su Yin, Thomas Barkowsky, Dominique Bicout, Mores Prachyabrued and Saranath Lawpoolsri",A Collaborative Platform Supporting Distributed Teams in Visualization and Analysis of Infectious Disease Data,Visualization & Explainable AI,a-7
-"Amila Kugic, Leon Potjan, Larissa Marije Hammer, Stefan Schulz and Markus Kreuzthaler",Alcohol Status Standardization from Clinical Real World Data with Transformer Architectures,Visualization & Explainable AI,a-7
-"Kevin Gorman, Ilia Ratsev, Louise Lu and Casey Overby Taylor",An Interactive Visualization Tool for Medication (Re)fill Adherence: A Case Study of Pharmacy Claims-derived Adherence Measures in Asthmatics,Visualization & Explainable AI,a-7
-"Peichang Shi, Aryya Gangopadhyay and Ping Yu",LIVE: A Local Interpretable model-agnostic Visualizations and Explanations,Visualization & Explainable AI,a-7
-,,,
-"Md Jobair Hossain Faruk, Shashank Trivedi, Mohammad Masum, Maria Valero, Hossain Shahriar and Sheikh Iqbal Ahamed",A Novel IoT-based Framework for Non-Invasive Human Hygiene Monitoring using Machine Learning Techniques,AI-based Applications,h-3
-"Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Pauline Meurer, Elen Niedermeyer, Petrit Vidishiqi, Laura Pysz, Agnès Voisard, Hermann Feldmeier, Bodo Randrianasolo Sahondra, Oliva Rabozakandraina Tiana Onintsoa and Angela Schuster",Designing AINA - Intercultural Human-Centered Design of an AI-based application for supporting the diagnosis of Female Genital Schistosomiasis,AI-based Applications,h-3
-"Martin S. Laursen, Jannik S. Pedersen, Søren A. Just, Thiusius R. Savarimuthu, Brian Blomholt, Jakob K.H. Andersen and Pernille J. Vinholt",Factors Facilitating the Acceptance of Diagnostic Robots in Healthcare: A Survey,AI-based Applications,h-3
-"Maximilian Kaluschke, Myat Su Yin, Peter Haddawy, Siriwan Suebnukarn and Gabriel Zachmann",The Impact of 3D Stereopsis and Hand-Tool Alignment on Effectiveness of a VR-based Simulator for Dental Training,AI-based Applications,h-3
-"Phillip Ma, Yijun Shao, Yan Cheng, Youxuan Ling, Qing Zeng-Treitler and Stuart Nelson",Modeling the Impact of Social Determinants of Health on COVID Behaviors in Older Adults using the All of Us Dataset,Human-centered Design,h-1
-"Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek",Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features,Human-centered Design,h-1
-"Daniel Diethei, Ashley Colley, Julian Wienert and Johannes Schöning","Different Length, Different Needs: Qualitative Analysis of Threads in Online Health Communities",Human-centered Design,h-1
-"Kemal Yakut, Muhammad Usman, Wei Xue, Francis M. Haas, Robert A. Hirsh, Xinghui Zhao, Tyler Petty and Joseph Boothby",Electro-Mechanical Data Fusion for Heart Health Monitoring,Human-centered Design,h-1
-"Yun Qu, Othelia E. Lee and Albert Park",A Qualitative Study of Family Caregivers’ Technology Use in Alzheimer’s Disease Care,Self Management,h-2
-"Jiawei Zhou, Rosa I. Arriaga, Hongfang Liu and Ming Huang",A Tale of Two Perspectives: Harvesting System Views and User Views to Understand Patient Portal Engagement,Self Management,h-2
-Zainab A. Balogun and Tera L. Reynolds,"Patient Portal Uptake, Use, and Satisfaction among U.S. Adults in Late-stage COVID-19 Pandemic",Self Management,h-2
-"Laura Pullum, Olufemi Omitaomu, Mohammed Olama, Addi Malviya Thakur, Ozgur Ozmen, Hilda Klasky, Teja Kuruganti, Merry Ward, Jeanie Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker",A Systematic Review of Healthcare Information Technology Anomaly Classification,Self Management,h-2
-"Maximilian Kurscheidt, Kirsten Schaffer, Patrick Slevin, Maximilian Westers, Yasmin Hollenbenders and Wendelin Schramm",Human-centered Design for a Chronic Disease Management System: An explorative case for Cystic Fibrosis,Self Management,h-2
-,,,
-"Miguel Gervilla, Flavien Lecuyer, Thomas Lehoux, Julien Anthouard, Luisa Weiner, Christelle Porche and Antonio Capobianco",Design of a Virtual Cocaine Consumption Scenario for Craving Study,Design & Development,s-1
-Khaled Ahmed and Mohamed Hassan,tinyCare: A tinyML-based Low-Cost Continuous Blood Pressure Estimation on the Extreme Edge,Design & Development,s-1
-"Ahmad Ayad, Marian Frei and Anke Schmeink",Efficient and Private ECG Classification on the Edge Using a Modified Split Learning Mechanism,Design & Development,s-1
-"Kimia Hemmatirad, Morteza Babaei, Mehdi Afshari, Danial Maleki, Mahjabin Sajadi and Hamid Tizhoosh",Quality Control of Whole Slide Images using the YOLO Concept,Design & Development,s-1
-"Song Wang, Mingquan Lin, Ying Ding, George Shih, Zhiyong Lu and Yifan Peng",Radiology Text Analysis System (RadText): Architecture and Evaluation,Designs & Development,s-1
-"Danissa Rodriguez, Katharine Lawrence, Son Luu, Brian Chrin, Javier Gonzalez and Devin Mann",PAMS- A personalized automatic message systemfor user engagement with a digital diabetesprevention program,Wearables & Monitoring,s-2
-"Sudip Vhaduri, Sayanton V Dibbo and Chih-You Chen",Predicting A User's Demographic Identity from Leaked Samples of Health-Tracking Wearables and Understanding Associated Risks,Wearables & Monitoring,s-2
-"Chenhan Xu, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang and Wenyao Xu",The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing,Wearables & Monitoring,s-2
-Rainer Lutze,Practicality of Automatic Monitoring Sufficient Fluid Intake for Older People,Wearables & Monitoring,s-2
+﻿Authors,Title,Session,Code,Decision
+"Yumna Anwar, Sean M Mullan, Octav Chipara, Alberto M Segre and Philip Polgreen",Audio-Based Cough Detection in Clinic Waiting Rooms,Event Prediction,a-6,AC
+"Ibrahim Hammoud, Prateek Prasanna, Iv Ramakrishnan, Adam Singer, Mark Henry and Henry Thode",EventScore: An Automated Real-time Early Warning Score for Clinical Events,Event Prediction,a-6,AC
+"Jiacheng Liu, Meghna Singh, Lisa Kirkland and Jaideep Srivastava",Reduce the Cold Start of COVID-19 In-hospital Mortality Prediction Models via Transfer Learning,Event Prediction,a-6,AC
+"Omar Ibrahim, Sunyang Fu, Maria Vassilaki, Michelle Mielke, Jennifer Sauver, Ronald Petersen and Sunghwan Sohn",Detection of Dementia Signals from Longitudinal Clinical Visits Using One-Class Classification,Event Prediction,a-6,AC
+"Ali Jazayeri, Michal Monselise, Niusha Jafari, Nikita Nikita, Christopher Yang and Lu-Yao Grace",A Network-based Modeling Approach to Identify the Common Disease Classes in Patients with Late-stage Prostate Cancer,Healthcare Analytics,a-4,AC
+Rui Li and Jing Gao,Multi-modal Contrastive Learning for Healthcare Data Analytics,Healthcare Analytics,a-4,AC
+Haifeng Wang,Dynamic Network Connectivity Analysis for Understanding Attention Deficit Hyperactivity Disorder,Healthcare Analytics,a-4,AC
+"Devanshi Damani, Anoushka Kapoor, Priyadharshini Sivsubramaniam, Nasibeh Farahani, Moein Enayato, Jeffrey Geske, Michael Acherman, Johan Bos, Kalyan Pasupathy, Philip Aroaz, Shivaram Arunachalam and Adelaide Arruda-Olson",Biventricular involvement in hypertrophic cardiomyopathy: Preliminary analysis of cardiac MRIs with visual Right Ventricular Hypertrophy,Healthcare Analytics,a-4,AC
+"Zehao Yu, Xi Yang, Yiqing Chen, Ruogu Fang, William R Hogan, Yan Gong and Yonghui Wu",Identify Cancer Patients at  Similarity Estimation using Electronic Health Record and Genetic Data,Healthcare Analytics,a-4,SPresentation
+"Sourav Dey Roy, Priya Saha, Niharika Nath and Mrinal Kanti Bhowmik","AGMC-TU Pap-Smear Cytological Image Dataset: Creation, Annotation, and Analysis towards Early Detection of Cervical Cancer",Imaging,a-2,SPresentation
+Zachariah Douglas and Haifeng Wang,Bayesian optimization-derived batch size and learning rate scheduling in deep neural network training for head and neck tumor segmentation,Imaging,a-2,AC
+Muhammad Zubair Khan,Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy,Imaging,a-2,AC
+Shengjie Bi and David Kotz,Eating detection with a head-mounted video camera,Imaging,a-2,SPresentation
+Sayantan Kumar,NormVAE: Normative Modelling on Neuroimaging Data using Variational Autoencoders,Imaging,a-2,AC
+"Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson",Quantitative Analysis of Visual Movement Data from a Rehabilitation-based Mobile App,Imaging,a-2,SPresentation
+Tossapol Pomsuwan and Alex Freitas,New Variations of Random Survival Forests and Applications to Age-Related Disease Data,ML Methodology,a-1,AC
+Luca Bonomi and Liyue Fan,Sharing Time-to-Event Data with Privacy Protection,ML Methodology,a-1,AC
+"Xinpeng Shen, Sisi Ma, Prashanthi Vemuri, Pedro Caraballo and Gyorgy Simon",A novel method for handling Missing Not at Random Data in the electronic health records,ML Methodology,a-1,SPresentation
+Fateme Akbari and Kamran Sartipi,A Transformer-based Model for Older Adult Behavior Change Detection,ML Methodology,a-1,SPresentation
+"Sungrim Moon, Huan He and Jungwei Fan",Effects of Information Masking in the Task-Specific Finetuning of a Transformers-Based Clinical Question-Answering Framework,ML Methodology,a-1,AC
+"Noushin Salek Faramarzi, Akanksha Dara and Ritwik Banerjee",Combining Attention-based Models with the MeSH Ontology for Semantic Textual Similarity in Clinical Notes,PGHD and Text Analytics,a-3,AC
+"Yao Ge, Yuting Guo, Yuan-Chi Yang, Mohammed Ali Al-Garadi and Abeed Sarker",A comparison of few-shot and traditional named entity recognition models for medical text,PGHD and Text Analytics,a-3,AC
+"Kurt Miller, Sunyang Fu, Kris Abah, Andrea Maraboto Escarria, Kevin Peterson, Hongfang Liu, Lacey Hart, Nelly Tan and Ming Huang",Aspect-based Sentiment Analysis of Radiology Patient Experience Surveys: A Cohort Study,PGHD and Text Analytics,a-3,AC
+"Can Zheng, Yanshan Wang and Xiaowei Jia",Graph-Augmented Cyclic Learning Framework for Similarity Estimation of Medical Clinical Notes,PGHD and Text Analytics,a-3,SPresentation
+"Maksims Kazijevs, Furkan Akyelken and Manar Samad",Mining Social Media Data to Predict COVID-19 Case Counts,PGHD and Text Analytics,a-3,SPresentation
+"Michal Muszynski, Jeffrey Okyere, Ruchi Mahindru and Thomas Brunschwiler","Cough Diary based on Sound Classification, Source Validation and Event Detection",Prediction and Classifition,a-5,AC
+"Ge Gao, Farzaneh Khoshnevisan and Min Chi",Reconstructing Missing EHRs Using Time-Aware Within- and Cross-Visit Information for Septic Shock Early Prediction,Prediction and Classifition,a-5,AC
+Akhil Shiju and Zhe He,Classifying Drug Ratings Using User Reviews with Transformer-Based Language Models,Prediction and Classifition,a-5,SPresentation
+Kanika Sood and Prathyusha Gundlapally,Risk-Based Breast Cancer Prognosis Using Minimal Patient Characteristics,Prediction and Classifition,a-5,SPresentation
+"Sagnik Dakshit, Barbara Mukami Maweu, Sristi Dakshit and Balakrishnan Prabhakaran",Core-set Selection Using Metrics-based Explantations (CSUME) for multiclass ECG,Visualization & Explainable AI,a-7,AC
+"Florian Vögtle, Peter Haddawy, Myat Su Yin, Thomas Barkowsky, Dominique Bicout, Mores Prachyabrued and Saranath Lawpoolsri",A Collaborative Platform Supporting Distributed Teams in Visualization and Analysis of Infectious Disease Data,Visualization & Explainable AI,a-7,AC
+"Amila Kugic, Leon Potjan, Larissa Marije Hammer, Stefan Schulz and Markus Kreuzthaler",Alcohol Status Standardization from Clinical Real World Data with Transformer Architectures,Visualization & Explainable AI,a-7,AC
+"Kevin Gorman, Ilia Ratsev, Louise Lu and Casey Overby Taylor",An Interactive Visualization Tool for Medication (Re)fill Adherence: A Case Study of Pharmacy Claims-derived Adherence Measures in Asthmatics,Visualization & Explainable AI,a-7,SPresentation
+"Peichang Shi, Aryya Gangopadhyay and Ping Yu",LIVE: A Local Interpretable model-agnostic Visualizations and Explanations,Visualization & Explainable AI,a-7,SPresentation
+,,,,
+"Md Jobair Hossain Faruk, Shashank Trivedi, Mohammad Masum, Maria Valero, Hossain Shahriar and Sheikh Iqbal Ahamed",A Novel IoT-based Framework for Non-Invasive Human Hygiene Monitoring using Machine Learning Techniques,AI-based Applications,h-3,AC
+"Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Pauline Meurer, Elen Niedermeyer, Petrit Vidishiqi, Laura Pysz, Agnès Voisard, Hermann Feldmeier, Bodo Randrianasolo Sahondra, Oliva Rabozakandraina Tiana Onintsoa and Angela Schuster",Designing AINA - Intercultural Human-Centered Design of an AI-based application for supporting the diagnosis of Female Genital Schistosomiasis,AI-based Applications,h-3,SPresentation
+"Martin S. Laursen, Jannik S. Pedersen, Søren A. Just, Thiusius R. Savarimuthu, Brian Blomholt, Jakob K.H. Andersen and Pernille J. Vinholt",Factors Facilitating the ACance of Diagnostic Robots in Healthcare: A Survey,AI-based Applications,h-3,AC
+"Maximilian Kaluschke, Myat Su Yin, Peter Haddawy, Siriwan Suebnukarn and Gabriel Zachmann",The Impact of 3D Stereopsis and Hand-Tool Alignment on Effectiveness of a VR-based Simulator for Dental Training,AI-based Applications,h-3,AC
+"Phillip Ma, Yijun Shao, Yan Cheng, Youxuan Ling, Qing Zeng-Treitler and Stuart Nelson",Modeling the Impact of Social Determinants of Health on COVID Behaviors in Older Adults using the All of Us Dataset,Human-centered Design,h-1,AC
+"Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek",Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features,Human-centered Design,h-1,AC
+"Daniel Diethei, Ashley Colley, Julian Wienert and Johannes Schöning","Different Length, Different Needs: Qualitative Analysis of Threads in Online Health Communities",Human-centered Design,h-1,SPresentation
+"Kemal Yakut, Muhammad Usman, Wei Xue, Francis M. Haas, Robert A. Hirsh, Xinghui Zhao, Tyler Petty and Joseph Boothby",Electro-Mechanical Data Fusion for Heart Health Monitoring,Human-centered Design,h-1,AC
+"Yun Qu, Othelia E. Lee and Albert Park",A Qualitative Study of Family Caregivers’ Technology Use in Alzheimer’s Disease Care,Self Management,h-2,AC
+"Jiawei Zhou, Rosa I. Arriaga, Hongfang Liu and Ming Huang",A Tale of Two Perspectives: Harvesting System Views and User Views to Understand Patient Portal Engagement,Self Management,h-2,AC
+Zainab A. Balogun and Tera L. Reynolds,"Patient Portal Uptake, Use, and Satisfaction among U.S. Adults in Late-stage COVID-19 Pandemic",Self Management,h-2,SPresentation
+"Laura Pullum, Olufemi Omitaomu, Mohammed Olama, Addi Malviya Thakur, Ozgur Ozmen, Hilda Klasky, Teja Kuruganti, Merry Ward, Jeanie Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker",A Systematic Review of Healthcare Information Technology Anomaly Classification,Self Management,h-2,SPresentation
+"Maximilian Kurscheidt, Kirsten Schaffer, Patrick Slevin, Maximilian Westers, Yasmin Hollenbenders and Wendelin Schramm",Human-centered Design for a Chronic Disease Management System: An explorative case for Cystic Fibrosis,Self Management,h-2,SPresentation
+,,,,
+"Miguel Gervilla, Flavien Lecuyer, Thomas Lehoux, Julien Anthouard, Luisa Weiner, Christelle Porche and Antonio Capobianco",Design of a Virtual Cocaine Consumption Scenario for Craving Study,Design & Development,s-1,AC
+Khaled Ahmed and Mohamed Hassan,tinyCare: A tinyML-based Low-Cost Continuous Blood Pressure Estimation on the Extreme Edge,Design & Development,s-1,AC
+"Ahmad Ayad, Marian Frei and Anke Schmeink",Efficient and Private ECG Classification on the Edge Using a Modified Split Learning Mechanism,Design & Development,s-1,AC
+"Kimia Hemmatirad, Morteza Babaei, Mehdi Afshari, Danial Maleki, Mahjabin Sajadi and Hamid Tizhoosh",Quality Control of Whole Slide Images using the YOLO Concept,Design & Development,s-1,SPresentation
+"Song Wang, Mingquan Lin, Ying Ding, George Shih, Zhiyong Lu and Yifan Peng",Radiology Text Analysis System (RadText): Architecture and Evaluation,Designs & Development,s-1,SPresentation
+"Danissa Rodriguez, Katharine Lawrence, Son Luu, Brian Chrin, Javier Gonzalez and Devin Mann",PAMS- A personalized automatic message systemfor user engagement with a digital diabetesprevention program,Wearables & Monitoring,s-2,AC
+"Sudip Vhaduri, Sayanton V Dibbo and Chih-You Chen",Predicting A User's Demographic Identity from Leaked Samples of Health-Tracking Wearables and Understanding Associated Risks,Wearables & Monitoring,s-2,AC
+"Chenhan Xu, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang and Wenyao Xu",The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing,Wearables & Monitoring,s-2,AC
+Rainer Lutze,Practicality of Automatic Monitoring Sufficient Fluid Intake for Older People,Wearables & Monitoring,s-2,SPresentation
+,,,,
+"Ravi Bajracharya, Richard Wallace, Jans Aasman and Parsa Mirhaji",Entity Event Knowledge Graph for Powerful Health Informatics,Industry,i-1,AC
+"Jingqi Wang, Yaoyun Zhang, Bin Lin, Huy Anh Pham, Long He, Jingcheng Du and Frank Manion",LANN: an integrated online annotation tool for information extraction,Industry,i-1,AC
+"Shiqiang Tao, Wei-Chun Chou, Jianfu Li, Jingcheng Du, Pritham Ram, Rashmie Abeysinghe, Xiaoqian Jiang, Lucila Ohno-Machado, Hua Xu and Guo-Qiang Zhang",IMI-CDE: an interactive interface for collaborative mapping of study variables to common data elements,Industry,i-1,AC
