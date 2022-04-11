@@ -355,11 +355,14 @@ Program
 
     .program-table th {
         text-align: center;
-        border-right: 1px solid #efefef;
     }
 
     .program-table td {
         font-size: 1em;
+    }
+
+    .th-room {
+        border-right: 1px solid #efefef;
     }
 
     .td-time {
@@ -439,19 +442,19 @@ Program
     }
 
     .slot-session-a {
-        border-color: red;
+        border-color: rgb(20, 105, 172);
     }
 
     .slot-session-a:hover {
-        background-color: rgba(255, 0, 0, 0.05);
+        background-color: rgba(20, 105, 172, 0.05);
     }
 
     .slot-session-h {
-        border-color: blue;
+        border-color: rgb(56, 183, 199);
     }
 
     .slot-session-h:hover {
-        background-color: rgba(0, 0, 255, 0.05);
+        background-color: rgba(56, 183, 199, 0.05);
     }
 
     .slot-session-s {
@@ -479,19 +482,19 @@ Program
     }
 
     .slot-session-t {
-        border-color: rgb(204, 53, 111);
+        border-color: rgb(53, 204, 78);
     }
 
     .slot-session-t:hover {
-        background-color: rgba(204, 53, 111, 0.05);
+        background-color: rgba(53, 204, 78, 0.05);
     }
 
     .slot-session-p {
-        border-color: rgb(204, 53, 176);
+        border-color: rgb(76, 49, 191);
     }
 
     .slot-session-p:hover {
-        background-color: rgba(204, 53, 176, 0.05);
+        background-color: rgba(76, 49, 191, 0.05);
     }
 
     .slot-session-k {
@@ -503,11 +506,11 @@ Program
     }
 
     .slot-session-i {
-        border-color: rgb(250, 190, 50);
+        border-color: rgb(199, 142, 45);
     }
 
     .slot-session-i:hover {
-        background-color: rgba(250, 190, 50, 0.05);
+        background-color: rgba(199, 142, 45, 0.05);
     }
 
     .slot-session-0 {
@@ -551,6 +554,12 @@ Program
         .slot-small br {
             display: none;
         }
+        .slot-session b {
+            font-stretch: condensed;
+        }
+        .session-loc {
+            font-stretch: condensed;
+        }
     }
 </style>
 
@@ -561,6 +570,9 @@ Program
 
             <div class="row mb-5">
                 <div class="col">
+                    <p>
+                        Tentative schedule.
+                    </p>
 
                     <h2>
                         Saturday, June 11
@@ -568,10 +580,12 @@ Program
                     <table class="program-table mt-4 mb-4">
                         <tr>
                             <th width="70px">&nbsp;</th>
-                            <th>Suite 101</th>
-                            <th>Suite 102</th>
-                            <th>Suite 103</th>
-                            <th>Suite 104</th>
+                            <th class="th-room">Suite 101</th>
+                            <th class="th-room">Suite 102</th>
+                            <th class="th-room">Suite 103</th>
+                            <th class="th-room">Suite 104</th>
+                            <th class="th-room">Suite 105</th>
+                            <th class="th-room">Suite 106</th>
                         </tr>
                         <tr>
                             <td class="td-time">
@@ -600,7 +614,9 @@ Program
 
                             <td class="td-slot">
                                 <div onclick="show_session_info('d-1')" class="slot slot-small slot-session slot-session-d">
-                                    Doctoral Consortium
+                                    <span class="txt-sm">
+                                        Doctoral Consortium
+                                    </span>
                                 </div>
                             </td>
 
@@ -620,6 +636,22 @@ Program
                             <td class="td-slot">
                                 <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
                                     <b>XAI-Healthcare</b>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 1 
+                                    </span>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 2 
+                                    </span>
                                 </div>
                             </td>
 
@@ -651,7 +683,9 @@ Program
 
                             <td class="td-slot">
                                 <div onclick="show_session_info('d-1')" class="slot slot-small slot-session slot-session-d">
-                                    Doctoral Consortium
+                                    <span class="txt-sm">
+                                        Doctoral Consortium
+                                    </span>
                                 </div>
                             </td>
                             
@@ -671,6 +705,22 @@ Program
                             <td class="td-slot">
                                 <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
                                     <b>XAI-Healthcare</b>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 1 
+                                    </span>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 2
+                                    </span>
                                 </div>
                             </td>
                             
@@ -695,14 +745,16 @@ Program
                                     &nbsp;
                                 </div>
                                 <div class="time time-bottom time-bottom-down">
-                                    2:00 PM
+                                    2:30 PM
                                 </div>
                             </td>
                             
                             
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
-                                    Tutorial 1
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-d">
+                                    <span class="txt-sm">
+                                        Doctoral Consortium
+                                    </span>
                                 </div>
                             </td>
 
@@ -713,15 +765,28 @@ Program
                             </td>
 
                             <td class="td-slot">
-                                <div onclick="show_session_info('w-1')" class="slot slot-small slot-session slot-session-w">
-                                    <b>HealthNLP 2022</b>
-                                    <br>
-                                </div>
+                                
                             </td>
 
                             <td class="td-slot">
                                 <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
                                     <b>XAI-Healthcare</b>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 3
+                                    </span>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 2
+                                    </span>
                                 </div>
                             </td>
                             
@@ -730,7 +795,7 @@ Program
                         <tr>
                             <td class="td-time">
                                 <div class="time time-bottom time-bottom-down">
-                                    2:30 PM
+                                    3:00 PM
                                 </div>
                             </td>
                             <td colspan="4" class="td-slot">
@@ -747,12 +812,14 @@ Program
                                     &nbsp;
                                 </div>
                                 <div class="time time-bottom time-bottom-down">
-                                    4:00 PM
+                                    4:30 PM
                                 </div>
                             </td>
                             <td class="td-slot">
-                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
-                                    Tutorial 2
+                                <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-d">
+                                    <span class="txt-sm">
+                                        Doctoral Consortium
+                                    </span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -763,6 +830,22 @@ Program
                             </td>
                             <td class="td-slot">
 
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 3
+                                    </span>
+                                </div>
+                            </td>
+
+                            <td class="td-slot">
+                                <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+                                    <span class="txt-sm">
+                                        Tutorial 2 
+                                    </span>
+                                </div>
                             </td>
                         </tr>
 
@@ -870,7 +953,7 @@ Program
                                             </h4>
 
                                             <p>
-                                                @ Suite 104
+                                                @Suite 104
                                             </p>
 
                                             <p>
@@ -948,9 +1031,9 @@ Program
                     <table class="program-table">
                         <tr>
                             <th width="70px">&nbsp;</th>
-                            <th>Suite 101</th>
-                            <th>Suite 102</th>
-                            <th>Suite 103</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
                         </tr>
                         <tr>
                             <td class="td-time">
@@ -982,7 +1065,7 @@ Program
                                     <br>
                                     Keynote <span class="session-dur-loc">(9:00 - 10:00 AM)</span>
                                     <br>
-                                    @ AUDITORIUM
+                                    @Ballroom
                                 </div>
                             </td>
                         </tr>
@@ -1014,7 +1097,9 @@ Program
                                         Analytics S.1
                                     </span>
                                     <br>
-                                    <b>Event Prediction</b>
+                                    <b>ML Methodology</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 102</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1023,7 +1108,9 @@ Program
                                         Analytics S.2
                                     </span>
                                     <br>
-                                    <b>Healthcare Analytics</b>
+                                    <b>Imaging</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 103</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1032,7 +1119,9 @@ Program
                                         Analytics S.3
                                     </span>
                                     <br>
-                                    <b>Imaging</b>
+                                    <b>PGHD and Text Analytics</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 104</span>
                                 </div>
                             </td>
                         </tr>
@@ -1061,7 +1150,7 @@ Program
                                 <div onclick="show_session_info('k-2')" class="slot slot-large slot-session slot-session-k">
                                     Keynote 2
                                     <br>
-                                    @ AUDITORIUM
+                                    <span class="session-loc">@Ballroom</span>
                                 </div>
                             </td>
                         </tr>
@@ -1093,7 +1182,9 @@ Program
                                         Analytics S.4
                                     </span>
                                     <br>
-                                    <b>Methodology</b>
+                                    <b>Healthcare Analytics</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 102</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1103,6 +1194,8 @@ Program
                                     </span>
                                     <br>
                                     <b>Design and Development</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 103</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1111,7 +1204,9 @@ Program
                                         Human Factors S.1
                                     </span>
                                     <br>
-                                    <b>AI-based Applications</b>
+                                    <b>Human-centered Design</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 104</span>
                                 </div>
                             </td>
                         </tr>
@@ -1135,7 +1230,7 @@ Program
                                 <div onclick="show_session_info('p-1')" class="slot slot-large slot-session slot-session-p">
                                     Poster Session
                                     <br>
-                                    @ Exhibit Hall 3
+                                    @Ballroom Lobby West and South
                                 </div>
                             </td>
                         </tr>
@@ -1148,7 +1243,7 @@ Program
                             <td colspan="3" class="td-slot">
                                 <div class="slot slot-large slot-session slot-session-0">
                                     Banquet
-                                    @ Exhibit Hall 3
+                                    <span class="session-loc">@Ballroom</span>
                                 </div>
                             </td>
                         </tr>
@@ -1189,28 +1284,13 @@ Program
 
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @ Suite 101
+                                                @Suite 101
                                             </div>
                                             <h4>
                                                 Analytics Session 1: Event Prediction
                                             </h4>
 
-                                            <p><span class='p-title'>Audio-Based Cough Detection in Clinic Waiting
-                                                    Rooms</span><br><span class='p-author'>Yumna Anwar, Sean M Mullan,
-                                                    Octav Chipara, Alberto M Segre and Philip Polgreen</span></p>
-                                            <p><span class='p-title'>EventScore: An Automated Real-time Early Warning
-                                                    Score for Clinical Events</span><br><span class='p-author'>Ibrahim
-                                                    Hammoud, Prateek Prasanna, Iv Ramakrishnan, Adam Singer, Mark Henry
-                                                    and Henry Thode</span></p>
-                                            <p><span class='p-title'>Reduce the Cold Start of COVID-19 In-hospital
-                                                    Mortality Prediction Models via Transfer Learning</span><br><span
-                                                    class='p-author'>Jiacheng Liu, Meghna Singh, Lisa Kirkland and
-                                                    Jaideep Srivastava</span></p>
-                                            <p><span class='p-title'>Detection of Dementia Signals from Longitudinal
-                                                    Clinical Visits Using One-Class Classification</span><br><span
-                                                    class='p-author'>Omar Ibrahim, Sunyang Fu, Maria Vassilaki, Michelle
-                                                    Mielke, Jennifer Sauver, Ronald Petersen and Sunghwan Sohn</span>
-                                            </p>
+                                            
                                         </div>
 
                                     </div>
@@ -1220,15 +1300,12 @@ Program
                                         <div id="session-a-2" class="session-info">
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @ Suite 102
+                                                @Suite 102
                                             </div>
                                             <h4>
                                                 Analytics Session 2: Healthcare Analytics
                                             </h4>
-                                            <p><span class='p-title'>A Network-based Modeling Approach to Identify the Common Disease Classes in Patients with Late-stage Prostate Cancer</span><br><span class='p-author'>Ali Jazayeri, Michal Monselise, Niusha Jafari, Nikita Nikita, Christopher Yang and Lu-Yao Grace</span></p>
-<p><span class='p-title'>Multi-modal Contrastive Learning for Healthcare Data Analytics</span><br><span class='p-author'>Rui Li and Jing Gao</span></p>
-<p><span class='p-title'>Dynamic Network Connectivity Analysis for Understanding Attention Deficit Hyperactivity Disorder</span><br><span class='p-author'>Haifeng Wang</span></p>
-<p><span class='p-title'>Identify Cancer Patients at  Similarity Estimation using Electronic Health Record and Genetic Data</span><br><span class='p-author'>Zehao Yu, Xi Yang, Yiqing Chen, Ruogu Fang, William R Hogan, Yan Gong and Yonghui Wu</span></p>
+                                            
                                         </div>
 
                                     </div>
@@ -1238,17 +1315,12 @@ Program
                                         <div id="session-a-3" class="session-info">
                                             <div class="session-dur-loc">
                                                 10:30 AM - 12:00 PM 
-                                                @ Suite 103
+                                                @Suite 103
                                             </div>
                                             <h4>
                                                 Analytics Session 3: Imaging
                                             </h4>
-                                            <p><span class='p-title'>AGMC-TU Pap-Smear Cytological Image Dataset: Creation, Annotation, and Analysis towards Early Detection of Cervical Cancer</span><br><span class='p-author'>Sourav Dey Roy, Priya Saha, Niharika Nath and Mrinal Kanti Bhowmik</span></p>
-<p><span class='p-title'>Bayesian optimization-derived batch size and learning rate scheduling in deep neural network training for head and neck tumor segmentation</span><br><span class='p-author'>Zachariah Douglas and Haifeng Wang</span></p>
-<p><span class='p-title'>Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy</span><br><span class='p-author'>Muhammad Zubair Khan</span></p>
-<p><span class='p-title'>Eating detection with a head-mounted video camera</span><br><span class='p-author'>Shengjie Bi and David Kotz</span></p>
-<p><span class='p-title'>NormVAE: Normative Modelling on Neuroimaging Data using Variational Autoencoders</span><br><span class='p-author'>Sayantan Kumar</span></p>
-<p><span class='p-title'>Quantitative Analysis of Visual Movement Data from a Rehabilitation-based Mobile App</span><br><span class='p-author'>Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson</span></p>
+                                            
                                         </div>
 
                                     </div>
@@ -1349,9 +1421,9 @@ Program
                     <table class="program-table">
                         <tr>
                             <th width="70px">&nbsp;</th>
-                            <th>Suite 101</th>
-                            <th>Suite 102</th>
-                            <th>Suite 103</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
                         </tr>
                         <tr>
                             <td class="td-time">
@@ -1379,12 +1451,12 @@ Program
                             </td>
                             <td colspan="3" class="td-slot">
                                 <div onclick="show_session_info('k-2')" class="slot slot-large slot-session slot-session-k">
-                                    Women in Healthcare Informatics <span class="session-dur-loc">(8:30 - 9:00
-                                        AM)</span>
+                                    Women in Healthcare Informatics 
+                                    <span class="session-dur-loc">(8:30 - 9:00 AM)</span>
                                     <br>
-                                    Keynote 2<span class="session-dur-loc">(9:00 - 10:00 AM)</span>
+                                    Keynote 3 <span class="session-dur-loc">(9:00 - 10:00 AM)</span>
                                     <br>
-                                    @ AUDITORIUM
+                                    @Ballroom
                                 </div>
                             </td>
                         </tr>
@@ -1416,7 +1488,9 @@ Program
                                         Analytics S.5
                                     </span>
                                     <br>
-                                    <b>PGHD and Text Analytics</b>
+                                    <b>Prediction &amp; Classifition</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 102</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1426,6 +1500,8 @@ Program
                                     </span>
                                     <br>
                                     <b>Wearables & Monitoring</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 103</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1434,7 +1510,9 @@ Program
                                         Human Factors S.2
                                     </span>
                                     <br>
-                                    <b>Human-centered Design</b>
+                                    <b>Self Management</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 104</span>
                                 </div>
                             </td>
                         </tr>
@@ -1465,7 +1543,9 @@ Program
                                         Analytics S.6
                                     </span>
                                     <br>
-                                    <b>Prediction &amp; Classifition</b>
+                                    <b>Event Prediction</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 102</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1475,6 +1555,8 @@ Program
                                     </span>
                                     <br>
                                     <b style="font-stretch: semi-condensed;">Visualization &amp; Explainable AI</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 103</span>
                                 </div>
                             </td>
                             <td class="td-slot">
@@ -1483,7 +1565,9 @@ Program
                                         Human Factors S.3
                                     </span>
                                     <br>
-                                    <b>Self Management</b>
+                                    <b>AI-based Applications</b>
+                                    <br>
+                                    <span class="session-loc">@Suite 104</span>
                                 </div>
                             </td>
                         </tr>
@@ -1513,7 +1597,7 @@ Program
                                 <div onclick="show_session_info('p-1')" class="slot slot-large slot-session slot-session-p">
                                     Poster Session
                                     <br>
-                                    @ Exhibit Hall 3
+                                    @Ballroom Lobby West and South
                                 </div>
                             </td>
                         </tr>
@@ -1671,7 +1755,7 @@ Program
                         <tr>
                             <th width="70px">&nbsp;</th>
                             <th>&nbsp;</th>
-                            <th>Suite 102</th>
+                            <th>&nbsp;</th>
                             <th>&nbsp;</th>
                         </tr>
                         <tr>
@@ -1702,7 +1786,7 @@ Program
                                 <div onclick="show_session_info('k-4')" class="slot slot-large slot-session slot-session-k">
                                     Keynote 4 + Panel
                                     <br>
-                                    @ AUDITORIUM
+                                    @Ballroom
                                 </div>
                             </td>
                         </tr>
@@ -1731,6 +1815,8 @@ Program
                             <td onclick="show_session_info('i-1')" colspan="3" class="td-slot">
                                 <div class="slot slot-large slot-session slot-session-i">
                                     Industry Session
+                                    <br>
+                                    <span class="session-loc">@Ballroom</span>
                                 </div>
                             </td>
                         </tr>
