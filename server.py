@@ -60,6 +60,11 @@ def attending():
     return render_template('attending.html')
 
 
+@app.route("/attendance_grant.html")
+def attendance_grant():
+    return render_template('attendance_grant.html')
+
+
 @app.route("/venue_and_logistics.html")
 def venue_and_logistics():
     return render_template('venue_and_logistics.html')
