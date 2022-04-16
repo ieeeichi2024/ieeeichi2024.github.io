@@ -21,257 +21,261 @@ Program
 </div>
 
 <style>
-    .room-a {
-        background-color: crimson;
-    }
+.room-a {
+    background-color: crimson;
+}
 
-    .room-a {
-        background-color: aqua;
-    }
+.room-a {
+    background-color: aqua;
+}
 
-    .room-c {
-        background-color: rgb(92, 181, 92);
-    }
+.room-c {
+    background-color: rgb(92, 181, 92);
+}
 
-    .program-table {
-        width: 100%;
-        table-layout: fixed;
-    }
+.program-table {
+    width: 100%;
+    table-layout: fixed;
+}
 
-    .program-table tr {
-        height: 1px;
-    }
+.program-table tr {
+    height: 1px;
+}
 
-    .program-table th {
-        text-align: center;
-    }
+.program-table th {
+    text-align: center;
+}
 
-    .program-table td {
-        font-size: 1em;
-    }
+.program-table td {
+    font-size: 1em;
+}
 
-    .th-room {
-        border-right: 1px solid #efefef;
-    }
+.th-room {
+    border-right: 1px solid #efefef;
+}
 
-    .td-time {
-        height: 100%;
-        position: relative;
-    }
+.td-time {
+    height: 100%;
+    position: relative;
+}
 
-    .time {
-        font-size: 0.8em;
-    }
+.time {
+    font-size: 0.8em;
+}
 
-    .time-line {
-        border-left: 1px dotted #c7c7c7;
-        height: 2em;
-        margin-left: 2em;
-    }
+.time-line {
+    border-left: 1px dotted #c7c7c7;
+    height: 2em;
+    margin-left: 2em;
+}
 
-    .time-top {
-        position: absolute;
-        top: 0;
-    }
+.time-top {
+    position: absolute;
+    top: 0;
+}
 
-    .time-top-down {
-        margin-top: 0.5em;
-    }
+.time-top-down {
+    margin-top: 0.5em;
+}
 
-    .time-bottom {
-        position: absolute;
-        bottom: 0;
-    }
+.time-bottom {
+    position: absolute;
+    bottom: 0;
+}
 
-    .time-bottom-down {
-        margin-bottom: -0.8em;
-    }
+.time-bottom-down {
+    margin-bottom: -0.8em;
+}
 
-    .td-slot {
-        width: calc((100% - 70px)/3);
-        height: 1px;
-    }
+.td-slot {
+    width: calc((100% - 70px)/3);
+    height: 1px;
+}
 
-    .slot {
-        width: 100%;
-        height: 100%;
-        line-height: 1em;
-    }
+.slot {
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+}
 
-    .slot-break {
-        font-size: 0.75em;
-        color: #777777;
-        padding: 1em 0;
-        text-align: center;
-    }
+.slot-break {
+    font-size: 0.75em;
+    color: #777777;
+    padding: 1em 0;
+    text-align: center;
+}
 
-    .slot-blank-break {
-        font-size: 0.5em;
-    }
+.slot-blank-break {
+    font-size: 0.5em;
+}
 
-    .slot-space {
-        text-decoration: none;
-    }
+.slot-space {
+    text-decoration: none;
+}
 
-    .slot-space:hover {
-        text-decoration: underline;
-    }
+.slot-space:hover {
+    text-decoration: underline;
+}
 
-    .slot-session {
-        border-top: 5px solid;
-        border-right: 1px solid;
-        border-bottom: 1px solid;
-        padding: 4px 0 8px 0;
-        margin-right: 2px;
-        font-size: 0.85em;
-        min-height: 5em;
-        text-align: center;
-        cursor: pointer;
-        overflow-wrap: break-word;
-    }
+.slot-session {
+    border-top: 5px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 4px 0 8px 0;
+    margin-right: 2px;
+    font-size: 0.85em;
+    min-height: 5em;
+    text-align: center;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
 
-    .slot-session-a {
-        border-color: rgb(20, 105, 172);
-    }
+.slot-session-a {
+    border-color: rgb(20, 105, 172);
+}
 
-    .slot-session-a:hover {
-        background-color: rgba(20, 105, 172, 0.05);
-    }
+.slot-session-a:hover {
+    background-color: rgba(20, 105, 172, 0.05);
+}
 
-    .slot-session-h {
-        border-color: rgb(56, 183, 199);
-    }
+.slot-session-h {
+    border-color: rgb(56, 183, 199);
+}
 
-    .slot-session-h:hover {
-        background-color: rgba(56, 183, 199, 0.05);
-    }
+.slot-session-h:hover {
+    background-color: rgba(56, 183, 199, 0.05);
+}
 
-    .slot-session-s {
-        border-color: rgb(63, 157, 88);
-    }
+.slot-session-s {
+    border-color: rgb(63, 157, 88);
+}
 
-    .slot-session-s:hover {
-        background-color: rgba(63, 157, 88, 0.05);
-    }
+.slot-session-s:hover {
+    background-color: rgba(63, 157, 88, 0.05);
+}
 
-    .slot-session-w {
-        border-color: rgb(204, 194, 53);
-    }
+.slot-session-w {
+    border-color: rgb(204, 194, 53);
+}
 
-    .slot-session-w:hover {
-        background-color: rgba(204, 194, 53, 0.05);
-    }
+.slot-session-w:hover {
+    background-color: rgba(204, 194, 53, 0.05);
+}
 
-    .slot-session-d {
-        border-color: rgb(53, 121, 204);
-    }
+.slot-session-d {
+    border-color: rgb(53, 121, 204);
+}
 
-    .slot-session-d:hover {
-        background-color: rgba(53, 121, 204, 0.05);
-    }
+.slot-session-d:hover {
+    background-color: rgba(53, 121, 204, 0.05);
+}
 
-    .slot-session-t {
-        border-color: rgb(53, 204, 78);
-    }
+.slot-session-t {
+    border-color: rgb(53, 204, 78);
+}
 
-    .slot-session-t:hover {
-        background-color: rgba(53, 204, 78, 0.05);
-    }
+.slot-session-t:hover {
+    background-color: rgba(53, 204, 78, 0.05);
+}
 
-    .slot-session-p {
-        border-color: rgb(76, 49, 191);
-    }
+.slot-session-p {
+    border-color: rgb(76, 49, 191);
+}
 
-    .slot-session-p:hover {
-        background-color: rgba(76, 49, 191, 0.05);
-    }
+.slot-session-p:hover {
+    background-color: rgba(76, 49, 191, 0.05);
+}
 
-    .slot-session-k {
-        border-color: gold;
-    }
+.slot-session-k {
+    border-color: gold;
+}
 
-    .slot-session-k:hover {
-        background-color: rgba(255, 217, 0, 0.05);
-    }
+.slot-session-k:hover {
+    background-color: rgba(255, 217, 0, 0.05);
+}
 
-    .slot-session-i {
-        border-color: rgb(199, 142, 45);
-    }
+.slot-session-i {
+    border-color: rgb(199, 142, 45);
+}
 
-    .slot-session-i:hover {
-        background-color: rgba(199, 142, 45, 0.05);
-    }
+.slot-session-i:hover {
+    background-color: rgba(199, 142, 45, 0.05);
+}
 
-    .slot-session-0 {
-        border-color: transparent;
-        cursor: default !important;
-    }
+.slot-session-0 {
+    border-color: transparent;
+    cursor: default !important;
+}
 
-    .session-list {
-        padding-left: 0;
-        list-style: disc;
-        list-style-position: inside;
-        margin-block-end: 0.5em;
-    }
+.session-list {
+    padding-left: 0;
+    list-style: disc;
+    list-style-position: inside;
+    margin-block-end: 0.5em;
+}
 
-    .session-list-item {
-        padding-left: 0;
-    }
+.session-list-item {
+    padding-left: 0;
+}
 
-    .session-dur-loc {
-        color: #333333;
-        font-size: .9em;
-    }
+.session-dur-loc {
+    color: #333333;
+    font-size: .9em;
+}
 
-    .session-paper {
-        padding-left: 0.5em;
-        padding-bottom: 1em;
-        margin-bottom: 1em;
-        /* border-left: 5px solid #d8d8d8; */
-        border-bottom: 1px solid #efefef;
-    }
+.session-paper {
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    /* border-left: 5px solid #d8d8d8; */
+    border-bottom: 1px solid #efefef;
+}
 
-    .paper-title {
-        font-weight: bold;
-    }
+.paper-title {
+    font-weight: bold;
+}
 
-    .paper-authors {
-        font-style: italic;
-    }
+.paper-authors {
+    font-style: italic;
+}
 
-    .session-details {
-        padding-bottom: 1em;
-        margin-bottom: 1em;
-        border-bottom: 1px solid #efefef;
-    }
+.session-details {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #efefef;
+}
 
-    .session-info {
-        padding-top: 0;
-        padding-bottom: 1em;
-    }
+.session-info {
+    padding-top: 0;
+    padding-bottom: 1em;
+}
 
-    .p-title {
-        font-weight: bold;
-    }
+.p-title {
+    font-weight: bold;
+}
 
-    .p-author {
-        font-size: 0.9em;
-    }
-    .txt-sm {
-        font-size: 0.85em;
-    }
+.p-author {
+    font-size: 0.9em;
+}
+.txt-sm {
+    font-size: 0.85em;
+}
 
-    @media only screen and (max-width: 600px) {
-        .slot-small br {
-            display: none;
-        }
-        .slot-session b {
-            font-stretch: condensed;
-        }
-        .session-loc {
-            font-stretch: condensed;
-        }
+.bg-poster {
+    background-color: steelblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .slot-small br {
+        display: none;
     }
+    .slot-session b {
+        font-stretch: condensed;
+    }
+    .session-loc {
+        font-stretch: condensed;
+    }
+}
 </style>
 
 <div class="container">

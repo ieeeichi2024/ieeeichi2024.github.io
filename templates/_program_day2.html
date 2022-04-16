@@ -393,17 +393,21 @@
 
             <div class="session-details">
                 <div id="session-p-1" class="session-info">
+                    <div class="session-dur-loc">
+                        @Ballroom Lobby West and South
+                    </div>
                     <h4>
                         Poster &amp; Demo Session
                     </h4>
-
                     <p>
-                        @Ballroom Lobby West and South
+                        Board Number: 
+                        <span class="badge bg-poster">
+                            XX
+                        </span>
                     </p>
-
-                    <p>
-                        TBD
-                    </p>
+                    {% for p in session_dict['p-1'] %}
+                        {% include '_program_session_poster.html' %}
+                    {% endfor %}
                 </div>
 
             </div>

@@ -42,7 +42,7 @@ Kanika Sood and Prathyusha Gundlapally,Risk-Based Breast Cancer Prognosis Using 
 "Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek",Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features,Human-centered Design,h-1,25
 "Daniel Diethei, Ashley Colley, Julian Wienert and Johannes Schöning","Different Length, Different Needs: Qualitative Analysis of Threads in Online Health Communities",Human-centered Design,h-1,15
 "Kemal Yakut, Muhammad Usman, Wei Xue, Francis M. Haas, Robert A. Hirsh, Xinghui Zhao, Tyler Petty and Joseph Boothby",Electro-Mechanical Data Fusion for Heart Health Monitoring,Human-centered Design,h-1,15
-"Yun Qu, Othelia E. Lee and Albert Park",A Qualitative Study of Family Caregivers’ Technology Use in Alzheimer’s Disease Care,Self Management,h-2,25
+"Yun Qu, Othelia E. Lee and Albert Park",A Qualitative Study of Family Caregivers' Technology Use in Alzheimer's Disease Care,Self Management,h-2,25
 "Jiawei Zhou, Rosa I. Arriaga, Hongfang Liu and Ming Huang",A Tale of Two Perspectives: Harvesting System Views and User Views to Understand Patient Portal Engagement,Self Management,h-2,25
 Zainab A. Balogun and Tera L. Reynolds,"Patient Portal Uptake, Use, and Satisfaction among U.S. Adults in Late-stage COVID-19 Pandemic",Self Management,h-2,20
 "Laura Pullum, Olufemi Omitaomu, Mohammed Olama, Addi Malviya Thakur, Ozgur Ozmen, Hilda Klasky, Teja Kuruganti, Merry Ward, Jeanie Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker",A Systematic Review of Healthcare Information Technology Anomaly Classification,Self Management,h-2,15
@@ -61,3 +61,37 @@ Rainer Lutze,Practicality of Automatic Monitoring Sufficient Fluid Intake for Ol
 "Ravi Bajracharya, Richard Wallace, Jans Aasman and Parsa Mirhaji",Entity Event Knowledge Graph for Powerful Health Informatics,Industry,i-1,
 "Jingqi Wang, Yaoyun Zhang, Bin Lin, Huy Anh Pham, Long He, Jingcheng Du and Frank Manion",LANN: an integrated online annotation tool for information extraction,Industry,i-1,
 "Shiqiang Tao, Wei-Chun Chou, Jianfu Li, Jingcheng Du, Pritham Ram, Rashmie Abeysinghe, Xiaoqian Jiang, Lucila Ohno-Machado, Hua Xu and Guo-Qiang Zhang",IMI-CDE: an interactive interface for collaborative mapping of study variables to common data elements,Industry,i-1,
+,,,,
+Nafees Qamar,A Focused Caregiving App for Alzheimer's Patients,Poster,p-1,01
+Gabriel Demuth and Curt Storlie,A Novel Joint Longitudinal Model for Predicting Post-ICU Anemia,Poster,p-1,02
+"Patrizia Vizza, Giuseppe Tradigo, Pietro Hiram Guzzi, Mattia Prosperi, Carlo Torti and Pierangelo Veltri",Annotations of virus data for knowledge enrichement,Poster,p-1,03
+"Shi Yan, Caroline Constant, Taghi Ramazanian, Hilal Maradit Kremers and A. Noellel Larson",Automated Cobb Angle Measurement in Adolescent Idiopathic Scoliosis: Validation of a Previously-Published Deep Learning Method,Poster,p-1,04
+"Elham Sagheb, Hilal Maradit Kremers, Sunghwan Sohn, Taghi Ramazanian and Noelle Larson",Automated Detection of Type of Scoliosis Surgery from Operative Notes Using Natural Language Processing,Poster,p-1,05
+Alexander Murph and Curtis Storlie,Bayesian Change Point Detection for Mixed Data with Missing Values,Poster,p-1,06
+"Meghna Singh, Jiacheng Liu, Lisa Kirkland and Jaideep Srivastava",Decompensation Prediction for Hospitalized Patients,Poster,p-1,07
+"Patrizia Vizza, Mattia Cannistra, Giuseppe Tradigo, Pietro Hiram Guzzi, Giuseppe Lucio Cascini and Pierangelo Veltri",DeLaBE: A Deep Learning architecture for Bio-images enhancing,Poster,p-1,08
+"Harrison Chase Gottlich, Atul Dhanorker, Isabel Green and Kalyan Pasupathy",Digitalization of Checkboxes in Chronic Pelvic Pain Assessment Forms using Convolutional Neural Networks,Poster,p-1,09
+"Prajwal Pradhan, Yue Liang, Pui Ying Yew, Matt Loth, Terrence Adam, Jennifer Robinson, Peter Tonellato and Chin-Lin Chi","Does comorbidity matrix provide similar amount of predictive information: Comparisons from Charlson, Elixauser, and Deep Learning",Poster,p-1,10
+Suhyun Park,EHR Usability from Nurses' Perspectives: A Systematic Review,Poster,p-1,11
+"Bruno Thiao-Layel, Vianney Jouhet and Gayo Diallo",Enabling Biomedical Semantic Knowledge Resource's Paths with the K-Ware Platform,Poster,p-1,12
+"Ray Qian, Sunyang Fu and Hongfang Liu",Evaluation of Document-Level Identification of Pulmonary Nodules in Radiology Reports Using FLAIR Natural Language Processing Framework,Poster,p-1,13
+Liwei Wang and Hongfang Liu,Evaluation of mCODE in EHR: a Scoping Review of Cancer Natural Language Processing,Poster,p-1,14
+"Justus Purat, Nicolas J. Lehmann, Muhammed-Ugur Karagülle and Agnès Voisard",HaLowNet - A WiFi HaLow network-based information system for the provision of multi-sided applications for medical emergency scenarios,Poster,p-1,15
+"Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing",Improving Covid-19 vaccine literacy among undergrad students in Burkina Faso,Poster,p-1,16
+"Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Yichong Li and Guotong Xie",Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support,Poster,p-1,17
+"Lalitha Donga, Rajendra K. Raj and Sumita Mishra",Internet of Healthcare Things (IoHT): Towards a Digital Chain of Custody,Poster,p-1,18
+"Alex Qin, Md Rakibul Hasan, Khandaker Asif Ahmed and Md Zakir Hossain",Machine Learning for Predicting Cancer Severity Levels,Poster,p-1,19
+"Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu and Hongfang Liu",MedTator: A Serverless Web-based Tool for Corpus Annotation,Poster,p-1,20
+"Nan Wang, Ming Huang and Jungwei Fan",Mining Transportation Issues from Patient Portal Messages,Poster,p-1,21
+Chonghao Zhang and Luca Bonomi,Mitigating Membership Inference in Deep Learning Applications with High Dimensional Genomic Data,Poster,p-1,22
+"Benjamin Knoll, Reed Mcewan, Raymond Finzel, Greg Silverman, Rui Zhang, Serguei Pakhomov and Genevieve Melton",MTAP - A Distributed Framework for NLP Pipelines,Poster,p-1,23
+Yue Hao and Guoray Cai,Multi-perspective Characterization of Anaphylactic Risk for COVID-19 Vaccination - A Visual Analytic Approach,Poster,p-1,24
+"Patrizia Vizza, Giuseppe Tradigo, Francesco Scala, Raffaele Giancotti, Pietro Hiram Guzzi, Concetta Irace, Sergio Flesca and Pierangelo Veltri",On the identification of PoIs in glucosimeter data,Poster,p-1,25
+Ravi Rao,Predicting length of stay in hospitals,Poster,p-1,26
+"Jason Tran, Carson Leung and Daniel Mai",Predictive model for healthcare analytics,Poster,p-1,27
+"Haozuo Zhao, Haitao Chu, Sicheng Zhou, Fang Yu, Xianghua Luo and Rui Zhang",Racial Disparities in Alzheimer's Disease and Alzheimer's Disease-Related Dementias from the Disease Progression Perspective,Poster,p-1,28
+"Primoz Kocbek, Kasandra Musovic, Lucija Gosak, Nino Fijacko and Gregor Stiglic",Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare,Poster,p-1,29
+Yildiz Esener,Research Trends in Computational Psychometrics: Bibliometrics Study,Poster,p-1,30
+"Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Stefan Schmid, Agnès Voisard, Laura Rohwedder and Peter Böttcher",SurgeRate - An approach to the evaluation of the performance of veterinary surgeons,Poster,p-1,31
+"Ozgur Ozmen, Hilda Klasky, Olufemi A. Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi T. Malviya, Merry Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker",Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs,Poster,p-1,32
+Xiaoyu Liu and Susan Mcroy,Visualizing the Interpretation of a Criterion-Driven System that Automatically Evaluates the Quality of Health News: An Exploratory Study of Two Approaches,Poster,p-1,33
