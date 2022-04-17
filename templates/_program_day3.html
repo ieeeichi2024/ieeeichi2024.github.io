@@ -10,9 +10,24 @@
 </tr>
 <tr>
     <td class="td-time">
-        <div class="time">
+        <div class="time time-top">
+            7:00 AM
+        </div>
+        <div class="time time-bottom time-bottom-down">
             7:30 AM
         </div>
+    </td>
+    <td colspan="3" class="td-slot">
+        <div onclick="show_session_info('v-1')" 
+            class="slot slot-large slot-session slot-session-mini slot-session-v">
+            Virtual Special Session
+            <br>
+            @zoom
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="td-time">
         <div class="time time-bottom time-bottom-down">
             8:30 AM
         </div>
@@ -216,6 +231,25 @@
 
 
             <div class="session-details">
+                <div id="session-v-1" class="session-info">
+                    <div class="session-dur-loc">
+                        7:00 - 7:30 AM 
+                        @zoom
+                    </div>
+                    <h4>
+                        Virtual Special Session
+                    </h4>
+
+                    <p>
+                        TBD
+                    </p>
+                </div>
+
+            </div>
+
+
+
+            <div class="session-details">
                 <div id="session-k-3" class="session-info">
                     <div class="session-dur-loc">
                         8:30 - 10:00 AM 
@@ -346,7 +380,7 @@
             </div>
 
 
-            
+
         </div>
     </div>
 </div>
