@@ -118,6 +118,11 @@ def program():
     )
 
 
+@app.route("/program.test.html")
+def program_test():
+    return program()
+
+
 @app.route("/keynotes.html")
 def keynotes():
     return render_template('keynotes.html')
