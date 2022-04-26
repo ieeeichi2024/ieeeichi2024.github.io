@@ -10,6 +10,7 @@
     <th class="th-room">Suite 104</th>
     <th class="th-room">Suite 105</th>
     <th class="th-room">Suite 106</th>
+    <th class="th-room">Virtual</th>
 </tr>
 <tr>
     <td class="td-time">
@@ -24,6 +25,9 @@
         <div class="slot slot-break">
             Registration
         </div>
+    </td>
+    <td>
+        &nbsp;
     </td>
 </tr>
 <tr>
@@ -40,6 +44,22 @@
         <div onclick="show_session_info('d-1')" class="slot slot-small slot-session slot-session-d">
             <span class="txt-sm">
                 Doctoral Consortium
+            </span>
+        </div>
+    </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+            <span class="txt-sm">
+                Tutorial 1 
+            </span>
+        </div>
+    </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
+            <span class="txt-sm">
+                Tutorial 2 
             </span>
         </div>
     </td>
@@ -63,19 +83,11 @@
         </div>
     </td>
 
-    <td class="td-slot">
-        <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
-            <span class="txt-sm">
-                Tutorial 1 
-            </span>
-        </div>
-    </td>
-
-    <td class="td-slot">
-        <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
-            <span class="txt-sm">
-                Tutorial 2 
-            </span>
+    <td rowspan="5">
+        <div onclick="show_session_info('w-4')" 
+            class="slot slot-small slot-session slot-session-w"
+            style="height: 15em; margin-top: -3em;">
+            <b>Machine Learning in Healthcare Data for Precision Medicine</b>
         </div>
     </td>
 
@@ -112,6 +124,22 @@
             </span>
         </div>
     </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
+            <span class="txt-sm">
+                Tutorial 1 
+            </span>
+        </div>
+    </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
+            <span class="txt-sm">
+                Tutorial 2
+            </span>
+        </div>
+    </td>
     
     <td class="td-slot">
         <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
@@ -129,22 +157,6 @@
     <td class="td-slot">
         <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
             <b>XAI-Healthcare</b>
-        </div>
-    </td>
-
-    <td class="td-slot">
-        <div onclick="show_session_info('t-1')" class="slot slot-small slot-session slot-session-t">
-            <span class="txt-sm">
-                Tutorial 1 
-            </span>
-        </div>
-    </td>
-
-    <td class="td-slot">
-        <div onclick="show_session_info('t-2')" class="slot slot-small slot-session slot-session-t">
-            <span class="txt-sm">
-                Tutorial 2
-            </span>
         </div>
     </td>
     
@@ -183,22 +195,6 @@
     </td>
 
     <td class="td-slot">
-        <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
-            <b>HI-Edu 2022</b>
-        </div>
-    </td>
-
-    <td class="td-slot">
-        
-    </td>
-
-    <td class="td-slot">
-        <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
-            <b>XAI-Healthcare</b>
-        </div>
-    </td>
-
-    <td class="td-slot">
         <div onclick="show_session_info('t-3')" class="slot slot-small slot-session slot-session-t">
             <span class="txt-sm">
                 Tutorial 3
@@ -211,6 +207,22 @@
             <span class="txt-sm">
                 Tutorial 2
             </span>
+        </div>
+    </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
+            <b>HI-Edu 2022</b>
+        </div>
+    </td>
+
+    <td class="td-slot">
+        
+    </td>
+
+    <td class="td-slot">
+        <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
+            <b>XAI-Healthcare</b>
         </div>
     </td>
     
@@ -246,15 +258,7 @@
             </span>
         </div>
     </td>
-    <td class="td-slot">
 
-    </td>
-    <td class="td-slot">
-        
-    </td>
-    <td class="td-slot">
-
-    </td>
 
     <td class="td-slot">
         <div onclick="show_session_info('t-3')" class="slot slot-small slot-session slot-session-t">
@@ -270,6 +274,21 @@
                 Tutorial 2 
             </span>
         </div>
+    </td>
+
+
+    <td class="td-slot">
+
+    </td>
+
+
+    <td class="td-slot">
+        
+    </td>
+
+
+    <td class="td-slot">
+
     </td>
 </tr>
 
@@ -295,7 +314,7 @@
                     <h4>
                         <a target="_blank"
                             href="https://sites.pitt.edu/~lzhou1/HIEDU2022.html">
-                            HI-Edu 2022
+                            The 1st International Workshop on Health Informatics Education (HI-Edu 2022)
                         </a>
                     </h4>
 
@@ -314,7 +333,7 @@
                     <h4>
                         <a target="_blank"
                             href="https://www.healthnlp.info/">
-                            HealthNLP 2022
+                            The 5th International Workshop on Health Natural Language Processing (HealthNLP 2022)
                         </a>
                     </h4>
 
@@ -334,13 +353,122 @@
                     <h4>
                         <a target="_blank"
                             href="https://www.um.es/aike/events/XAI-Healthcare/">
-                            XAI-Healthcare
+                            The 2nd International Workshop on eXplainable Artificial Intelligence in Healthcare
                         </a>
                     </h4>
 
                     <p>
                         TBD
                     </p>
+
+                    
+                </div>
+
+            </div>
+
+
+            <div class="session-details">
+                <div id="session-w-4" class="session-info">
+                    <div class="session-dur-loc">
+                        Virtual Session 
+                        @Microsoft Teams
+                    </div>
+                    <h4>
+                        <a target="_blank"
+                            href="http://healthcaredata.gsu.edu.tr/">
+                            The 2nd Machine Learning in Healthcare Data for Precision Medicine
+                        </a>
+                    </h4>
+                    <p>
+                        Workshop Chair: Sultan Turhan
+                    </p>
+                    <style>
+                    .table-mlhdpm {
+                        width: 100%;
+                        font-size: .9em;
+                    }
+                    .table-mlhdpm th,
+                    .table-mlhdpm td {
+                        border-right: 1px solid #efefef;
+                        border-bottom: 1px solid #efefef;
+                        padding: 5px;
+                    }
+                    .table-mlhdpm tr:hover {
+                        background-color: #efefef;
+                    }
+                    </style>
+                    <table class="table-mlhdpm">
+                        <tr>
+                            <th width="100px">Time</th>
+                            <th>Presentation</th>
+                        </tr>
+                        <tr>
+                            <td>9:00 - 9:15</td>
+                            <td>
+                                <b>Welcome</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9:15 - 9:35</td>
+                            <td>
+                                Keynote Speech
+                                <br>
+                                <i class="fa fa-user"></i>
+                                <i>Sultan Turhan</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9:35 - 9:55</td>
+                            <td>
+                                3864 - An xAI Thick Data Assisted Caption Generation for Labeling Severity of Ulcerative Colitis Video Colonoscopy
+                                <br>
+                                <i class="fa fa-user"></i>
+                                <i>Jinan Fiaidhi</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9:55 - 10:15</td>
+                            <td>8693 - Value-Based Healthcare Translational Data Analytics using the Problem Oriented Medical Record Graph Representation
+                                <br>
+                                <i class="fa fa-user"></i>
+                                <i>Sabah Mohammed</i>
+
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>10:15 - 11:45</td>
+                            <td>
+                                <b>Coffee Break</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:45 - 12:05</td>
+                            <td>6411 - Improving Prediction and Risk Factor Analysis of Low-Weight-Birth Outcomes in a U.S. Hospital System<br>
+                                <i class="fa fa-user"></i>
+                                <i>Yang Ren</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:05 - 12:25</td>
+                            <td>6513 - Using D-Dimer as a Biomarker to Predict Disease Severity and Clinical Outcomes with a Large COVID-19 Inpatient Cohort: A Machine Learning Approach<br>
+                                <i class="fa fa-user"></i>
+                                <i>Yuqi Wu</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:25 - 12:45</td>
+                            <td>7570 - Acute Kidney Injury Prediction with Gradient Boosting Decision Trees enriched with Temporal Features<br>
+                                <i class="fa fa-user"></i>
+                                <i>Stela Golovco</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:45 - 13:00</td>
+                            <td>
+                                <b>Closing Remarks</b>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
             </div>
