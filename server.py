@@ -82,9 +82,9 @@ def program():
         'a-1', 'a-2', 'a-3', 'a-4', 'a-5', 'a-6', 'a-7', # analytics
         'h-1', 'h-2', 'h-3', # human factor
         's-1', 's-2', 's-3', # system
-        'w-1', 'w-2', 'w-3', # workshop
+        'w-1', 'w-2', 'w-3', 'w-4',     # workshop
         'd-1', 'd-2', 'd-3', # doctoral consortium
-        't-1', 't-2',        # tutorial
+        't-1', 't-2', 't-3', # tutorial
         'i-1', 'i-2',        # industry 
         'p-1', 'p-2',        # poster
     ]
