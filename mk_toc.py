@@ -72,7 +72,15 @@ for s_code in session_codes:
             session_id2name[s_id]
         )
 
-    f.write(session_title + '\n')
+    f.write(session_title + '\n\n')
+
+    # now, let's output the content of this session
+    for d in session_dict[s_code]:
+        line = "%s, %s\n" % (
+            d['Title'],
+            d['Authors']
+        )
+        f.write('\t' + line + '\n')
 
     # blanks
     f.write('\n\n')
