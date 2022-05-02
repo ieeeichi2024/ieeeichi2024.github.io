@@ -47,7 +47,7 @@ session_id2name = {
     'w': 'Workshop',
 }
 
-f = open('TableOfContents.txt', 'w')
+f = open('TableOfContents22.txt', 'w')
 
 for s_code in session_codes:
     # if not in csv, just skip
