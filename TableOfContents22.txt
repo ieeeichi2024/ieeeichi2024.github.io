@@ -166,11 +166,23 @@ Workshop 1 - The 1st International Workshop on Health Informatics Education (HI-
 
 
 Workshop 2 - The 5th International Workshop on Health Natural Language Processing (HealthNLP 2022)
-	NA, NA
+	Few-shot prompt learning sentence classification in medical abstracts, Yan Hu, Yong Chen, Hua Xu
+	Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models, Shuang Yang, Xi Yang, Tianchen Lyu, Xing He, Dejana Braithwaite, Hiren J. Mehta, Yi Guo, Yonghui Wu, Jiang Bian
+	BioBERTurk: Exploring Turkish Biomedical Language Model Development Strategies in Low Resource Setting, Hazal Turkmen, Oguz Dikenelli, Cenk Eraslan, Mehmet Cem C¸ allı, Suha Sureyya Ozbek
+	Canine parvovirus diagnosis classification utilizing veterinary free-text notes, Zhecheng Sheng, Jennifer Granick, Amanda Beaudoin, Emma Bollig, Rui Zhang
+	Chemical-Protein Relation Extraction with Pre-trained Prompt Tuning, Jianping He, Fang Li, Xinyue Hu, Jianfu Li, Yi Nian, Jingqi Wang, Yang Xiang, Qiang Wei, Hua Xu, Cui Tao
+	Annotating Complementary and Integrative Health Approaches Using Electronic Health Record Data, Huixue Zhou, Greg Silverman, Zhongran Niu, Jenzi Silverman, Roni Evans, Robin Austin, Rui Zhang
+	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Guotong Xie, Yichong Li
+	Terminology Expansion via Co-occurrence Analysis of Large Clinical Real-World Datasets, Markus Kreuzthaler, Bastian Pfeifer, Stefan Schulz
+	Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare, Gregor Stiglic, Kasandra Musovic, Lucija Gosak, Nino Fijacko, Primoz Kocbek
 
 
 Workshop 3 - The 2nd International Workshop on eXplainable Artificial Intelligence in Healthcare (XAI-Healthcare)
-	NA, NA
+	Characteristics of Symptom Tracking App Data and its Potential Use for XAI, Caitlin Duncan and Takayuki Nagai
+	Towards trustworthy AI in healthcare, Carson Leung
+	Efficient Matching of Single Cells and Cell Types, Primož Godec, Blaz Zupan and Martin Stražar
+	Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs, Ozgur Ozmen, Hilda Klasky, Olufemi Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi Malviya Thakur, Mary Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
+	Sanity Check for Shapley values-based explanations of Deep Neural Networks Predictions, Rosalia Tatano, Antonio Mastropietro, Enrico Busto and Francesco Vaccarino
 
 
 Workshop 4 - The 2nd Machine Learning in Healthcare Data for Precision Medicine
