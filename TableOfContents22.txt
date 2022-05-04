@@ -11,7 +11,6 @@ Analytics 2 - Imaging
 	Bayesian optimization-derived batch size and learning rate scheduling in deep neural network training for head and neck tumor segmentation, Zachariah Douglas and Haifeng Wang
 	Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy, Muhammad Zubair Khan
 	Eating detection with a head-mounted video camera, Shengjie Bi and David Kotz
-	NormVAE: Normative Modelling on Neuroimaging Data using Variational Autoencoders, Sayantan Kumar
 	Quantitative Analysis of Visual Movement Data from a Rehabilitation-based Mobile App, Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson
 
 
@@ -70,9 +69,8 @@ Systems 2 - Wearables & Monitoring
 
 Human Factors 1 - Human-centered Design
 	Modeling the Impact of Social Determinants of Health on COVID Behaviors in Older Adults using the All of Us Dataset, Phillip Ma, Yijun Shao, Yan Cheng, Youxuan Ling, Qing Zeng-Treitler and Stuart Nelson
-	Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features, Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek
 	Different Length, Different Needs: Qualitative Analysis of Threads in Online Health Communities, Daniel Diethei, Ashley Colley, Julian Wienert and Johannes Schöning
-	Electro-Mechanical Data Fusion for Heart Health Monitoring, Kemal Yakut, Muhammad Usman, Wei Xue, Francis M. Haas, Robert A. Hirsh, Xinghui Zhao, Tyler Petty and Joseph Boothby
+	Electro-Mechanical Data Fusion for Heart Health Monitoring, Kemal Yakut, Muhammad Usman, Wei Xue, Francis M. Haas, Robert A. Hirsh, Joseph Boothby, Tyler Petty and Xinghui Zhao
 
 
 Human Factors 2 - Self Management
@@ -85,6 +83,7 @@ Human Factors 2 - Self Management
 
 Human Factors 3 - AI-based Applications
 	A Novel IoT-based Framework for Non-Invasive Human Hygiene Monitoring using Machine Learning Techniques, Md Jobair Hossain Faruk, Shashank Trivedi, Mohammad Masum, Maria Valero, Hossain Shahriar and Sheikh Iqbal Ahamed
+	Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features, Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek
 	Designing AINA - Intercultural Human-Centered Design of an AI-based application for supporting the diagnosis of Female Genital Schistosomiasis, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Pauline Meurer, Elen Niedermeyer, Petrit Vidishiqi, Laura Pysz, Agnès Voisard, Hermann Feldmeier, Bodo Randrianasolo Sahondra, Oliva Rabozakandraina Tiana Onintsoa and Angela Schuster
 	Factors Facilitating the ACance of Diagnostic Robots in Healthcare: A Survey, Martin S. Laursen, Jannik S. Pedersen, Søren A. Just, Thiusius R. Savarimuthu, Brian Blomholt, Jakob K.H. Andersen and Pernille J. Vinholt
 	The Impact of 3D Stereopsis and Hand-Tool Alignment on Effectiveness of a VR-based Simulator for Dental Training, Maximilian Kaluschke, Myat Su Yin, Peter Haddawy, Siriwan Suebnukarn and Gabriel Zachmann
@@ -166,15 +165,15 @@ Workshop 1 - The 1st International Workshop on Health Informatics Education (HI-
 
 
 Workshop 2 - The 5th International Workshop on Health Natural Language Processing (HealthNLP 2022)
-	Few-shot prompt learning sentence classification in medical abstracts, Yan Hu, Yong Chen, Hua Xu
-	Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports of Lung Cancer Screening Patients Using Transformer Models, Shuang Yang, Xi Yang, Tianchen Lyu, Xing He, Dejana Braithwaite, Hiren J. Mehta, Yi Guo, Yonghui Wu, Jiang Bian
-	BioBERTurk: Exploring Turkish Biomedical Language Model Development Strategies in Low Resource Setting, Hazal Turkmen, Oguz Dikenelli, Cenk Eraslan, Mehmet Cem C¸ allı, Suha Sureyya Ozbek
-	Canine parvovirus diagnosis classification utilizing veterinary free-text notes, Zhecheng Sheng, Jennifer Granick, Amanda Beaudoin, Emma Bollig, Rui Zhang
-	Chemical-Protein Relation Extraction with Pre-trained Prompt Tuning, Jianping He, Fang Li, Xinyue Hu, Jianfu Li, Yi Nian, Jingqi Wang, Yang Xiang, Qiang Wei, Hua Xu, Cui Tao
-	Annotating Complementary and Integrative Health Approaches Using Electronic Health Record Data, Huixue Zhou, Greg Silverman, Zhongran Niu, Jenzi Silverman, Roni Evans, Robin Austin, Rui Zhang
-	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Guotong Xie, Yichong Li
-	Terminology Expansion via Co-occurrence Analysis of Large Clinical Real-World Datasets, Markus Kreuzthaler, Bastian Pfeifer, Stefan Schulz
+	Developing Pretrained Language Models for Turkish Biomedical Domain, Hazal Turkmen, Oguz Dikenelli, Cenk Eraslan, Mehmet Cem C¸ allı, Suha Sureyya Ozbek
 	Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare, Gregor Stiglic, Kasandra Musovic, Lucija Gosak, Nino Fijacko, Primoz Kocbek
+	Improving Sentence Classification in Abstracts of Randomized Controlled Trial using Prompt Learning, Yan Hu, Yong Chen, Hua Xu
+	Chemical-Protein Relation Extraction with Pre-trained Prompt Tuning, Jianping He, Fang Li, Xinyue Hu, Jianfu Li, Yi Nian, Jingqi Wang, Yang Xiang, Qiang Wei, Hua Xu, Cui Tao
+	Annotating Music Therapy, Chiropractic and Aquatic Exercise Using Electronic Health Record, Huixue Zhou, Greg Silverman, Zhongran Niu, Jenzi Silverman, Roni Evans, Robin Austin, Rui Zhang
+	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Guotong Xie, Yichong Li
+	Canine parvovirus diagnosis classification utilizing veterinary free-text notes, Zhecheng Sheng, Jennifer Granick, Amanda Beaudoin, Emma Bollig, Rui Zhang
+	Terminology Expansion via Co-occurrence Analysis of Large Clinical Real-World Datasets, Markus Kreuzthaler, Bastian Pfeifer, Stefan Schulz
+	A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing, Shuang Yang, Xi Yang, Tianchen Lyu, Xing He, Dejana Braithwaite, Hiren J. Mehta, Yi Guo, Yonghui Wu, Jiang Bian
 
 
 Workshop 3 - The 2nd International Workshop on eXplainable Artificial Intelligence in Healthcare (XAI-Healthcare)
