@@ -105,12 +105,12 @@ Doctoral Consortium
 	Comprehension of Contextual Semantics Across Clinical Healthcare Domains, Kurt Miller
 	D-Dimer Elevation Matters to Predict COVID-19 Severity: A Machine Learning Approach, Yuqi Wu, Dezhi Wu, and Sudha Xirasagar
 	Predict Pregnancy Outcomes in the COVID-19 Pandemic Using Electronic Health Records and Machine Learning Approach, Tianchu Lyu and Chen Liang
-	Using a Social, Role-playing, Simulation-Game to Build Resilience in Adolescents, Abhishek Aggarwal
+	Using a Social, Role-playing, Simulation-Game to Build Resilience in Adolescents, Abhishek Aggarwal, Xiaoming Li, and Shan Qiao
 	Health information delivery using audio, Arif Ahmed and Gondy Leroy
 
 
 Poster and Demo
-	A Mobile Application for Alzheimer's Patients, Nafees Qamar
+	A Mobile Application for Alzheimer's Caregivers, Nafees Qamar
 	A Novel Joint Longitudinal Model for Predicting Post-ICU Anemia, Gabriel Demuth and Curtis Storlie
 	Annotations of Virus Data for Knowledge Enrichment, Patrizia Vizza, Giuseppe Tradigo, Pietro Hiram Guzzi, Barbara Puccio, Mattia Prosperi, Carlo Torti and Pierangelo Veltri
 	Automated Cobb Angle Measurement in Adolescent Idiopathic Scoliosis: Validation of a Previously-Published Deep Learning Method, Shi Yan, Caroline Constant, Taghi Ramazanian, Hilal Maradit Kremers and A. Noellel Larson
@@ -124,7 +124,7 @@ Poster and Demo
 	Evaluation of Document-Level Identification of Pulmonary Nodules in Radiology Reports Using FLAIR Natural Language Processing Framework, Ray Qian, Sunyang Fu and Hongfang Liu
 	Evaluation of mCODE Coverage in EHR: a Scoping Review of Cancer Natural Language Processing, Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L. Warner and Hongfang Liu
 	HaLowNet - A WiFi HaLow network-based information system for the provision of multi-sided applications for medical emergency scenarios, Justus Purat, Nicolas J. Lehmann, Muhammed-Ugur Karagülle and Agnès Voisard
-	Improving Covid-19 vaccine literacy among undergraduate students in Burkina Faso, Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing
+	Improving Covid-19 vaccine literacy among undergraduate students in Burkina Faso, Michel J Some, Roland Benedikter, Rasmané Yameogo, Ibrahim Traoré, Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing
 	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Yichong Li and Guotong Xie
 	Internet of Healthcare Things (IoHT): Towards a Digital Chain of Custody, Lalitha Donga, Rajendra K. Raj and Sumita Mishra
 	Machine Learning for Predicting Cancer Severity, Alex Qin, Md Rakibul Hasan, Khandaker Asif Ahmed and Md Zakir Hossain
@@ -134,13 +134,11 @@ Poster and Demo
 	MTAP - A Distributed Framework for NLP Pipelines, Benjamin Knoll, Reed McEwan, Raymond Finzel, Greg Silverman, Rui Zhang, Serguei Pakhomov and Genevieve Melton
 	Multi-perspective Characterization of Anaphylactic Risk for COVID-19 Vaccination - A Visual Analytic Approach, Yue Hao and Guoray Cai
 	On the identification of PoIs in glucosimeter data, Patrizia Vizza, Giuseppe Tradigo, Francesco Scala, Raffaele Giancotti, Pietro Hiram Guzzi, Concetta Irace, Sergio Flesca and Pierangelo Veltri
-	Predicting length of stay in hospitals, Ravi Rao
-	Predictive model for healthcare analytics, Jason Tran, Carson Leung and Daniel Mai
+	Machine Learning Models To Predict Length Of Stay In Hospitals, Raunak Jain, Mrityunjai Singh, A. Ravishankar Rao, and Rahul Garg
+	A Deep Learning Based Predictive Model for Healthcare Analytics, Nguyen Duy Thong Tran, Carson Leung, Evan W.R. Madil and Phan Thai Bin
 	Racial Disparities in Alzheimer's Disease and Alzheimer's Disease-Related Dementias from the Disease Progression Perspective, Haozuo Zhao, Haitao Chu, Sicheng Zhou, Fang Yu, Xianghua Luo and Rui Zhang
-	Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare, Primoz Kocbek, Kasandra Musovic, Lucija Gosak, Nino Fijacko and Gregor Stiglic
 	Research Trends in Computational Psychometrics: Bibliometrics Study, Yildiz Esener
 	SurgeRate - An approach to the evaluation of the performance of veterinary surgeons, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Lea R. Muth, Stefan Schmid, Agnès Voisard, Laura Rohwedder and Peter Böttcher
-	Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs, Ozgur Ozmen, Hilda Klasky, Olufemi A. Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi T. Malviya, Merry Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
 	Visualizing the Interpretation of a Criterion-Driven System that Automatically Evaluates the Quality of Health News: An Exploratory Study of Two Approaches, Xiaoyu Liu and Susan McRoy
 
 
