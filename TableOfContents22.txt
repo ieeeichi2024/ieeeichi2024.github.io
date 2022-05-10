@@ -125,7 +125,6 @@ Poster and Demo
 	Evaluation of mCODE Coverage in EHR: a Scoping Review of Cancer Natural Language Processing, Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L. Warner and Hongfang Liu
 	HaLowNet - A WiFi HaLow network-based information system for the provision of multi-sided applications for medical emergency scenarios, Justus Purat, Nicolas J. Lehmann, Muhammed-Ugur Karagülle and Agnès Voisard
 	Improving Covid-19 vaccine literacy among undergraduate students in Burkina Faso, Michel J Some, Roland Benedikter, Rasmané Yameogo, Ibrahim Traoré, Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing
-	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Yichong Li and Guotong Xie
 	Internet of Healthcare Things (IoHT): Towards a Digital Chain of Custody, Lalitha Donga, Rajendra K. Raj and Sumita Mishra
 	Machine Learning for Predicting Cancer Severity, Alex Qin, Md Rakibul Hasan, Khandaker Asif Ahmed and Md Zakir Hossain
 	MedTator: A Serverless Web-based Tool for Corpus Annotation, Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu and Hongfang Liu
