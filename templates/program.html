@@ -90,6 +90,7 @@ Program
 .td-slot {
     width: calc((100% - 70px)/3);
     height: 1px;
+    position: relative;
 }
 
 .slot {
@@ -276,6 +277,15 @@ Program
 .bg-poster {
     background-color: steelblue;
 }
+.cme-icon {
+    /* position: absolute;
+    top: 7px;
+    left: 3px; */
+    font-size: 0.8em;
+}
+.cme-icon-text {
+    color: #515151;
+}
 
 @media only screen and (max-width: 600px) {
     .slot-small br {
@@ -301,6 +311,14 @@ Program
             </p>
             <p>
                 For scientific paper sessions, regular presentations  have 25 minutes (20 minutes presentation and 5 minutes QA) and short presentation <span class="badge bg-info">S</span> have 15 minutes (12 minutes presentation and 3 minutes QA).
+            </p>
+
+            <p>
+                Sessions with
+                <span style="margin: 0 5px;">
+                    <i class="fas fa-award"></i>
+                </span>
+                icon offer CME Credits.
             </p>
 
             {% include '_program_day1.html' %}

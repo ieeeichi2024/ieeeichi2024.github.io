@@ -10,6 +10,20 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 freezer = Freezer(app)
 
+# predefined session abbr
+session_list = [
+    'k-1', 'k-2', 'k-3', 'k-4'  # keynote
+    'a-1', 'a-2', 'a-3', 'a-4', 'a-5', 'a-6', 'a-7', # analytics
+    'h-1', 'h-2', 'h-3', # human factor
+    's-1', 's-2', 's-3', # system
+    'w-1', 'w-2', 'w-3', 'w-4',     # workshop
+    'd-1', 'd-2', 'd-3', # doctoral consortium
+    't-1', 't-2', 't-3', # tutorial
+    'i-1', 'i-2',        # industry 
+    'p-1', 'p-2',        # poster
+]
+
+
 @app.route("/")
 def index():
     return render_template('index.html')
@@ -75,19 +89,56 @@ def workshops():
     return render_template('workshops.html')
 
 
+@app.route("/cme.html")
+def cme():
+    return render_template('cme.html')
+
+
 @app.route("/program.html")
 def program():
-    session_list = [
-        'k-1', 'k-2', 'k-3', 'k-4'  # keynote
-        'a-1', 'a-2', 'a-3', 'a-4', 'a-5', 'a-6', 'a-7', # analytics
-        'h-1', 'h-2', 'h-3', # human factor
-        's-1', 's-2', 's-3', # system
-        'w-1', 'w-2', 'w-3', 'w-4',     # workshop
-        'd-1', 'd-2', 'd-3', # doctoral consortium
-        't-1', 't-2', 't-3', # tutorial
-        'i-1', 'i-2',        # industry 
-        'p-1', 'p-2',        # poster
-    ]
+    # get the details of sessions
+    session_dict = get_session_dict()
+
+    return render_template(
+        'program.html',
+        show_calendar=True,
+        show_details=False,
+        session_dict=session_dict
+    )
+
+
+@app.route("/program.test.html")
+def program_test():
+    return program()
+
+
+@app.route('/program_text.html')
+def program_text():
+    # get the details of sessions
+    session_dict = get_session_dict()
+
+    return render_template(
+        'program.html',
+        show_calendar=False,
+        show_details=True,
+        session_dict=session_dict
+    )
+
+
+@app.route("/keynotes.html")
+def keynotes():
+    return render_template('keynotes.html')
+
+
+@app.route("/committees.html")
+def committees():
+    return render_template('committees.html')
+
+
+def get_session_dict():
+    '''
+    Get session_dict for rendering program
+    '''
     import csv
     session_dict = {}
     with open('presentations.csv', newline='', encoding='utf-8-sig') as csvfile:
@@ -112,25 +163,7 @@ def program():
                 dict(row)
             )
 
-    return render_template(
-        'program.html',
-        session_dict=session_dict
-    )
-
-
-@app.route("/program.test.html")
-def program_test():
-    return program()
-
-
-@app.route("/keynotes.html")
-def keynotes():
-    return render_template('keynotes.html')
-
-
-@app.route("/committees.html")
-def committees():
-    return render_template('committees.html')
+    return session_dict
 
 
 if __name__ == '__main__':

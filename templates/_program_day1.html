@@ -1,6 +1,7 @@
 <h2>
     Saturday, June 11
 </h2>
+{% if show_calendar %}
 <table class="program-table mt-4 mb-4">
 <tr>
     <th width="70px">&nbsp;</th>
@@ -293,6 +294,7 @@
 </tr>
 
 </table>
+{% endif %}
 
 <div class="accordion" id="acc_jun11">
 <div class="accordion-item">
@@ -302,7 +304,13 @@
             Detailed Session Information of June 11
         </button>
     </h2>
-    <div id="collapse_jun11" class="accordion-collapse collapse" aria-labelledby="heading_jun11"
+    <div id="collapse_jun11" 
+    {% if show_details %}
+        class="accordion-collapse" 
+    {% else %}
+        class="accordion-collapse collapse" 
+    {% endif %}
+        aria-labelledby="heading_jun11"
         data-bs-parent="#acc_jun11">
         <div class="accordion-body">
 

@@ -1,6 +1,8 @@
 <h2 class="mt-5">
     Monday, June 13
 </h2>
+{% if show_calendar %}
+
 <table class="program-table">
 <tr>
     <th width="70px">&nbsp;</th>
@@ -62,7 +64,11 @@
     <td colspan="3" class="td-slot">
         <div onclick="show_session_info('k-2')" 
             class="slot slot-large slot-session slot-session-k">
-            Track Keynote
+            {% include '_program_cme_icon.html' %}
+            <span>
+                Track Keynote
+
+            </span>
             <br>
             @Ballroom
         </div>
@@ -92,6 +98,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('a-5')" class="slot slot-small slot-session slot-session-a">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Analytics S.5
             </span>
@@ -103,6 +110,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('s-2')" class="slot slot-small slot-session slot-session-s">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Systems S.2
             </span>
@@ -114,6 +122,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('h-2')" class="slot slot-small slot-session slot-session-h">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Human Factors S.2
             </span>
@@ -147,6 +156,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('a-6')" class="slot slot-small slot-session slot-session-a">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Analytics S.6
             </span>
@@ -158,6 +168,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('a-7')" class="slot slot-small slot-session slot-session-a">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Analytics S.7
             </span>
@@ -169,6 +180,7 @@
     </td>
     <td class="td-slot">
         <div onclick="show_session_info('h-3')" class="slot slot-small slot-session slot-session-h">
+            {% include '_program_cme_icon.html' %}
             <span class="txt-sm">
                 Human Factors S.3
             </span>
@@ -223,6 +235,7 @@
 </tr>
 </table>
 
+{% endif %}
 
 <div class="accordion" id="acc_jun13">
 <div class="accordion-item">
@@ -232,7 +245,13 @@
             Detailed Session Information of June 13
         </button>
     </h2>
-    <div id="collapse_jun13" class="accordion-collapse collapse" aria-labelledby="heading_jun13"
+    <div id="collapse_jun13" 
+    {% if show_details %}
+        class="accordion-collapse" 
+    {% else %}
+        class="accordion-collapse collapse" 
+    {% endif %}
+    aria-labelledby="heading_jun13"
         data-bs-parent="#acc_jun13">
         <div class="accordion-body">
 
@@ -283,6 +302,7 @@
                         @Ballroom
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Track Keynote
                     </h4>
 
@@ -301,6 +321,7 @@
                         @Suite 102
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Analytics Session 5: Prediction &amp; Classifition
                     </h4>
                     {% include '_program_legend.html' %}
@@ -320,6 +341,7 @@
                         @Suite 103
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         System Session 2: Wearables &amp; Monitoring
                     </h4>
                     {% include '_program_legend.html' %}
@@ -339,6 +361,7 @@
                         @Suite 104
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Human Factors Session 2: Self Management
                     </h4>
                     {% include '_program_legend.html' %}
@@ -358,6 +381,7 @@
                         @Suite 102
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Analytics Session 6: Event Prediction
                     </h4>
                     {% include '_program_legend.html' %}
@@ -377,6 +401,7 @@
                         @Suite 103
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Analytics Session 7: Visualization &amp; Explainable AI
                     </h4>
                     {% include '_program_legend.html' %}
@@ -396,6 +421,7 @@
                         @Suite 104
                     </div>
                     <h4>
+                        {% include '_program_cme_icon.html' %}
                         Human Factors Session 3: AI-based Applications
                     </h4>
                     {% include '_program_legend.html' %}
@@ -406,6 +432,23 @@
 
             </div>
 
+
+
+
+            <div class="session-details">
+                <div id="session-p-2" class="session-info">
+                    <div class="session-dur-loc">
+                        @Ballroom Lobby West and South
+                    </div>
+                    <h4>
+                        Poster &amp; Demo Session
+                    </h4>
+
+                    <p>
+                        Same schedule as the Poster and Demo Session on Sunday, June 12
+                    </p>
+                </div>
+            </div>
 
 
         </div>
