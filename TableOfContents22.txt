@@ -9,9 +9,9 @@ Analytics 1 - ML Methodology
 Analytics 2 - Imaging
 	AGMC-TU Pap-Smear Cytological Image Dataset: Creation, Annotation, and Analysis towards Early Detection of Cervical Cancer, Sourav Dey Roy, Priya Saha, Niharika Nath and Mrinal Kanti Bhowmik
 	Bayesian optimization-derived batch size and learning rate scheduling in deep neural network training for head and neck tumor segmentation, Zachariah Douglas and Haifeng Wang
-	Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy, Muhammad Zubair Khan
+	Deep Ensemble Network with Meta-Model Architecture to Early Detect the Vascular Damage Caused by Retinopathy, Muhammad Zubair Khan and Yugyung Lee
 	Eating detection with a head-mounted video camera, Shengjie Bi and David Kotz
-	Quantitative Analysis of Visual Movement Data from a Rehabilitation-based Mobile App, Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson
+	Visualization and Qualitative Analysis of Rehabilitation Exercises Based on a Mobile App, Oluwadamilola Arinde, Bhoomika Bhatia, Ziying Tang, Jinjuan Feng and Sonia Lawson
 
 
 Analytics 3 - PGHD and Text Analytics
@@ -25,12 +25,12 @@ Analytics 3 - PGHD and Text Analytics
 Analytics 4 - Healthcare Analytics
 	A Network-based Modeling Approach to Identify the Common Disease Classes in Patients with Late-stage Prostate Cancer, Ali Jazayeri, Michal Monselise, Niusha Jafari, Nikita Nikita, Christopher Yang and Lu-Yao Grace
 	Multi-modal Contrastive Learning for Healthcare Data Analytics, Rui Li and Jing Gao
-	Dynamic Network Connectivity Analysis for Understanding Attention Deficit Hyperactivity Disorder, Haifeng Wang
+	Dynamic Network Connectivity Analysis for Understanding Attention Deficit Hyperactivity Disorder, Harun Pirim, Miaolin Fan, and Haifeng Wang
 	Biventricular involvement in hypertrophic cardiomyopathy: Preliminary analysis of cardiac MRIs with visual Right Ventricular Hypertrophy, Devanshi Damani, Anoushka Kapoor, Priyadharshini Sivasubramaniam, Nasibeh Farahani, Moein Enayati, Jeffrey Geske, Michael Ackerman, Johan Bos, Kalyan Pasupathy, Philip A. Araoz, Shivaram Arunachalam and Adelaide Arruda-Olson
-	Identify Cancer Patients at  Similarity Estimation using Electronic Health Record and Genetic Data, Zehao Yu, Xi Yang, Yiqing Chen, Ruogu Fang, William R Hogan, Yan Gong and Yonghui Wu
+	Identify Cancer Patients at Risk for Heart Failure using Electronic Health Record and Genetic Data, Zehao Yu, Xi Yang, Yiqing Chen, Ruogu Fang, William R Hogan, Yan Gong and Yonghui Wu
 
 
-Analytics 5 - Prediction and Classifition
+Analytics 5 - Prediction and Classification
 	Cough Diary based on Sound Classification, Source Validation and Event Detection, Michal Muszynski, Jeffrey Okyere, Ruchi Mahindru and Thomas Brunschwiler
 	Reconstructing Missing EHRs Using Time-Aware Within- and Cross-Visit Information for Septic Shock Early Prediction, Ge Gao, Farzaneh Khoshnevisan and Min Chi
 	Classifying Drug Ratings Using User Reviews with Transformer-Based Language Models, Akhil Shiju and Zhe He
@@ -61,7 +61,7 @@ Systems 1 - Design & Development
 
 
 Systems 2 - Wearables & Monitoring
-	PAMS- A personalized automatic message systemfor user engagement with a digital diabetesprevention program, Danissa Rodriguez, Katharine Lawrence, Son Luu, Brian Chrin, Javier Gonzalez and Devin Mann
+	PAMS - A Personalized Automatic Messaging System for User Engagement with a Digital Diabetes Prevention Program, Danissa Rodriguez, Katharine Lawrence, Son Luu, Brian Chrin, Javier Gonzalez and Devin Mann
 	Predicting A User's Demographic Identity from Leaked Samples of Health-Tracking Wearables and Understanding Associated Risks, Sudip Vhaduri, Sayanton V Dibbo and Chih-You Chen
 	The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing, Chenhan Xu, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang and Wenyao Xu
 	Practicality of Automatic Monitoring Sufficient Fluid Intake for Older People, Rainer Lutze
@@ -76,23 +76,23 @@ Human Factors 1 - Human-centered Design
 Human Factors 2 - Self Management
 	A Qualitative Study of Family Caregivers' Technology Use in Alzheimer's Disease Care, Yun Qu, Othelia E. Lee and Albert Park
 	A Tale of Two Perspectives: Harvesting System Views and User Views to Understand Patient Portal Engagement, Jiawei Zhou, Rosa I. Arriaga, Hongfang Liu and Ming Huang
-	Patient Portal Uptake, Use, and Satisfaction among U.S. Adults in Late-stage COVID-19 Pandemic, Zainab A. Balogun and Tera L. Reynolds
+	Patient Portal Adoption, Use, and Satisfaction among U.S. Adults in Late-stage COVID-19 Pandemic, Zainab A. Balogun and Tera L. Reynolds
 	A Systematic Review of Healthcare Information Technology Anomaly Classification, Laura Pullum, Olufemi Omitaomu, Mohammed Olama, Addi Malviya Thakur, Ozgur Ozmen, Hilda Klasky, Teja Kuruganti, Merry Ward, Jeanie Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
 	Human-centered Design for a Chronic Disease Management System: An explorative case for Cystic Fibrosis, Maximilian Kurscheidt, Kirsten Schaffer, Patrick Slevin, Maximilian Westers, Yasmin Hollenbenders and Wendelin Schramm
 
 
 Human Factors 3 - AI-based Applications
 	A Novel IoT-based Framework for Non-Invasive Human Hygiene Monitoring using Machine Learning Techniques, Md Jobair Hossain Faruk, Shashank Trivedi, Mohammad Masum, Maria Valero, Hossain Shahriar and Sheikh Iqbal Ahamed
-	Oculo-Cognitive Addition Test: Quantifying Cognitive Performance Through Eye Movement Features, Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek
+	Oculo-Cognitive Addition Test: Quantifying Cognitive Performance During Variable Cognitive Workload Through Eye Movement Features, Gaurav Pradhan, Kate Hagen, Michael Cevette and Jan Stepanek
 	Designing AINA - Intercultural Human-Centered Design of an AI-based application for supporting the diagnosis of Female Genital Schistosomiasis, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Pauline Meurer, Elen Niedermeyer, Petrit Vidishiqi, Laura Pysz, Agnès Voisard, Hermann Feldmeier, Bodo Randrianasolo Sahondra, Oliva Rabozakandraina Tiana Onintsoa and Angela Schuster
-	Factors Facilitating the ACance of Diagnostic Robots in Healthcare: A Survey, Martin S. Laursen, Jannik S. Pedersen, Søren A. Just, Thiusius R. Savarimuthu, Brian Blomholt, Jakob K.H. Andersen and Pernille J. Vinholt
+	Factors Facilitating the Acceptance of Diagnostic Robots in Healthcare: A Survey, Martin S. Laursen, Jannik S. Pedersen, Søren A. Just, Thiusius R. Savarimuthu, Brian Blomholt, Jakob K.H. Andersen and Pernille J. Vinholt
 	The Impact of 3D Stereopsis and Hand-Tool Alignment on Effectiveness of a VR-based Simulator for Dental Training, Maximilian Kaluschke, Myat Su Yin, Peter Haddawy, Siriwan Suebnukarn and Gabriel Zachmann
 
 
 Industry
 	Entity Event Knowledge Graph for Powerful Health Informatics, Ravi Bajracharya, Richard Wallace, Jans Aasman and Parsa Mirhaji
 	LANN: an integrated online annotation tool for information extraction, Jingqi Wang, Yaoyun Zhang, Bin Lin, Huy Anh Pham, Long He, Jingcheng Du and Frank Manion
-	IMI-CDE: an interactive interface for collaborative mapping of study variables to common data elements, Shiqiang Tao, Wei-Chun Chou, Jianfu Li, Jingcheng Du, Pritham Ram, Rashmie Abeysinghe, Xiaoqian Jiang, Lucila Ohno-Machado, Hua Xu and Guo-Qiang Zhang
+	IMI-CDE: an interactive interface for collaborative mapping of study variables to common data elements, Shiqiang Tao, Wei-Chun Chou, Jianfu Li, Jingcheng Du, Pritham Ram, Rashmie Abeysinghe, Xiaoqian Jiang, Peter W Rose, Lucila Ohno-Machado, Hua Xu and Guo-Qiang Zhang
 
 
 Doctoral Consortium
@@ -100,39 +100,38 @@ Doctoral Consortium
 	AI for Social Good in Healthcare: Moving Towards a Clear Framework and Evaluating Applications, Michal Monselise and Christopher Yang
 	Identification and Prediction of Low-Birthweight Baby Outcomes and Mom Risk Factors, Yang Ren, Dezhi Wu and Ana Lopez-De Fede
 	Developing Natural Language Processing to Extract Complementary and Integrative Health Information from Electronic Health Record Data, Huixue Zhou
-	Building Physical Activity Ontology from Electronic Health Records, Zhongran Niu
-	Physical Activity Knowledge Representation in Electronic Health Records, Zhecheng Sheng
+	Physical Activity Knowledge Representation in Electronic Health Records, Zhongran Niu
+	NLP System for Mining Social Determinant of Health From Clinical Notes and its Fairness Evaluations, Zhecheng Sheng
 	Comprehension of Contextual Semantics Across Clinical Healthcare Domains, Kurt Miller
-	D-Dimer Elevation Matters to Predict COVID-19 Severity: A Machine Learning Approach, Yuqi Wu
-	Predict Pregnancy Outcomes in the COVID-19  Pandemic Using Electronic Health Records and  Machine Learning Approach, Tianchu Lyu
+	D-Dimer Elevation Matters to Predict COVID-19 Severity: A Machine Learning Approach, Yuqi Wu, Dezhi Wu, and Sudha Xirasagar
+	Predict Pregnancy Outcomes in the COVID-19 Pandemic Using Electronic Health Records and Machine Learning Approach, Tianchu Lyu and Chen Liang
 	Using a Social, Role-playing, Simulation-Game to Build Resilience in Adolescents, Abhishek Aggarwal
-	Health information delivery using audio, Arif Ahmed
+	Health information delivery using audio, Arif Ahmed and Gondy Leroy
 
 
 Poster and Demo
-	A Focused Caregiving App for Alzheimer's Patients, Nafees Qamar
-	A Novel Joint Longitudinal Model for Predicting Post-ICU Anemia, Gabriel Demuth and Curt Storlie
-	Annotations of virus data for knowledge enrichement, Patrizia Vizza, Giuseppe Tradigo, Pietro Hiram Guzzi, Mattia Prosperi, Carlo Torti and Pierangelo Veltri
+	A Mobile Application for Alzheimer's Patients, Nafees Qamar
+	A Novel Joint Longitudinal Model for Predicting Post-ICU Anemia, Gabriel Demuth and Curtis Storlie
+	Annotations of Virus Data for Knowledge Enrichment, Patrizia Vizza, Giuseppe Tradigo, Pietro Hiram Guzzi, Barbara Puccio, Mattia Prosperi, Carlo Torti and Pierangelo Veltri
 	Automated Cobb Angle Measurement in Adolescent Idiopathic Scoliosis: Validation of a Previously-Published Deep Learning Method, Shi Yan, Caroline Constant, Taghi Ramazanian, Hilal Maradit Kremers and A. Noellel Larson
 	Automated Detection of Type of Scoliosis Surgery from Operative Notes Using Natural Language Processing, Elham Sagheb, Hilal Maradit Kremers, Sunghwan Sohn, Taghi Ramazanian and Noelle Larson
 	Bayesian Change Point Detection for Mixed Data with Missing Values, Alexander Murph and Curtis Storlie
-	Decompensation Prediction for Hospitalized Patients, Meghna Singh, Jiacheng Liu, Lisa Kirkland and Jaideep Srivastava
+	Decompensation Prediction for Hospitalized COVID-19 Patients, Meghna Singh, Jiacheng Liu, Lisa Kirkland and Jaideep Srivastava
 	DeLaBE: A Deep Learning architecture for Bio-images enhancing, Patrizia Vizza, Mattia Cannistra, Giuseppe Tradigo, Pietro Hiram Guzzi, Giuseppe Lucio Cascini and Pierangelo Veltri
-	Digitalization of Checkboxes in Chronic Pelvic Pain Assessment Forms using Convolutional Neural Networks, Harrison Chase Gottlich, Atul Dhanorker, Isabel Green and Kalyan Pasupathy
-	Does comorbidity matrix provide similar amount of predictive information: Comparisons from Charlson, Elixauser, and Deep Learning, Prajwal Pradhan, Yue Liang, Pui Ying Yew, Matt Loth, Terrence Adam, Jennifer Robinson, Peter Tonellato and Chin-Lin Chi
-	EHR Usability from Nurses' Perspectives: A Systematic Review, Suhyun Park
-	Enabling Biomedical Semantic Knowledge Resource's Paths with the K-Ware Platform, Bruno Thiao-Layel, Vianney Jouhet and Gayo Diallo
+	Does comorbidity matrix provide similar amount of predictive information: Comparisons from Charlson and Elixhauser using Deep Learning, Prajwal Pradhan, Yue Liang, Pui Ying Yew, Matt Loth, Terrence Adam, Jennifer Robinson, Peter Tonellato and Chin-Lin Chi
+	Usability of Electronic Health Records from Nurses' Perspectives: A Systematic Review, Suhyun Park, Jenna Marquard, Robin Austin, David Pieczkiewicz, Connie Delaney
+	Enabling Biomedical Semantic Knowledge Resource's Paths with the K-Ware Platform, Bruno Thiao-Layel, Vianney Jouhet, Guillaume Blin and Gayo Diallo
 	Evaluation of Document-Level Identification of Pulmonary Nodules in Radiology Reports Using FLAIR Natural Language Processing Framework, Ray Qian, Sunyang Fu and Hongfang Liu
-	Evaluation of mCODE in EHR: a Scoping Review of Cancer Natural Language Processing, Liwei Wang and Hongfang Liu
+	Evaluation of mCODE Coverage in EHR: a Scoping Review of Cancer Natural Language Processing, Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L. Warner and Hongfang Liu
 	HaLowNet - A WiFi HaLow network-based information system for the provision of multi-sided applications for medical emergency scenarios, Justus Purat, Nicolas J. Lehmann, Muhammed-Ugur Karagülle and Agnès Voisard
-	Improving Covid-19 vaccine literacy among undergrad students in Burkina Faso, Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing
+	Improving Covid-19 vaccine literacy among undergraduate students in Burkina Faso, Gayo Diallo, Ismaïla Ouedraogo and Ghislain Atemezing
 	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Yichong Li and Guotong Xie
 	Internet of Healthcare Things (IoHT): Towards a Digital Chain of Custody, Lalitha Donga, Rajendra K. Raj and Sumita Mishra
-	Machine Learning for Predicting Cancer Severity Levels, Alex Qin, Md Rakibul Hasan, Khandaker Asif Ahmed and Md Zakir Hossain
+	Machine Learning for Predicting Cancer Severity, Alex Qin, Md Rakibul Hasan, Khandaker Asif Ahmed and Md Zakir Hossain
 	MedTator: A Serverless Web-based Tool for Corpus Annotation, Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu and Hongfang Liu
 	Mining Transportation Issues from Patient Portal Messages, Nan Wang, Ming Huang and Jungwei Fan
 	Mitigating Membership Inference in Deep Learning Applications with High Dimensional Genomic Data, Chonghao Zhang and Luca Bonomi
-	MTAP - A Distributed Framework for NLP Pipelines, Benjamin Knoll, Reed Mcewan, Raymond Finzel, Greg Silverman, Rui Zhang, Serguei Pakhomov and Genevieve Melton
+	MTAP - A Distributed Framework for NLP Pipelines, Benjamin Knoll, Reed McEwan, Raymond Finzel, Greg Silverman, Rui Zhang, Serguei Pakhomov and Genevieve Melton
 	Multi-perspective Characterization of Anaphylactic Risk for COVID-19 Vaccination - A Visual Analytic Approach, Yue Hao and Guoray Cai
 	On the identification of PoIs in glucosimeter data, Patrizia Vizza, Giuseppe Tradigo, Francesco Scala, Raffaele Giancotti, Pietro Hiram Guzzi, Concetta Irace, Sergio Flesca and Pierangelo Veltri
 	Predicting length of stay in hospitals, Ravi Rao
@@ -140,9 +139,9 @@ Poster and Demo
 	Racial Disparities in Alzheimer's Disease and Alzheimer's Disease-Related Dementias from the Disease Progression Perspective, Haozuo Zhao, Haitao Chu, Sicheng Zhou, Fang Yu, Xianghua Luo and Rui Zhang
 	Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare, Primoz Kocbek, Kasandra Musovic, Lucija Gosak, Nino Fijacko and Gregor Stiglic
 	Research Trends in Computational Psychometrics: Bibliometrics Study, Yildiz Esener
-	SurgeRate - An approach to the evaluation of the performance of veterinary surgeons, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Stefan Schmid, Agnès Voisard, Laura Rohwedder and Peter Böttcher
+	SurgeRate - An approach to the evaluation of the performance of veterinary surgeons, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Lea R. Muth, Stefan Schmid, Agnès Voisard, Laura Rohwedder and Peter Böttcher
 	Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs, Ozgur Ozmen, Hilda Klasky, Olufemi A. Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi T. Malviya, Merry Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
-	Visualizing the Interpretation of a Criterion-Driven System that Automatically Evaluates the Quality of Health News: An Exploratory Study of Two Approaches, Xiaoyu Liu and Susan Mcroy
+	Visualizing the Interpretation of a Criterion-Driven System that Automatically Evaluates the Quality of Health News: An Exploratory Study of Two Approaches, Xiaoyu Liu and Susan McRoy
 
 
 Tutorial 1 - Tutorial
@@ -160,12 +159,12 @@ Tutorial 3 - Tutorial
 Workshop 1 - The 1st International Workshop on Health Informatics Education (HI-Edu 2022)
 	Risks and Benefits of AI-generated Text Summarization for Expert Level Content in Graduate Health Informatics, Regina Merine and Saptarshi Purkayastha
 	From Undergraduate to Doctoral Health Informatics Training: A Data Focus, Janusz Wojtusiak and Hua Min
-	Think Outside of Box - Ten Commandments in Providing Optimal Health Informatics Education, Jay Patel, Huanmei Wu and Bari Dzomba
+	"Think Outside of Box" - Ten Commandments in Providing Optimal Health Informatics Education, Jay Patel, Huanmei Wu and Bari Dzomba
 	Evaluation of Participants' Reaction and Learning in a Taught Analytics and Modelling Academy Program in U.K.'s National Health Service, Daniel Gartner, Tracey England, Doris Behrens, Izabela Spernaes, Joanne Buchanan and Paul Harper
 
 
 Workshop 2 - The 5th International Workshop on Health Natural Language Processing (HealthNLP 2022)
-	Developing Pretrained Language Models for Turkish Biomedical Domain, Hazal Turkmen, Oguz Dikenelli, Cenk Eraslan, Mehmet Cem C¸ allı, Suha Sureyya Ozbek
+	Developing Pretrained Language Models for Turkish Biomedical Domain, Hazal Turkmen, Oguz Dikenelli, Cenk Eraslan, Mehmet Cem Çallı, Suha Sureyya Ozbek
 	Relevance of automated generated short summaries of scientific abstract: use case scenario in healthcare, Gregor Stiglic, Kasandra Musovic, Lucija Gosak, Nino Fijacko, Primoz Kocbek
 	Improving Sentence Classification in Abstracts of Randomized Controlled Trial using Prompt Learning, Yan Hu, Yong Chen, Hua Xu
 	Chemical-Protein Relation Extraction with Pre-trained Prompt Tuning, Jianping He, Fang Li, Xinyue Hu, Jianfu Li, Yi Nian, Jingqi Wang, Yang Xiang, Qiang Wei, Hua Xu, Cui Tao
@@ -178,17 +177,17 @@ Workshop 2 - The 5th International Workshop on Health Natural Language Processin
 
 Workshop 3 - The 2nd International Workshop on eXplainable Artificial Intelligence in Healthcare (XAI-Healthcare)
 	Characteristics of Symptom Tracking App Data and its Potential Use for XAI, Caitlin Duncan and Takayuki Nagai
-	Towards trustworthy AI in healthcare, Carson Leung
+	Towards Trustworthy Artificial Intelligence in Healthcare, Carson Leung, Evan W.R. Madil, Joglas Souz, and Christine Y. Zhan
 	Efficient Matching of Single Cells and Cell Types, Primož Godec, Blaz Zupan and Martin Stražar
-	Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs, Ozgur Ozmen, Hilda Klasky, Olufemi Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi Malviya Thakur, Mary Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
+	Use of Event-Time Embeddings via RNN to Discern Novel Event Sequences in EHRs, Ozgur Ozmen, Hilda Klasky, Olufemi Omitaomu, Mohammed Olama, Teja Kuruganti, Laura Pullum, Addi T. Malviya, Mary Ward, Jeanie M. Scott, Angela Laurio, Brian Sauer, Frank Drews and Jonathan Nebeker
 	Sanity Check for Shapley values-based explanations of Deep Neural Networks Predictions, Rosalia Tatano, Antonio Mastropietro, Enrico Busto and Francesco Vaccarino
 
 
-Workshop 4 - The 2nd Machine Learning in Healthcare Data for Precision Medicine
+Workshop 4 - The 2nd Machine Learning in Healthcare Data for Precision Medicine (MLHD)
 	An xAI Thick Data Assisted Caption Generation for Labeling Severity of Ulcerative Colitis Video Colonoscopy, Jinan Fiaidhi, Sabah Mohammed and Petros Zezos
 	Value-Based Healthcare Translational Data Analytics using the Problem Oriented Medical Record Graph Representation, Sabah Mohammed, Jinan Fiaidhi and Darien Sawyer
-	Improving Prediction and Risk Factor Analysis of Low Birthweight Baby Outcomes in a U.S. Hospital System, Yang Ren and Dezhi Wu
-	Using D-dimer as a Biomarker to Predict COVID-19 Disease Severity from Clinical Data of Hospitalized Patients: A Machine Learning Approach, Yuqi Wu and Dezhi Wu
+	Improving Prediction and Risk Factor Analysis of Low Birthweight Baby Outcomes in a U.S. Hospital System, Yang Ren, Dezhi Wu, Yan Tong, Ana Lopez-De Fede and Sarah Gareau
+	Using D-dimer as a Biomarker to Predict COVID-19 Disease Severity from Clinical Data of Hospitalized Patients: A Machine Learning Approach, Yuqi Wu, Yang Ren, Sudha Xirasagar, Joseph Johnson and Dezhi Wu
 	Acute Kidney Injury Prediction with Gradient Boosting Decision Trees enriched with Temporal Features, Stela Golovco, Matteo Mantovani, Carlo Combi and John Holmes
 
 
