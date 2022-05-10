@@ -166,6 +166,7 @@ Workshop 2 - The 5th International Workshop on Health Natural Language Processin
 	Improving Sentence Classification in Abstracts of Randomized Controlled Trial using Prompt Learning, Yan Hu, Yong Chen, Hua Xu
 	Chemical-Protein Relation Extraction with Pre-trained Prompt Tuning, Jianping He, Fang Li, Xinyue Hu, Jianfu Li, Yi Nian, Jingqi Wang, Yang Xiang, Qiang Wei, Hua Xu, Cui Tao
 	Annotating Music Therapy, Chiropractic and Aquatic Exercise Using Electronic Health Record, Huixue Zhou, Greg Silverman, Zhongran Niu, Jenzi Silverman, Roni Evans, Robin Austin, Rui Zhang
+	Integrating Medical Code Descriptions and Building Text Classification Models for Diagnostic Decision Support, Rui Tang, Zhaowei Zhu, Haishen Yao, Yanxuan Li, Xingzhi Sun, Gang Hu, Guotong Xie, Yichong Li
 	Canine parvovirus diagnosis classification utilizing veterinary free-text notes, Zhecheng Sheng, Jennifer Granick, Amanda Beaudoin, Emma Bollig, Rui Zhang
 	Terminology Expansion via Co-occurrence Analysis of Large Clinical Real-World Datasets, Markus Kreuzthaler, Bastian Pfeifer, Stefan Schulz
 	A Preliminary Study of Extracting Pulmonary Nodules and Nodule Characteristics from Radiology Reports Using Natural Language Processing, Shuang Yang, Xi Yang, Tianchen Lyu, Xing He, Dejana Braithwaite, Hiren J. Mehta, Yi Guo, Yonghui Wu, Jiang Bian
