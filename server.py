@@ -94,6 +94,11 @@ def cme():
     return render_template('cme.html')
 
 
+@app.route("/presenter_guidelines.html")
+def presenter_guidelines():
+    return render_template('presenter_guidelines.html')
+
+
 @app.route("/program.html")
 def program():
     # get the details of sessions
