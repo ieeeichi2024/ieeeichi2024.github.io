@@ -136,7 +136,6 @@ Poster and Demo
 	Machine Learning Models To Predict Length Of Stay In Hospitals, Raunak Jain, Mrityunjai Singh, A. Ravishankar Rao, and Rahul Garg
 	A Deep Learning Based Predictive Model for Healthcare Analytics, Nguyen Duy Thong Tran, Carson Leung, Evan W.R. Madil and Phan Thai Bin
 	Racial Disparities in Alzheimer's Disease and Alzheimer's Disease-Related Dementias from the Disease Progression Perspective, Haozuo Zhao, Haitao Chu, Sicheng Zhou, Fang Yu, Xianghua Luo and Rui Zhang
-	Research Trends in Computational Psychometrics: Bibliometrics Study, Yildiz Esener
 	SurgeRate - An approach to the evaluation of the performance of veterinary surgeons, Nicolas J. Lehmann, Muhammed-Ugur Karagülle, Lea R. Muth, Stefan Schmid, Agnès Voisard, Laura Rohwedder and Peter Böttcher
 	Visualizing the Interpretation of a Criterion-Driven System that Automatically Evaluates the Quality of Health News: An Exploratory Study of Two Approaches, Xiaoyu Liu and Susan McRoy
 
