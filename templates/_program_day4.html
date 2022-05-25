@@ -36,7 +36,18 @@
     <td colspan="3" class="td-slot">
         <div onclick="show_session_info('k-4')" class="slot slot-large slot-session slot-session-k">
             {% include '_program_cme_icon.html' %}
-            Track Keynote + Panel
+            <span class="txt-sm">Keynote</span> 
+            <span>Toward a Learning Health System: Enabling the National Knowledge Ecosystem at Scale</span>
+            <br>
+            <span>
+                Dr. Blackford Middleton
+            </span>
+            <br>
+            <span class="txt-sm">Panel:</span>
+            <span>
+                Bridging the gaps between academia and industry for health informatics
+            </span>
+            (9:30 - 10:00)
             <br>
             @Ballroom
         </div>
@@ -131,18 +142,37 @@
             <div class="session-details">
                 <div id="session-k-4" class="session-info">
                     <div class="session-dur-loc">
-                        8:30 - 10:00 AM 
+                        8:30 - 9:30 AM 
                         @Ballroom
                     </div>
                     <h4>
                         {% include '_program_cme_icon.html' %}
-                        Track Keynote
+                        Keynote: Toward a Learning Health System: Enabling the National Knowledge Ecosystem at Scale
+                        <br>
+                        <a href="./keynotes.html#blackford_middleton">
+                            Dr. Blackford Middleton
+                        </a>
                     </h4>
+                    <p>
+                        <img class="keynote_img" 
+                            style="width: 200px; max-width: 40%;"
+                            src="./static/image/keynote_blackford_middleton.jpg" 
+                            alt="Dr. Blackford Middleton">
+                            
+                        Abstract:
+                    </p>
 
                     
-
+                    <div class="session-dur-loc">
+                        9:30 - 10:00 AM 
+                        @Ballroom
+                    </div>
+                    <h4>
+                        {% include '_program_cme_icon.html' %}
+                        Panel: Bridging the gaps between academia and industry for health informatics
+                    </h4>
                     <p>
-                        TBD
+                        Dr. Blackford Middleton, Dr. Andrew Nguyen, Dr. Prasanna Desikan, Dr. Xia Hu
                     </p>
                 </div>
 
@@ -160,9 +190,10 @@
                         Industry Session
                     </h4>
 
-                    <p>
-                        TBD
-                    </p>
+                    {% include '_program_legend.html' %}
+                    {% for p in session_dict['i-1'] %}
+                        {% include '_program_session_paper.html' %}
+                    {% endfor %}
                 </div>
 
             </div>
@@ -179,7 +210,7 @@
                     </h4>
 
                     <p>
-                        TBD
+                        
                     </p>
                 </div>
 
