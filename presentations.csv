@@ -26,7 +26,7 @@ Fateme Akbari and Kamran Sartipi,A Transformer-based Model for Older Adult Behav
 "Michal Muszynski, Jeffrey Okyere, Ruchi Mahindru and Thomas Brunschwiler","Cough Diary based on Sound Classification, Source Validation and Event Detection",Prediction and Classification,a-5,25,
 "Ge Gao, Farzaneh Khoshnevisan and Min Chi",Reconstructing Missing EHRs Using Time-Aware Within- and Cross-Visit Information for Septic Shock Early Prediction,Prediction and Classification,a-5,25,
 Akhil Shiju and Zhe He,Classifying Drug Ratings Using User Reviews with Transformer-Based Language Models,Prediction and Classification,a-5,15,
-Kanika Sood and Prathyusha Gundlapally,Risk-Based Breast Cancer Prognosis Using Minimal Patient Characteristics,Prediction and Classification,a-5,15,
+Kanika Sood and Prathyusha Gundlapally,Risk-Based Breast Cancer Prognosis Using Minimal Patient Characteristics,Prediction and Classification,a-5,15,Virtual
 "Sagnik Dakshit, Barbara Mukami Maweu, Sristi Dakshit and Balakrishnan Prabhakaran",Core-set Selection Using Metrics-based Explantations (CSUME) for multiclass ECG,Visualization & Explainable AI,a-7,25,
 "Florian Vögtle, Peter Haddawy, Myat Su Yin, Thomas Barkowsky, Dominique Bicout, Mores Prachyabrued and Saranath Lawpoolsri",A Collaborative Platform Supporting Distributed Teams in Visualization and Analysis of Infectious Disease Data,Visualization & Explainable AI,a-7,15,
 "Amila Kugic, Leon Potjan, Larissa Marije Hammer, Stefan Schulz and Markus Kreuzthaler",Alcohol Status Standardization from Clinical Real World Data with Transformer Architectures,Visualization & Explainable AI,a-7,15,
@@ -50,7 +50,7 @@ Zainab A. Balogun and Tera L. Reynolds,"Patient Portal Adoption, Use, and Satisf
 "Miguel Gervilla, Flavien Lecuyer, Thomas Lehoux, Julien Anthouard, Luisa Weiner, Christelle Porche and Antonio Capobianco",Design of a Virtual Cocaine Consumption Scenario for Craving Study,Design & Development,s-1,25,
 Khaled Ahmed and Mohamed Hassan,tinyCare: A tinyML-based Low-Cost Continuous Blood Pressure Estimation on the Extreme Edge,Design & Development,s-1,25,Virtual
 "Ahmad Ayad, Marian Frei and Anke Schmeink",Efficient and Private ECG Classification on the Edge Using a Modified Split Learning Mechanism,Design & Development,s-1,15,
-"Kimia Hemmatirad, Morteza Babaei, Mehdi Afshari, Danial Maleki, Mahjabin Sajadi and Hamid Tizhoosh",Quality Control of Whole Slide Images using the YOLO Concept,Design & Development,s-1,15,
+"Kimia Hemmatirad, Morteza Babaei, Mehdi Afshari, Danial Maleki, Mahjabin Sajadi and Hamid Tizhoosh",Quality Control of Whole Slide Images using the YOLO Concept,Design & Development,s-1,15,Virtual
 "Song Wang, Mingquan Lin, Ying Ding, George Shih, Zhiyong Lu and Yifan Peng",Radiology Text Analysis System (RadText): Architecture and Evaluation,Designs & Development,s-1,15,
 "Danissa Rodriguez, Katharine Lawrence, Son Luu, Brian Chrin, Javier Gonzalez and Devin Mann",PAMS - A Personalized Automatic Messaging System for User Engagement with a Digital Diabetes Prevention Program,Wearables & Monitoring,s-2,25,
 "Sudip Vhaduri, Sayanton V Dibbo and Chih-You Chen",Predicting A User's Demographic Identity from Leaked Samples of Health-Tracking Wearables and Understanding Associated Risks,Wearables & Monitoring,s-2,25,Virtual
