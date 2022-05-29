@@ -20,7 +20,9 @@
     </td>
     <td colspan="3" class="td-slot">
         <div class="slot slot-break">
-            Registration
+            Registration @Ballroom 1
+            <br>
+            Breakfast @Ballroom 3
         </div>
     </td>
 </tr>
@@ -49,7 +51,7 @@
             </span>
             (9:30 - 10:00)
             <br>
-            @Ballroom
+            @Ballroom 2
         </div>
     </td>
 </tr>
@@ -62,7 +64,7 @@
     <td colspan="3" class="td-slot">
         <div class="slot slot-break">
             <i class="fas fa-coffee"></i>
-            Coffee Break
+            Coffee Break @Ballroom 1
         </div>
     </td>
 </tr>
@@ -80,10 +82,9 @@
             {% include '_program_cme_icon.html' %}
             <span>
                 Industry Session
-
             </span>
             <br>
-            <span class="session-loc">@Ballroom</span>
+            <span class="session-loc">@Ballroom 2</span>
         </div>
     </td>
 </tr>
@@ -108,7 +109,21 @@
         <div class="slot slot-large slot-session slot-session-k">
             Close Session
             <br>
-            <span class="session-loc">@Ballroom</span>
+            <span class="session-loc">@Ballroom 2</span>
+        </div>
+    </td>
+</tr>
+
+<tr>
+    <td class="td-time">
+        <div class="time time-bottom time-bottom-down">
+            &nbsp;
+        </div>
+    </td>
+    <td colspan="3" class="td-slot">
+        <div class="slot slot-break">
+            <i class="fas fa-utensils"></i> 
+            To-go Lunch @Ballroom 3
         </div>
     </td>
 </tr>
@@ -143,7 +158,7 @@
                 <div id="session-k-4" class="session-info">
                     <div class="session-dur-loc">
                         8:30 - 9:30 AM 
-                        @Ballroom
+                        @Ballroom 2
                     </div>
                     <h4>
                         {% include '_program_cme_icon.html' %}
@@ -162,10 +177,11 @@
                         Abstract: In this talk, Dr. Middleton will highlight the essential informatics building blocks of an enabled Learning Health System, and key AI-driven components. He will talk first about modern clinical information needs, his early experiences building CDS tools in EHR, the central problem of knowledge exchange between EHRs, and the concerns regarding evaluation of a man-machine (AI)-patient triad in decision making going forward. If a shared vision is adopted across industry and academe, and enabled, he will describe one possible result: a National Knowledge Ecosystem to support a LHS.
                     </p>
 
+                    <hr>
                     
                     <div class="session-dur-loc">
                         9:30 - 10:00 AM 
-                        @Ballroom
+                        @Ballroom 2
                     </div>
                     <h4>
                         {% include '_program_cme_icon.html' %}
@@ -183,12 +199,16 @@
                 <div id="session-i-1" class="session-info">
                     <div class="session-dur-loc">
                         10:30 AM - 12:00 PM 
-                        @Ballroom
+                        @Ballroom 2
                     </div>
                     <h4>
                         {% include '_program_cme_icon.html' %}
                         Industry Session
                     </h4>
+
+                    <p class="txt-session-chair">
+                        Session Chair: 
+                    </p>
 
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['i-1'] %}
@@ -203,7 +223,7 @@
                 <div id="session-k-5" class="session-info">
                     <div class="session-dur-loc">
                         12:00 - 12:30 PM 
-                        @Ballroom
+                        @Ballroom 2
                     </div>
                     <h4>
                         Close Session
