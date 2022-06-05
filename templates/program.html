@@ -253,6 +253,10 @@ Program
     font-style: italic;
 }
 
+.ichi-presenter {
+    font-weight: bold;
+}
+
 .session-details {
     padding-bottom: 1em;
     margin-bottom: 1em;
@@ -263,7 +267,11 @@ Program
     padding-top: 0;
     padding-bottom: 1em;
 }
-
+.program-day-h3 {
+    border-top: 1px solid skyblue;
+    border-left: 5px solid skyblue;
+    padding: 0.5em 1em;
+}
 .p-title {
     font-weight: bold;
 }
@@ -340,6 +348,17 @@ Program
 
             {% include '_program_day4.html' %}
 
+            <h3>
+                Program Details
+            </h3>
+
+            {% include '_program_day1_detail.html' %}
+
+            {% include '_program_day2_detail.html' %}
+
+            {% include '_program_day3_detail.html' %}
+
+            {% include '_program_day4_detail.html' %}
 
             </div>
         </div>
