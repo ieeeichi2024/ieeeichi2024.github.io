@@ -3,7 +3,8 @@
 </h2>
 {% if show_calendar %}
 
-<table class="program-table">
+<table id="program_table_day_2"
+    class="program-table">
 <tr>
     <th width="70px">&nbsp;</th>
     <th>&nbsp;</th>
@@ -334,13 +335,13 @@
                         </span>
                         Analytics Session 1: ML Methodology
                     </h4>
-
+<!-- 
                     <p class="txt-session-chair">
                         Session Chair: Ilan Shomorony
-                    </p>
+                    </p> -->
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['a-1'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                     
                 </div>
@@ -361,14 +362,14 @@
                         </span>
                         Analytics Session 2: Imaging
                     </h4>
-
+<!-- 
                     <p class="txt-session-chair">
                         Session Chair: Minh N. Do
-                    </p>
+                    </p> -->
                     
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['a-2'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                 </div>
 
@@ -390,12 +391,12 @@
                     </h4>
                     
 
-                    <p class="txt-session-chair">
+                    <!-- <p class="txt-session-chair">
                         Session Chair: 
-                    </p>
+                    </p> -->
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['a-3'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                 </div>
 
@@ -446,13 +447,13 @@
                         Analytics Session 4: Healthcare Analytics
                     </h4>
 
-                    <p class="txt-session-chair">
+                    <!-- <p class="txt-session-chair">
                         Session Chair: 
-                    </p>
+                    </p> -->
 
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['a-4'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                 </div>
 
@@ -471,12 +472,12 @@
                         </span>
                         System Session 1: Design and Development
                     </h4>
-                    <p class="txt-session-chair">
+                    <!-- <p class="txt-session-chair">
                         Session Chair: Kalyan Pasupathy
-                    </p>
+                    </p> -->
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['s-1'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                 </div>
 
@@ -496,12 +497,10 @@
                         Human Factors Session 1: Human-centered Design
                     </h4>
 
-                    <p class="txt-session-chair">
-                        Session Chair: Huan He
-                    </p>
+ 
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['h-1'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_presenter.html' %}
                     {% endfor %}
                 </div>
 

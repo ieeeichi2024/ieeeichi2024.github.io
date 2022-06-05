@@ -2,7 +2,8 @@
     Tuesday, June 14
 </h2>
 {% if show_calendar %}
-<table class="program-table mb-4">
+<table id="program_table_day_4"
+    class="program-table mb-4">
 <tr>
     <th width="70px">&nbsp;</th>
     <th>&nbsp;</th>
@@ -206,13 +207,11 @@
                         Industry Session
                     </h4>
 
-                    <p class="txt-session-chair">
-                        Session Chair: 
-                    </p>
+                    
 
                     {% include '_program_legend.html' %}
                     {% for p in session_dict['i-1'] %}
-                        {% include '_program_session_paper.html' %}
+                        {% include '_program_session_paper_authors.html' %}
                     {% endfor %}
                 </div>
 
