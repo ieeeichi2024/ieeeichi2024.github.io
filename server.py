@@ -2,6 +2,7 @@ import sys
 from flask import Flask
 from flask import render_template
 from flask_frozen import Freezer
+from requests import session
 
 FREEZER_DESTINATION = 'docs'
 URL_EASYCHAIR_SUBMISSION = 'https://easychair.org/conferences/?conf=ieeeichi2022'
@@ -23,6 +24,13 @@ session_list = [
     'p-1', 'p-2',        # poster
 ]
 
+session_codename = {
+    'k': 'Keynote',
+    'a': 'Analytics Track Session',
+    's': 'Systems Track Session',
+    'h': 'Human Factors Track Session',
+    'i': 'Industry Track Session'
+}
 
 @app.route("/")
 def index():
@@ -97,6 +105,39 @@ def cme():
 @app.route("/presenter_guidelines.html")
 def presenter_guidelines():
     return render_template('presenter_guidelines.html')
+
+
+@app.route('/conference_materials.html')
+def conference_materials():
+    return render_template('conference_materials.html')
+
+
+@app.route('/program_cmeeform.html')
+def program_cmeeform():
+    # get the details of sessions
+    session_dict = get_session_dict()
+
+    dates = [
+        'Sunday, June 12',
+        'Monday, June 13',
+        'Tuesday, June 14'
+    ]
+    ss = [
+        ['k-1', 'a-1', 'a-2', 'a-3', 'k-2', 'a-4', 's-1', 'h-1'],
+        ['k-3', 'a-5', 's-2', 'h-2', 'a-6', 'a-7', 'h-3'],
+        ['k-4', 'i-1']
+    ]
+
+    ds = list(zip(dates, ss))
+
+    return render_template(
+        'program_cmeeform.html',
+        ds=ds,
+        show_calendar=True,
+        show_details=False,
+        session_dict=session_dict,
+        session_codename=session_codename
+    )
 
 
 @app.route("/program.html")
