@@ -140,6 +140,34 @@ def program_cmeeform():
     )
 
 
+@app.route('/program_sessionchair.html')
+def program_sessionchair():
+    # get the details of sessions
+    session_dict = get_session_dict()
+
+    dates = [
+        'Sunday, June 12',
+        'Monday, June 13',
+        'Tuesday, June 14'
+    ]
+    ss = [
+        ['a-1', 'a-2', 'a-3', 'a-4', 's-1', 'h-1'],
+        ['a-5', 's-2', 'h-2', 'a-6', 'a-7', 'h-3'],
+        ['i-1']
+    ]
+
+    ds = list(zip(dates, ss))
+
+    return render_template(
+        'program_sessionchair.html',
+        ds=ds,
+        show_calendar=True,
+        show_details=False,
+        session_dict=session_dict,
+        session_codename=session_codename
+    )
+
+
 @app.route("/program.html")
 def program():
     # get the details of sessions
