@@ -204,6 +204,11 @@ def keynotes():
     return render_template('keynotes.html')
 
 
+@app.route("/awards.html")
+def awards():
+    return render_template('awards.html')
+
+
 @app.route("/committees.html")
 def committees():
     return render_template('committees.html')
