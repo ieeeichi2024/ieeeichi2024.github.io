@@ -76,6 +76,14 @@ def call_for_industry_track():
 def call_for_tutorials():
     return render_template('call_for_tutorials.html')
 
+@app.route("/program_committees.html")
+def call_for_program_committees():
+    return render_template('program_committees.html')
+
+@app.route("/camera_ready.html")
+def call_for_camera_ready():
+    return render_template('camera_ready.html')
+
 
 @app.route("/attending.html")
 def attending():
