@@ -41,6 +41,9 @@ def index():
 def call_for_sponsors():
     return render_template('call_for_sponsors.html')
 
+@app.route("/pc_acknowledge.html")
+def call_for_pc_acknowledge():
+    return render_template('pc_acknowledge.html')
 
 @app.route("/call_for_contributions.html")
 def call_for_contributions():
