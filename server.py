@@ -14,7 +14,7 @@ freezer = Freezer(app)
 # predefined session abbr
 session_list = [
     'k-1', 'k-2', 'k-3', 'k-4'  # keynote
-    'a-1', 'a-2', 'a-3', 'a-4', 'a-5', 'a-6', 'a-7', # analytics
+    'a-1', 'a-2', 'a-3', 'a-4', 'a-5', 'a-6', 'a-7', 'a-8', # analytics
     'h-1', 'h-2', 'h-3', # human factor
     's-1', 's-2', 's-3', # system
     'w-1', 'w-2', 'w-3', 'w-4',     # workshop
