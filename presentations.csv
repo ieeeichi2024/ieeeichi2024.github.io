@@ -6,9 +6,9 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Sagnik Dakshit and Balakrishnan Prabhakaran",Twelve Lead Double Stacked Generalization for ECG Classification,Spatio-Temporal,a-6,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 285,Sagnik Dakshit,BSP,,A6_Yumna_Anwar.pdf
 
 
-"Fatemeh Navazi, Yufei Yuan and Norm Archer",A hybrid machine learning-based algorithm for evidence-based Covid-19 control policy making,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Fatemeh Navazi,,,
+"Fatemeh Navazi, Yufei Yuan and Norm Archer",A hybrid machine learning-based algorithm for evidence-based Covid-19 control policy making,COVID Related,a-40,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Fatemeh Navazi,,,
 "Yuelyu Ji, Yuhe Gao, Runxue Bao, Qi Li, Disheng Liu, Yiming Sun and Ye Ye",Prediction of COVID-19 Patients’ Emergency Room Revisit using Multi-Source Transfer Learning,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Yuelyu Ji,,,
-"Minhaz Mahmud, Md Rakibul Hasan, Reabal Najjar and Md Zakir Hossain",Which Features Are Useful in Machine Learning-Based COVID-19 Prognostication? A Meta-Analysis,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Minhaz Mahmud,,,
+"Minhaz Mahmud, Md Rakibul Hasan, Reabal Najjar and Md Zakir Hossain",Which Features Are Useful in Machine Learning-Based COVID-19 Prognostication? A Meta-Analysis,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Md Zakir Hossain,,,
 "Mirna Elizondo, Rasim Musal, June Yu and Jelena Tesic",Long COVID Challenge: Predictive Modeling of Noisy Clinical Tabular Data,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Mirna Elizondo,,,
 "Degan Hao and Mohammadreza Negahdar",Predicting Outcomes in Long COVID Patients with Spatiotemporal Attention,COVID Related,a-4,15,,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Degan Hao,,,
 
@@ -26,7 +26,7 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Haoyu Yang, Roshan Tourani, Jia Li, Pedro Caraballo, Michael Steinbach, Vipin Kumar and Gyorgy Simon",Causal Structure Learning from Imperfect Longitudinal Data in Healthcare,Analytics,a-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Haoyu Yang,BP,,
 "Steven Mertens and Frederik Gailly",Supporting Physicians Through Prescriptive Process Monitoring,Analytics,a-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Steven Mertens,BP,,
 "Matteo Mantovani, Andrea Caravati, Giuseppe Pozzi, Carlo Combi and Roberto Salvia",A BPMN-based Framework to Manage Enhanced Recovery After Surgery (ERAS) Pathway for Patients Undergoing Pancreatic Surgery,Analytics,a-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Matteo Mantovani,BP,,
-"Lin Li, Mimi Liu, Cong Lai, Weidong Ji, Kewei Xu and Yi Zhou",Analysis of residual stones in patients and related influencing factors after percutaneous nephrolithotomy: a retrospective study,Analytics,a-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Lin Li,BP,,
+"Lin Li, Mimi Liu, Cong Lai, Weidong Ji, Kewei Xu and Yi Zhou",Analysis of residual stones in patients and related influencing factors after percutaneous nephrolithotomy: a retrospective study,Analytics,a-11,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Lin Li,BP,,
 "Michal Monselise and Christopher Yang",Leveraging Social Support Types and Link Prediction for User Recommendation for Online Health Community in Pregnancy After Loss,Analytics,a-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 282,Michal Monselise,BP,,
 
 
@@ -36,21 +36,22 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Tingyi Wanyan, Mingquan Lin, Ying Ding, Benjamin S Glicksberg, Fei Wang and Yifan Peng",Optimizing Embedding Space with Sub-categorical Supervised Pre-training: A Theoretical Approach Towards Improving Sepsis Prediction,Representations,a-3,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 282,Tingyi Wanyan,,A3_Noushin Salek Faramarzi_20.mp4,
 "Shayan Fazeli, Alireza Samiei, Thomas Lee and Majid Sarrafzadeh",Beyond Labels: Visual Representations for Bone Marrow Cell Morphology Recognition,Representations,a-3,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 282,Shayan Fazeli,,A3_Noushin Salek Faramarzi_20.mp4,
 "Evilasio Costa Junior, Rossana Andrade and Leonardo Sampaio",Classification Graph to the Internet of Health Things Applications,Representations,a-3,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 282,Evilasio Costa Junior,,A3_Noushin Salek Faramarzi_20.mp4,
-"Chen Lin, Jianghong Zhou, Jing Zhang, Carl Yang and Eugene Agichtein",Graph Neural Network Modeling of Web Search Activity for Real-time Pandemic Forecasting,Representations,a-3,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 282,Chen Lin,,A3_Noushin Salek Faramarzi_20.mp4,
 
+
+"Chen Lin, Jianghong Zhou, Jing Zhang, Carl Yang and Eugene Agichtein",Graph Neural Network Modeling of Web Search Activity for Real-time Pandemic Forecasting,Representations,r-3,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 282,Chen Lin,,R3_Noushin Salek Faramarzi_20.mp4,
 
 
 
 "Chia-Hsuan Chang, Fang-Yu Chang and San-Yih Hwang","Prompting for Few-shot Adverse Drug Reaction Recognition from Online Reviews",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Chia-Hsuan Chang,,,A5_Jeffrey_Okyere.pdf
-"Yang Ren, Dezhi Wu, Aditya Khurana, George Mastorakos, Sunyang Fu, Nansu Zong, Hongfang Liu and Ming Huang","Classification of Patient Portal Messages with BERT-based Language Models",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Yang Ren,,,A5_Jeffrey_Okyere.pdf
+"Yang Ren, Dezhi Wu, Aditya Khurana, George Mastorakos, Sunyang Fu, Nansu Zong, Hongfang Liu and Ming Huang","Classification of Patient Portal Messages with BERT-based Language Models",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Ming Huang,,,A5_Jeffrey_Okyere.pdf
 "Kurt Miller, Bhavani Singh Agnikula Kshatriya, Nicolas Nunez, Manuel Gardea-Resendez, Euijung Ryu, Brandon Coombes, Sunyang Fu, Mark Frye, Joanna Biernacka, Ming Huang and Yanshan Wang","Identifying Major Depressive Disorder From Clinical Notes Using Neural Language Models with Distant Supervision",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Kurt Miller,,,A5_Jeffrey_Okyere.pdf
 "Ziyi Chen, Ren Yang, Sunyang Fu, Nansu Zong, Hongfang Liu and Ming Huang","Detecting Reddit Users with Depression Using A Hybrid Neural Network SBERT-CNN",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Ming Huang,,,A5_Jeffrey_Okyere.pdf
 "Yao-Shun Chuang, Chun-Teh Lee, Oluwabunmi Tokede, Ryan Brandon, Trung Duong Tran, Xiaoqian Jiang and Muhammad F. Walji","Extracting periodontitis diagnosis in clinical notes with RoBERTa and regular expression",NLP,a-5,15,,"Thursday, June 28",1:00 PM - 2:30 PM,BRC 284,Yao-Shun Chuang,,,A5_Jeffrey_Okyere.pdf
 
 
-"Nickolas Littlefield, Hamidreza Moradi, Soheyla Amirian, Hilal Maradit Kremers, Johannes F. Plate and Ahmad P. Tafti",Enforcing Explainable Deep Few-Shot Learning to Analyze Plain Knee Radiographs: Data from the Osteoarthritis Initiative,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Nickolas Littlefield,,,A7_Sagnik_Dakshit.pdf
+"Nickolas Littlefield, Hamidreza Moradi, Soheyla Amirian, Hilal Maradit Kremers, Johannes F. Plate and Ahmad P. Tafti",Enforcing Explainable Deep Few-Shot Learning to Analyze Plain Knee Radiographs: Data from the Osteoarthritis Initiative,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Ahmad P. Tafti,,,A7_Sagnik_Dakshit.pdf
 "Inyoung Jun, Sarah Ser, Jie Xu, Jiang Bian and Mattia Prosperi",Quantification of racial disparity on urinary tract infection recurrence and treatment resistance in Florida using algorithmic fairness methods,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Inyoung Jun,,,A7_Sagnik_Dakshit.pdf
-"Ruixiang Tang, Sirui Ding, Shenghan Zhang, Haoxuan Li, Laila Rasmy, Degui Zhi, Na Zou and Xia Hu",PheME: A deep ensemble framework for improving phenotype prediction from multi-modal data,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Ruixiang Tang,,,A7_Sagnik_Dakshit.pdf
+"Ruixiang Tang, Sirui Ding, Shenghan Zhang, Haoxuan Li, Laila Rasmy, Degui Zhi, Na Zou and Xia Hu",PheME: A deep ensemble framework for improving phenotype prediction from multi-modal data,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Xia Hu,,,A7_Sagnik_Dakshit.pdf
 "Niki Efthymiou, George Retsinas, Panagiotis Filntisis, Christos Garoufis, Athanasia Zlatintsi, Emmanouil Kalisperakis, Vasiliki Garyfalli, Thomas Karantinos, Marina Lazaridi, Nikolaos Smyrnis and Petros Maragos",FROM DIGITAL PHENOTYPE IDENTIFICATIONTO DETECTION OF PSYCHOTIC RELAPSES,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Niki Efthymiou,,,A7_Sagnik_Dakshit.pdf
 "Maira Beatriz Hernandez Moran, Larissa Aparecida Vaz Oliveira, Marcelo Faria, Luciana Bastos, Gilson Giraldi, José Firmino Nogueira Neto and Aura Conci",A Lightweight Segmentation Method for Mandibular Canal Based on Arch Shape and Hough Transform,Phenotyping & Fairness and Explainability,a-7,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Maira Beatriz Hernandez Moran,,,A7_Sagnik_Dakshit.pdf
 
@@ -58,7 +59,7 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Yaohua Wang, Lisanne Van Dijk, Abdallah S. R. Mohamed, Mohamed Naser, Clifton David Fuller, Xinhua Zhang, G. Elisabeta Marai and Guadalupe Canahuate",Improving prediction of late symptoms using LSTM and patient-reported outcomes for head and neck cancer patients,Deep Learning (2),a-8,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Yaohua Wang,,,A7_Sagnik_Dakshit.pdf
 "Pouneh Abbasian and Tracy Hammond",Early Diagnosis of Mild Cognitive Impairment Using Deep Neural Network with and without Multi-input Analysis,Deep Learning (2),a-8,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Pouneh Abbasian,,,A7_Sagnik_Dakshit.pdf
 "Julie Jiang, Kristina Lerman and Emilio Ferrara",Zero-Shot Meta-Learning for Small-Scale Data From Human Subjects,Deep Learning (2),a-8,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Julie Jiang,,,A7_Sagnik_Dakshit.pdf
-"Arthur Ricardo Sousa Vitoria, Adriel Lennner Vinhal Mori, Diogo Fernandes Costa Silva, Daniel do Prado Pagotto, Clarimar José Coelho and Arlindo Rodrigues Galvão Filho",Live births forecasting across health regions of Goiás using artificial neural networks: a clustering approach,Deep Learning (2),a-8,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Arthur Ricardo Sousa Vitoria,,,A7_Sagnik_Dakshit.pdf
+"Arthur Ricardo Sousa Vitoria, Adriel Lennner Vinhal Mori, Diogo Fernandes Costa Silva, Daniel do Prado Pagotto, Clarimar José Coelho and Arlindo Rodrigues Galvão Filho",Live births forecasting across health regions of Goiás using artificial neural networks: a clustering approach,Deep Learning (2),a-80,15,,"Thursday, June 28",3:00 PM - 4:30 PM,BRC 282,Arthur Ricardo Sousa Vitoria,,,A7_Sagnik_Dakshit.pdf
 
 
 ,,,,,,,,,,,,
@@ -69,10 +70,10 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Maximilian Kaluschke, Myat Su Yin, Peter Haddawy, Siriwan Suebnukarn and Gabriel Zachmann",The Impact of 3D Stereopsis and Hand-Tool Alignment on Effectiveness of a VR-based Simulator for Dental Training,AI-based Applications,h-3,15,,"Monday, June 13",1:00 PM - 2:30 PM,Suite 111,Peter Haddawy,,,
 
 
-"Hamid Mansoor, Walter Gerych, Abdulaziz Alajaji, Luke Buquicchio, Kavin Chandrasekaran, Emmanuel Agu and Elke Rundensteiner",Population-Level Visual Analytics of Smartphone Sensed Health and Wellness Using Community Phenotypes,Self Management,h-2,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Hamid Mansoor,,H2_Yun Qu_20min.mp4,
 "Riyad Bin Rafiq, Syed Araib Karim and Mark V. Albert",An LSTM-based Gesture-to-Speech Recognition System,Self Management,h-2,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Riyad Bin Rafiq,,H2_Yun Qu_20min.mp4,
 "Xing Chen, Yegin Genc and Zhan Zhang",Social Contextualization of Datasets for Mental Health AI: a Review of Gender-linked Sociotechnical Misalignments,Self Management,h-2,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Xing Chen,,H2_Yun Qu_20min.mp4,
 "Yan Jia, John McDermid, Nathan Hughes, Mark Sujan, Tom Lawton and Ibrahim Habli",The need for the human-centred explanation for ML-based clinical decision support systems,Self Management,h-2,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Yan Jia,,H2_Yun Qu_20min.mp4,
+"Hamid Mansoor, Walter Gerych, Abdulaziz Alajaji, Luke Buquicchio, Kavin Chandrasekaran, Emmanuel Agu and Elke Rundensteiner",Population-Level Visual Analytics of Smartphone Sensed Health and Wellness Using Community Phenotypes,Self Management,h-2,15,Virtual,"Thursday, June 28",10:30 AM - 12:00 PM,BRC 285,Hamid Mansoor (Remote),,H2_Yun Qu_20min.mp4,
 
 "Dirk Queck, Iannis Albert, Michelle Turner, Georg Volkmar, Rainer Malaka and Marc Herrlich",(Non-)Physiological Data for Wearables in VR Sport Applications and Exergames,Self Management,h-1,15,Virtual,"Thursday, June 27",2:30 PM - 4:00 PM,BRC 285,Dirk Queck,,H2_Yun Qu_20min.mp4,
 "Ming Huang, Aditya Khurana, George Mastorakos, Jiawei Zhou, Nansu Zong, Yue Yu, Julie E. Prigge, Christi A. Patten, Hongfang Liu and Brian A. Costello",Characterizing the Users of Patient Portal Messaging: A Single Institutional Cohort Study,Self Management,h-1,15,Virtual,"Thursday, June 27",2:30 PM - 4:00 PM,BRC 285,Ming Huang,,H2_Yun Qu_20min.mp4,
@@ -85,7 +86,7 @@ Authors,Title,Session,Code,Length,Virtual,Date,Time,Room,Presenter,Mark1,fn_vide
 "Yunfan Li, Himanshu Gupta, Haibin Ling, Iv Ramakrishnan, Prateek Prasanna, Aaron Sasson and Georgios Georgakis",Automated Assessment of Critical View of Safety in Laparoscopic Cholecystectomy,Design & Development,s-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Yunfan Li,,,
 "Hilda Klasky, Ozgur Ozmen, Olufemi Omitaomu, Mohammed Olama, Merry Ward, Angela Laurio and Jonathan Nebeker",Towards a Comparative Assessment of Data-Driven Process Models in Health Information Technology,Design & Development,s-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Hilda Klasky,,,
 "Yiming Li, Xueqing Peng, Jianfu Li, Suyuan Peng, Donghong Pei, Hua Xu and Na Hong",Development of a Natural Language Processing Tool to Extract Acupuncture Point Location Terms,Design & Development,s-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Yiming Li,,,
-"Sara Comai, Lorenzo Carpaneto, Andrea Masciadri, Giuseppe Pozzi and Fabio Salice",Sleep Monitoring: Enriching the Traditional Approach by Sensor-collected Data,Design & Development,s-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Sara Comai,,,
+"Sara Comai, Lorenzo Carpaneto, Andrea Masciadri, Giuseppe Pozzi and Fabio Salice",Sleep Monitoring: Enriching the Traditional Approach by Sensor-collected Data,Design & Development,h-2,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Giuseppe Pozzi (Remote),,,
 "Andri Färber, Alexandre de Spindler, Adrian Moser and Gerhard Schwabe",Closing the Loop for Patients with Chronic Diseases - from Problems to a Solution Architecture,Design & Development,s-1,15,,"Tuesday, June 27",2:30 PM - 4:00 PM,BRC 285,Andri Färber,,,
 
 
