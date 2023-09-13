@@ -5,7 +5,7 @@ from flask_frozen import Freezer
 from requests import session
 
 FREEZER_DESTINATION = 'docs'
-URL_EASYCHAIR_SUBMISSION = 'https://easychair.org/conferences/?conf=ieeeichi2023'
+URL_EASYCHAIR_SUBMISSION = 'https://easychair.org/conferences/?conf=ieeeichi2024'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
