@@ -1,6 +1,6 @@
-# IEEE ICHI 2023
+# IEEE ICHI 2024
 
-Homepage for IEEE ICHI 2023 (https://ohnlp.github.io/IEEEICHI2022/, or https://ichi2023.institute4hi.org/).
+Homepage for IEEE ICHI 2024 (https://ieeeichi2024.github.io/).
 
 This website is built upon Python `flask` and `frozen-flask` packages for managing the source codes and generating the static version. 
 
