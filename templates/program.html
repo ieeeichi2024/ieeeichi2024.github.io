@@ -5,78 +5,129 @@ Program
 {% endblock %}
 
 {% block content %}
-<style type="text/css">
-    .tg {
-        border-collapse: collapse;
-        border-spacing: 0;
+<style>
+    table {
         width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background-color: rgb(0, 37, 82, 80%) !important;
+        color: white;
+    }
+    thead th {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
     }
 
-    .tg td,
-    .tg th {
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        overflow: hidden;
-        padding: 10px 5px;
-        word-break: normal;
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enables scroll on the background, if necessary */
+        background-color: rgba(0,0,0,0.4); /* Dimmed background */
     }
 
-    .tg .tg-mjdq {
-        background-color: #ffce93;
-        border-color: inherit;
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto; /* Centers the modal content horizontally */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Width of the modal */
+        max-height: 80vh; /* Max height to 80% of the viewport height */
+        overflow-y: auto; /* Allows vertical scrolling */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: adds shadow for better visibility */
+        position: absolute; /* Positioned absolutely within the fixed parent */
+        left: 50%; /* Moves the left edge to the middle of the modal */
+        top: 50%; /* Moves the top edge to the middle of the modal */
+        transform: translate(-50%, -50%); /* Shifts the modal back by 50% of its own width and height to center it */
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
         font-weight: bold;
-        text-align: left;
-        vertical-align: top;
+        cursor: pointer;
     }
 
-    .tg .tg-0pky {
-        border-color: inherit;
-        text-align: left;
-        vertical-align: top;
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+    }
+    .tg td[data-content-key]:hover {
+            background-color: #ddd;
+            cursor: pointer; 
     }
 
-    .tg .tg-fymr {
-        border-color: inherit;
-        font-weight: bold;
-        text-align: left;
-        vertical-align: top;
-    }
 
     @media screen and (max-width: 600px) {
-        .tg {
-            width: 100%;
-            overflow-x: auto;
+        table, thead, tbody, th, td, tr {
+            display: block;
         }
-
-        .tg col,
-        .tg thead th {
-            display: none;
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
         }
-
-        .tg tr {
+        tr {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        td {
+            border: none;
+            position: relative;
+            padding-left: 50%;
+            text-align: right;
+            min-height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
             border-bottom: 1px solid #ddd;
         }
-
-        .tg td {
-            display: block;
-            text-align: right;
+        td:last-child {
+            border-bottom: 0;
         }
-
-        .tg td:before {
+        td:before {
             content: attr(data-label);
-            float: left;
+            position: absolute;
+            left: 10px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+            text-align: left;
             font-weight: bold;
-            text-transform: uppercase;
+            color: #007BFF;
         }
     }
 </style>
 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    integrity="sha512-1ycn6IcaQQ40/MKBWorkshop 2Workshop 4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalContent"></div>
+    </div>
+</div>
 
 <div class="position-relative overflow-hidden pt-5 mb-5 text-center bg-light cover-image"
     style="background-image: url('./static/image/rst-3.jpg');">
@@ -101,220 +152,348 @@ Program
     <p>
         For poster and demo session, please follow the <a href="./presenter_guidelines.html">Presenter Guidelines</a>.
     </p>
-    <table class="tg">
-        <colgroup>
-            <col style="width: 107px">
-            <col style="width: 157px">
-            <col style="width: 157px">
-            <col style="width: 157px">
-            <col style="width: 157px">
-            <col style="width: 157px">
-        </colgroup>
-        <thead>
-            <tr>
-                <th class="tg-mjdq">Day 1<br>Monday<br>6/3/2024</th>
-                <th class="tg-mjdq" colspan="5">Workshops (whole day)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="tg-0pky"></td>
-                <td class="tg-fymr">Room 1</td>
-                <td class="tg-fymr">Room 2</td>
-                <td class="tg-fymr">Room 3</td>
-                <td class="tg-fymr">Room 4</td>
-                <td class="tg-fymr">Room 5</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">7:30 am – 8:30 am</td>
-                <td class="tg-0pky" colspan="5">Registration <br>Coffee and Snack @Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">8:30 am – 10:00 am</td>
-                <td class="tg-0pky">Workshop 1</td>
-                <td class="tg-0pky">Workshop 2</td>
-                <td class="tg-0pky">Workshop 3</td>
-                <td class="tg-0pky">Workshop 4</td>
-                <td class="tg-0pky">Workshop 5</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:00 am – 10:20 am</td>
-                <td class="tg-0pky" colspan="5"> Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:20 am – 12:00 pm</td>
-                <td class="tg-0pky">Workshop 1</td>
-                <td class="tg-0pky">Workshop 2</td>
-                <td class="tg-0pky">Workshop 3</td>
-                <td class="tg-0pky">Workshop 4</td>
-                <td class="tg-0pky">Workshop 5</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">12:00 pm – 1:00 pm</td>
-                <td class="tg-0pky" colspan="5">Lunch @Event/Exhibition Space </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">1:00 pm – 2:30 pm</td>
-                <td class="tg-0pky">Workshop 1</td>
-                <td class="tg-0pky">Workshop 2</td>
-                <td class="tg-0pky">Workshop 3</td>
-                <td class="tg-0pky">Workshop 6</td>
-                <td class="tg-0pky">Workshop 5</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">2:30 pm – 2:50 pm</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">2:50 pm – 4:30 pm</td>
-                <td class="tg-0pky">Workshop 1</td>
-                <td class="tg-0pky">Workshop 2</td>
-                <td class="tg-0pky">Workshop 3</td>
-                <td class="tg-0pky">Workshop 6</td>
-                <td class="tg-0pky">Workshop 5</td>
-            </tr>
-            <tr>
-                <td class="tg-mjdq">Day 2<br>Tuesday<br>6/4/2024 </td>
-                <td class="tg-mjdq" colspan="5">Tutorials &amp; Doctoral Consortium, Welcome Session &amp; Keynote 1, Paper Sessions, Poster
-                    Session &amp; Reception </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">7:30 am – 8:30 am</td>
-                <td class="tg-0pky" colspan="5">Registration <br>Coffee and Snack @Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">8:30 am – 10:00 am</td>
-                <td class="tg-0pky">Tutorial 1</td>
-                <td class="tg-0pky">Tutorial 2</td>
-                <td class="tg-0pky">Tutorial 3</td>
-                <td class="tg-0pky">Tutorial 4</td>
-                <td class="tg-0pky">Doctoral Consortium</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:00 am – 10:20 am</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:20 am – 12:00 pm</td>
-                <td class="tg-0pky">Tutorial 1</td>
-                <td class="tg-0pky">Tutorial 2</td>
-                <td class="tg-0pky">Tutorial 3</td>
-                <td class="tg-0pky">Tutorial 4</td>
-                <td class="tg-0pky">Doctoral Consortium</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">12:00 pm – 1:00 pm</td>
-                <td class="tg-0pky" colspan="5">Lunch @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">1:00 pm – 2:15 pm</td>
-                <td class="tg-0pky" colspan="5">Welcome Session (1:00 – 1:15 pm)<br>Keynote 1 (1:15 – 2:15 pm) by Dr. Jessica Ancker @ Lake Nona Auditorium</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">2:15 pm – 2:30 pm</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">2:30 pm – 4:00 pm</td>
-                <td class="tg-0pky">Paper Session 1 <br>(Analytics 1)</td>
-                <td class="tg-0pky">Paper Session 2 <br>(Human-Factor 1)</td>
-                <td class="tg-0pky">Paper Session 3 <br>(System 1)</td>
-                <td class="tg-0pky">Demo Session 1</td>
-                <td class="tg-0pky">TBA</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">4:00 pm – 5:30 pm</td>
-                <td class="tg-0pky" colspan="5">Poster Session &amp; Reception (Sponsor needed)</td>
-            </tr>
-            <tr>
-                <td class="tg-mjdq">Day 3<br>Wednesday<br>6/5/2024 </td>
-                <td class="tg-mjdq" colspan="5">Keynote 2, Paper sessions, Women in Healthcare Informatics Event, Award
-                    Ceremony and Banquet </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">7:30 am – 9:00 am</td>
-                <td class="tg-0pky" colspan="5">Registration <br>Coffee and Snack @Exhibition Space<br>Meet &amp; Greet </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">9:00 am – 10:00 am</td>
-                <td class="tg-0pky" colspan="5">Keynote 2 by Dr. Zhiyong Lu @ Lake Nona Auditorium </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:00 am – 10:30 am</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:30 am – 12:00 pm</td>
-                <td class="tg-0pky">Paper Session 4 <br>(Analytics 2)</td>
-                <td class="tg-0pky">Paper Session 5 <br>(Human-Factor 2)</td>
-                <td class="tg-0pky">Paper Session 6 <br>(System 2)</td>
-                <td class="tg-0pky">Demo Session 2</td>
-                <td class="tg-0pky">Possible Remote Session 1</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">12:00 pm – 1:00 pm</td>
-                <td class="tg-0pky" colspan="5">Lunch @Event/Exhibition Space<br>Women in Healthcare Informatics Event
-                </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">1:00 pm – 2:30 pm</td>
-                <td class="tg-0pky">Paper Session 7 <br>(Analytics 3)</td>
-                <td class="tg-0pky">Paper Session 8 <br>(Analytics 4)</td>
-                <td class="tg-0pky">Paper Session 9 <br>(System 3)</td>
-                <td class="tg-0pky">Panel Discussion on LLM</td>
-                <td class="tg-0pky">Possible Remote Session 2</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">2:30 pm – 3:00 pm</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">3:00 pm – 4:30 pm</td>
-                <td class="tg-0pky">Paper Session 10 <br>(Analytics 5)</td>
-                <td class="tg-0pky">Paper Session 11 <br>(Analytics 6)</td>
-                <td class="tg-0pky">Paper Session 12 <br>(Analytics 7)</td>
-                <td class="tg-0pky">Paper Session 13 <br>(Analytics 8)</td>
-                <td class="tg-0pky">Panel Discussion on XAI</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">4:30 pm – 6:00 pm</td>
-                <td class="tg-0pky" colspan="5">Meet and Greet (Social event)</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">6:00 pm – 8:00 pm</td>
-                <td class="tg-0pky" colspan="5">Award Ceremony and Banquet Dinner (6:00 - 8:00 PM)</td>
-            </tr>
-            <tr>
-                <td class="tg-mjdq">Day 4<br>Thursday<br>6/6/2024 </td>
-                <td class="tg-mjdq" colspan="5">Keynote 3, Industry Sessions, Closing Session </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">7:30 am – 8:30 am</td>
-                <td class="tg-0pky" colspan="5">Registration<br>Coffee and Snack @Exhibition Space</td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">8:30 am – 9:30 am</td>
-                <td class="tg-0pky" colspan="5">Keynote 3 by Dr. Jens Kleesiek @ Lake Nona Auditorium </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">9:30 am – 10:00 am</td>
-                <td class="tg-0pky" colspan="5">Coffee Break @Event/Exhibition Space </td>
-            </tr>
-            <tr>
-                <td class="tg-0pky">10:00 am – 12:00 pm</td>
-                <td class="tg-0pky" colspan="5">Industry Session @ Lake Nona Auditorium </td>
-                <!-- <td class="tg-0pky">Industry Session 1</td>
-                <td class="tg-0pky">Industry Session 2</td>
-                <td class="tg-0pky">Industry Session 3</td>
-                <td class="tg-0pky">Industry Session 4</td>
-                <td class="tg-0pky"> </td> -->
-            </tr>
-            <tr>
-                <td class="tg-0pky">12:00 pm – 12:30 pm</td>
-                <td class="tg-0pky" colspan="5">Closing Session @ Lake Nona Auditorium </td>
-            </tr>
-        </tbody>
+    <table class="tg table-responsive">
+        <tr style="background-color: #ffce93;">
+            <td colspan="7"><strong>Monday, June 3</strong></td>
+        </tr>
+        <tr>
+            <th style="min-width: 0.5rem;">Time</th>
+            <th>Lobby (First Floor)</th>
+            <th>Auditorium (First Floor)</th>
+            <th>131 (First Floor)</th>
+            <th>234 (Second Floor)</th>
+            <th>333 (Third Floor)</th>
+            <th>334 (Third Floor)</th>
+        </tr>
+        <tr>
+            <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
+            <td data-label="Lobby" colspan="6">Registration<br>Coffee Bar</td>
+        </tr>
+        <tr>
+            <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Workshop 1</td>
+            <td data-label="131">Workshop 2</td>
+            <td data-label="234"></td>
+            <td data-label="333">Workshop 3</td>
+            <td data-label="334">Workshop 4</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:00 AM - <br> 10:20 AM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:20 AM - <br> 12:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Workshop 1</td>
+            <td data-label="131">Workshop 2</td>
+            <td data-label="234"></td>
+            <td data-label="333">Workshop 3</td>
+            <td data-label="334">Workshop 4</td>
+        </tr>
+        <tr>
+            <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
+            <td data-label="Lobby" colspan="6">Lunch</td>
+        </tr>
+        <tr>
+            <td data-label="Time">1:00 PM - <br> 2:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Workshop 1</td>
+            <td data-label="131">Workshop 2</td>
+            <td data-label="234">Workshop 5</td>
+            <td data-label="333">Workshop 3</td>
+            <td data-label="334">Workshop 6</td>
+        </tr>
+        <tr>
+            <td data-label="Time">2:30 PM - <br> 2:50 PM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">2:50 PM - <br> 4:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Workshop 1</td>
+            <td data-label="131">Workshop 2</td>
+            <td data-label="234">Workshop 5</td>
+            <td data-label="333">Workshop 3</td>
+            <td data-label="334">Workshop 6</td>
+        </tr>
+        <!-- Tuesday -->
+        <tr style="background-color: #ffce93;">
+            <td colspan="7"><strong>Tuesday, June 4</strong></td>
+        </tr>
+        <tr>
+            <th style="min-width: 120px;">Time</th>
+            <th>Lobby (First Floor)</th>
+            <th>Auditorium (First Floor)</th>
+            <th>131 (First Floor)</th>
+            <th>234 (Second Floor)</th>
+            <th>333 (Third Floor)</th>
+            <th>334 (Third Floor)</th>
+        </tr>
+        <tr>
+            <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
+            <td data-label="Lobby" colspan="6">Registration<br>Coffee Bar</td>
+        </tr>
+        <tr>
+            <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Tutorial 1</td>
+            <td data-label="131">Doctoral Consortium</td>
+            <td data-label="234">Tutorial 2</td>
+            <td data-label="333"></td>
+            <td data-label="334">Tutorial 3</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:00 AM - <br> 10:20 AM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:20 AM - <br> 12:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Tutorial 1</td>
+            <td data-label="131">Doctoral Consortium</td>
+            <td data-label="234">Tutorial 2</td>
+            <td data-label="333"></td>
+            <td data-label="334">Tutorial 3</td>
+        </tr>
+        <tr>
+            <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
+            <td data-label="Lobby" colspan="6">Lunch</td>
+        </tr>
+        <tr>
+            <td data-label="Time">1:00 PM - <br> 1:20 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Welcome Session</td>
+        </tr>
+        <tr>
+            <td data-label="Time">1:20 PM - <br> 2:15 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Keynote 1: Dr. Jessica S. Ancker, Professor and Vice Chair for Education Affairs, Department of Biomedical Informatics at Vanderbilt University</td>
+        </tr>
+        <tr>
+            <td data-label="Time">2:15 PM - <br> 2:30 PM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">2:30 PM - <br> 4:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">JHIR Special Session</td>
+            <td data-label="131">Paper Session: Human Factors 1</td>
+            <td data-label="234">Paper Session: System 1</td>
+            <td data-label="333">Paper Session: Analytics 1</td>
+            <td data-label="334">Remote Session 1</td>
+        </tr>
+        <tr>
+            <td data-label="Time">4:30 PM - <br> 6:00 PM</td>
+            <td data-label="Lobby" colspan="6" data-content-key="poster-session">Poster Session & Reception</td>
+        </tr>
+        <tr>
+            <td data-label="Time">5:30 PM - <br> 6:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium"></td>
+            <td data-label="131">IHI Town Hall</td>
+        </tr>
+        <!-- Wednesday -->
+        <tr style="background-color: #ffce93;">
+            <td colspan="7"><strong>Wednesday, June 5</strong></td>
+        </tr>
+        <tr>
+            <th style="min-width: 120px;">Time</th>
+            <th>Lobby (First Floor)</th>
+            <th>Auditorium (First Floor)</th>
+            <th>131 (First Floor)</th>
+            <th>234 (Second Floor)</th>
+            <th>333 (Third Floor)</th>
+            <th>334 (Third Floor)</th>
+        </tr>
+        <tr>
+            <td data-label="Time">7:30 AM - <br> 9:00 AM</td>
+            <td data-label="Lobby" colspan="6">Registration<br>Coffee Bar</td>
+        </tr>
+        <tr>
+            <td data-label="Time">7:30 AM - <br> 9:00 AM</td>
+            <td data-label="Lobby" colspan="6">Meet & Greet</td>
+        </tr>
+        <tr>
+            <td data-label="Time">9:00 AM - <br> 10:00 AM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium" colspan="6">Keynote 2: Dr. Zhiyong Lu, Senior Investigator at the National Library of Medicine, NIH</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:00 AM - <br> 10:30 AM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:30 AM - <br> 12:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Paper Session: Analytics 2</td>
+            <td data-label="131">Paper Session: Human Factors 2</td>
+            <td data-label="234">Paper Session: System 2</td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
+        </tr>
+        <tr>
+            <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
+            <td data-label="Lobby" colspan="6">Lunch</td>
+        </tr>
+        <tr>
+            <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium"></td>
+            <td data-label="131" colspan="6">Women in Healthcare Informatics Event</td>
+        </tr>
+        <tr>
+            <td data-label="Time">1:00 PM - <br> 2:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Panel Discussion on LLMs</td>
+            <td data-label="131"></td>
+            <td data-label="234">Paper Session: System 3</td>
+            <td data-label="333">Paper Session: Analytics 3</td>
+            <td data-label="334">Paper Session: Analytics 4</td>
+        </tr>
+        <tr>
+            <td data-label="Time">2:30 PM - <br> 3:00 PM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">3:00 PM - <br> 4:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium">Paper Session: Analytics 5</td>
+            <td data-label="131">Paper Session: Analytics 6</td>
+            <td data-label="234">Panel Discussion on XAI</td>
+            <td data-label="333">Paper Session: Analytics 7</td>
+            <td data-label="334">Paper Session: Analytics 8</td>
+        </tr>
+        <tr>
+            <td data-label="Time">6:00 PM - <br> 8:00 PM</td>
+            <td colspan="6">Ceremony/Banquet @ Wave Hotel</td>
+        </tr>
+        <!-- Thursday -->
+        <tr style="background-color: #ffce93;">
+            <td colspan="7"><strong>Thursday, June 6</strong></td>
+        </tr>
+        <tr>
+            <th style="min-width: 120px;">Time</th>
+            <th>Lobby (First Floor)</th>
+            <th>Auditorium (First Floor)</th>
+            <th>131 (First Floor)</th>
+            <th>234 (Second Floor)</th>
+            <th>333 (Third Floor)</th>
+            <th>334 (Third Floor)</th>
+        </tr>
+        <tr>
+            <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
+            <td data-label="Lobby" colspan="6">Registration<br>Coffee Bar</td>
+        </tr>
+        <tr>
+            <td data-label="Time">8:30 AM - <br> 9:30 AM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium" colspan="6">Keynote 3: Dr. Jens Kleesiek, Professor of Translational Image-guided Oncology</td>
+        </tr>
+        <tr>
+            <td data-label="Time">9:45 AM - <br> 10:00 AM</td>
+            <td data-label="Lobby" colspan="6">Coffee Break</td>
+        </tr>
+        <tr>
+            <td data-label="Time">10:00 AM - <br> 12:00 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium" colspan="6">Industry Research in Healthcare Informatics</td>
+        </tr>
+        <tr>
+            <td data-label="Time">12:00 PM - <br> 12:30 PM</td>
+            <td data-label="Lobby"></td>
+            <td data-label="Auditorium" colspan="6">Closing Session</td>
+        </tr>
+    </tbody>
     </table>
     <br>
 </div>
+<script>
+    const modalContent = {
+        "cell1": "<ul><li>Registration details</li><li>Coffee and Snack information</li></ul>",
+        "cell2": "<p>More detailed information for another session</p>",
+        "poster-session": 
+            `
+            <p> Tuesday, June 4, 4:30 PM - 6:00 PM @Lobby </p>
+            <h3>Poster Session and Reception</h3>
+            <ul style="list-style-type:none;">
+                <li>1. Time Series Anomaly Detection with CNN for Environmental Sensors in Healthcare-IoT</li>
+                <ul><li><i>Mirza Akhi Khatun, Mangolika Bhattacharya, Ciarán Eising and Lubna Luxmi Dhirani</i></li></ul>
+                <li>2. Reducing Diagnostic Uncertainty in Emergency Departments: The Role of Large Language Models in Age-Specific Diagnostics</li>
+                <ul><li><i>Wanting Cui, Kensaku Kawamoto, Keaton Morgan and Joseph Finkelstein</i></li></ul>
+                <li>3. Prototyping an Embedded Imager for Cardiovascular Metrics Monitoring</li>
+                <ul><li><i>Chuhui Liu, Alexander Gherardi, Huining Li, Jun Xia and Wenyao Xu</i></li></ul>
+                <li>4. Exploring Artificial Intelligence Solutions and Challenges in Healthcare Administration</li>
+                <ul><li><i>Lina Adwer and Erik Whiting</i></li></ul>
+                <li>5. Systematic Mapping Study: Blockchain Applied to Healthcare</li>
+                <ul><li><i>Vitor Lindbergh and Itamir Barroca Filho</i></li></ul>
+                <li>6. Health Data Processing Concept for Avoiding Nonresponse Bias in Primary Care Research</li>
+                <ul><li><i>Benny Platte, Danny Kowerko, Holger Langner, Jan Anastassis Skuras, Marc Ritter and Christian Roschke</i></li></ul>
+                <li>7. Inexpensive Screening of Hearing Disorders Objectively Using Auditory-Pupillary Response</li>
+                <ul><li><i>Sen Jiang, Ahmet Demirbas, Wei Sun and Wenyao Xu</i></li></ul>
+                <li>8. Towards AI-Assisted Psychological Evaluation: A Study in LLM Fine-Tuning and Prompting for Nuanced Language Understanding</li>
+                <ul><li><i>Arshia Kermani and Vangelis Metsis</i></li></ul>
+                <li>9. Assessing Empathy in Mental Health Caregivers using Conversational AI</li>
+                <ul><li><i>Raghav Naswa, Sugam Jaiswal, Remya Mavila, Weichao Yuwen, Bill Erdly and Dong Si</i></li></ul>
+                <li>10. Performance Evaluation of Multimodal Large Language Models (LLaVA and GPT-4-based ChatGPT) in Medical Image Classification Tasks</li>
+                <ul><li><i>Yuhang Guo and Zhiyu Wan</i></li></ul>
+                <li>11. Identifying Psychosis Episodes in Admission Notes with Natural Language Processing: A Comparative Study</li>
+                <ul><li><i>Yining Hua, Suzanne V. Blackley, Ann K. Shinn, Lauren V. Moran and Li Zhou</i></li></ul>
+                <li>12. ESMFold-predicted Structures and Evolutionary Scale Modeling (ESM)-based Amino Acid Characterization improve Antimicrobial Peptide Classification using Graph-based Learning</li>
+                <ul><li><i>Greneter Cordoves Delgado and César Raúl García Jacas</i></li></ul>
+                <li>13. Psychosis Identification on Admission Notes via Semi-Supervised Learning</li>
+                <ul><li><i>Yining Hua, Suzanne V. Blackley, Ann K. Shinn, Lauren V. Moran and Li Zhou</i></li></ul>
+                <li>14. Online Applications for Cancer Social Support: A Review of Reviews</li>
+                <ul><li><i>Fei Yu, Sujin Kim and Lixin Song</i></li></ul>
+                <li>15. A GUI-based Interface For OBO Foundry’s ROBOT Library To Encourage Usability and Adoption</li>
+                <ul><li><i>Luke Liu, Yinglun Zhang, Hande McGinty and Muhammad Amith</i></li></ul>
+                <li>16. A Preliminary Case Study of Developing A Web-based Digital Portal for Stroke Survivors using Synthetic Personal Health Data</li>
+                <ul><li><i>Zhiqiang Huo, Timothy Neate, David Wyatt, Sophie Rowland-Coomber, Martin Chapman, Iain J. Marshall, Charles Wolfe, Matthew O'Connell and Vasa Curcin</i></li></ul>
+                <li>17. DRNetAI: Enhanced Retinopathy Analysis using Explainable Self-Attention Models</li>
+                <ul><li><i>Krishna Mridha and Lijun Zhang</i></li></ul>
+                <li>18. Evaluating Generative Models in Medical Imaging</li>
+                <ul><li><i>Liyue Fan, Ashley Bang and Luca Bonomi</i></li></ul>
+                <li>19. A Novel Framework to Explore the Spatiotemporal Dynamics of Respiratory Syncytial Virus</li>
+                <ul><li><i>Jingyi Liang, Saturnino Luz, You Li and Harish Nair</i></li></ul>
+                <li>20. Promote Public Engagement with Palliative and End-of-life Care Discussion on Chinese Social Media</li>
+                <ul><li><i>Yijun Wang, Han Zheng, Yuxin Zhou, Emeka Chukwusa, Jonathan Koffman and Vasa Curcin</i></li></ul>
+                <li>21. Prediction of Follow Up for Oncology Patients Discharged to Skilled Nursing Facilities Using Machine Learning</li>
+                <ul><li><i>Ziyi Chen, Tianshi Liu, Yonghui Wu, Yi Guo, Jonathan Chatzkel and Jiang Bian</i></li></ul>
+                <li>22. Development and Preliminary Evaluation of Remote Pacemaker Monitoring System Using Large Language Model</li>
+                <ul><li><i>Rumi Iwai, Takunori Shimazaki, Mitsuhiro Fukuda, Takanao Mine, Shingo Ata, Takeshi Yokoyama and Daisuke Anzai</i></li></ul>
+                <li>23. Towards Values-Focused Design Methods for Personalization in Consumer Health Informatics: Workshopping Approaches with Designers</li>
+                <ul><li><i>Rachel Tunis and Kenneth R. Fleischmann</i></li></ul>
+            </ul>
+            
+            `
+    };
+
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
+    var contentArea = document.getElementById("modalContent");
+
+    document.querySelectorAll('.tg td[data-content-key]').forEach(cell => {
+        cell.onclick = function() {
+            const contentKey = this.getAttribute("data-content-key");
+            contentArea.innerHTML = modalContent[contentKey];
+            modal.style.display = "block";
+        }
+    });
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    window.onkeydown = function(event) {
+        if (event.key === "Escape") {
+            modal.style.display = "none";
+        }
+    };
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+</script>
 {% endblock %}
