@@ -85,7 +85,7 @@ Program
             left: -9999px;
         }
         tr {
-            border: 1px solid #ddd;
+            border: 1px solid black;
             margin-bottom: 10px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
         }
@@ -237,11 +237,11 @@ Program
         <tr>
             <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Tutorial 1</td>
-            <td data-label="131">Doctoral Consortium</td>
-            <td data-label="234">Tutorial 2</td>
+            <td data-label="Auditorium" data-content-key="tutorial1">Tutorial 1</td>
+            <td data-label="131" data-content-key="doctoralconsortium">Doctoral Consortium</td>
+            <td data-label="234" data-content-key="tutorial2">Tutorial 2</td>
             <td data-label="333"></td>
-            <td data-label="334">Tutorial 3</td>
+            <td data-label="334" data-content-key="tutorial3">Tutorial 3</td>
         </tr>
         <tr>
             <td data-label="Time">10:00 AM - <br> 10:20 AM</td>
@@ -250,11 +250,11 @@ Program
         <tr>
             <td data-label="Time">10:20 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Tutorial 1</td>
-            <td data-label="131">Doctoral Consortium</td>
-            <td data-label="234">Tutorial 2</td>
+            <td data-label="Auditorium" data-content-key="tutorial1">Tutorial 1</td>
+            <td data-label="131" data-content-key="doctoralconsortium">Doctoral Consortium</td>
+            <td data-label="234" data-content-key="tutorial2">Tutorial 2</td>
             <td data-label="333"></td>
-            <td data-label="334">Tutorial 3</td>
+            <td data-label="334" data-content-key="tutorial3">Tutorial 3</td>
         </tr>
         <tr>
             <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
@@ -264,11 +264,19 @@ Program
             <td data-label="Time">1:00 PM - <br> 1:20 PM</td>
             <td data-label="Lobby"></td>
             <td data-label="Auditorium">Welcome Session</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">1:20 PM - <br> 2:15 PM</td>
             <td data-label="Lobby"></td>
             <td data-label="Auditorium">Keynote 1: Dr. Jessica S. Ancker, Professor and Vice Chair for Education Affairs, Department of Biomedical Informatics at Vanderbilt University</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">2:15 PM - <br> 2:30 PM</td>
@@ -277,11 +285,11 @@ Program
         <tr>
             <td data-label="Time">2:30 PM - <br> 4:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">JHIR Special Session</td>
-            <td data-label="131">Paper Session: Human Factors 1</td>
-            <td data-label="234">Paper Session: System 1</td>
-            <td data-label="333">Paper Session: Analytics 1</td>
-            <td data-label="334">Remote Session 1</td>
+            <td data-label="Auditorium" data-content-key="jhir">JHIR Special Session</td>
+            <td data-label="131" data-content-key="humanfactors1">Paper Session: Human Factors 1</td>
+            <td data-label="234" data-content-key="system1">Paper Session: System 1</td>
+            <td data-label="333" data-content-key="analytics1">Paper Session: Analytics 1</td>
+            <td data-label="334" data-content-key="remote">Remote Session 1</td>
         </tr>
         <tr>
             <td data-label="Time">4:30 PM - <br> 6:00 PM</td>
@@ -312,12 +320,21 @@ Program
         </tr>
         <tr>
             <td data-label="Time">7:30 AM - <br> 9:00 AM</td>
-            <td data-label="Lobby" colspan="6">Meet & Greet</td>
+            <td data-label="Lobby">Meet & Greet</td>
+            <td data-label="Auditorium"></td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">9:00 AM - <br> 10:00 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" colspan="6">Keynote 2: Dr. Zhiyong Lu, Senior Investigator at the National Library of Medicine, NIH</td>
+            <td data-label="Auditorium">Keynote 2: Dr. Zhiyong Lu, Senior Investigator at the National Library of Medicine, NIH</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">10:00 AM - <br> 10:30 AM</td>
@@ -326,9 +343,9 @@ Program
         <tr>
             <td data-label="Time">10:30 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Paper Session: Analytics 2</td>
-            <td data-label="131">Paper Session: Human Factors 2</td>
-            <td data-label="234">Paper Session: System 2</td>
+            <td data-label="Auditorium" data-content-key="analytics2">Paper Session: Analytics 2</td>
+            <td data-label="131" data-content-key="humanfactors2">Paper Session: Human Factors 2</td>
+            <td data-label="234" data-content-key="system2">Paper Session: System 2</td>
             <td data-label="333"></td>
             <td data-label="334"></td>
         </tr>
@@ -340,16 +357,19 @@ Program
             <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
             <td data-label="Lobby"></td>
             <td data-label="Auditorium"></td>
-            <td data-label="131" colspan="6">Women in Healthcare Informatics Event</td>
+            <td data-label="131">Women in Healthcare Informatics Event</td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">1:00 PM - <br> 2:30 PM</td>
             <td data-label="Lobby"></td>
             <td data-label="Auditorium">Panel Discussion on LLMs</td>
             <td data-label="131"></td>
-            <td data-label="234">Paper Session: System 3</td>
-            <td data-label="333">Paper Session: Analytics 3</td>
-            <td data-label="334">Paper Session: Analytics 4</td>
+            <td data-label="234" data-content-key="system3">Paper Session: System 3</td>
+            <td data-label="333" data-content-key="analytics3">Paper Session: Analytics 3</td>
+            <td data-label="334" data-content-key="analytics4">Paper Session: Analytics 4</td>
         </tr>
         <tr>
             <td data-label="Time">2:30 PM - <br> 3:00 PM</td>
@@ -358,11 +378,11 @@ Program
         <tr>
             <td data-label="Time">3:00 PM - <br> 4:30 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Paper Session: Analytics 5</td>
-            <td data-label="131">Paper Session: Analytics 6</td>
+            <td data-label="Auditorium" data-content-key="analytics5">Paper Session: Analytics 5</td>
+            <td data-label="131" data-content-key="analytics6">Paper Session: Analytics 6</td>
             <td data-label="234">Panel Discussion on XAI</td>
-            <td data-label="333">Paper Session: Analytics 7</td>
-            <td data-label="334">Paper Session: Analytics 8</td>
+            <td data-label="333" data-content-key="analytics7">Paper Session: Analytics 7</td>
+            <td data-label="334" data-content-key="analytics8">Paper Session: Analytics 8</td>
         </tr>
         <tr>
             <td data-label="Time">6:00 PM - <br> 8:00 PM</td>
@@ -388,7 +408,11 @@ Program
         <tr>
             <td data-label="Time">8:30 AM - <br> 9:30 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" colspan="6">Keynote 3: Dr. Jens Kleesiek, Professor of Translational Image-guided Oncology</td>
+            <td data-label="Auditorium">Keynote 3: Dr. Jens Kleesiek, Professor of Translational Image-guided Oncology</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">9:45 AM - <br> 10:00 AM</td>
@@ -397,12 +421,20 @@ Program
         <tr>
             <td data-label="Time">10:00 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" colspan="6">Industry Research in Healthcare Informatics</td>
+            <td data-label="Auditorium" data-content-key="industry">Industry Research in Healthcare Informatics</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
         <tr>
             <td data-label="Time">12:00 PM - <br> 12:30 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" colspan="6">Closing Session</td>
+            <td data-label="Auditorium">Closing Session</td>
+            <td data-label="131"></td>
+            <td data-label="234"></td>
+            <td data-label="333"></td>
+            <td data-label="334"></td>
         </tr>
     </tbody>
     </table>
@@ -465,7 +497,406 @@ Program
                 <ul><li><i>Rachel Tunis and Kenneth R. Fleischmann</i></li></ul>
             </ul>
             
+            `,
+        "tutorial1": 
             `
+                <p>Tuesday, June 4, 8:30 AM - 12:00 PM @Auditorium</p>
+                <h3>Tutortial 1: Large Language Models in Healthcare: Prompt Engineering Competition</h3>
+                <h5>Primoz Kocbek, Lucija Gosak, Mateja Lorber, Gregor Stiglic</h5>
+                <p>This tutorial/competition explores prompt engineering for large language models (LLMs) with a focus on OpenAI's ChatGPT (GPT 3.5), showcasing the potential usefulness in healthcare. It is structured in two parts: 1) a practical tutorial focusing on advanced prompt engineering methods and highlighting privacy requirements, such as HIPAA, GDPR, in healthcare and 2) a hands-on part in the form of a prompt engineering competition. Synthetic EHR data will be used to formulate tasks where participants will be asked to find the best solution using the popular and free OpenAI ChatGPT 3.5. The intended audience are healthcare researchers and professionals, AI scientists, data scientists, and PhD students in the relevant fields as well others. Attendees will gain insights into prompt engineering strategies, experimentation and understand how to potentially achieve more desirable outputs for specific tasks. This tutorial aims to educate participants with the knowledge on how to improve utilization of LLMs in healthcare and encourage creative thinking in solving real-world problems in healthcare informatics using AI solutions.</p>
+            `,
+        "tutorial2":
+            `
+                <p>Tuesday, June 4, 8:30 AM - 12:00 PM @234 Second floor</p>
+                <h3>Tutorial 2: Generating Real-World Evidence with Real-world Data and Machine Learning</h3>
+                <h5>Chengxi Zang, Fei Wang</h5>
+                <p>The complexity of the real-world data has turned them into a formidable testing ground for cutting-edge machine learning (ML) or AI algorithms.  In this tutorial, we aim to introduce how to use RWDs and machine learning methods to accelerate the drug discovery and development process and solve real-world healthcare challenges. We will first introduce basic concepts, existing challenges, and the knowledge gap. Then, we will introduce ML-driven target trial emulation methods and how to use them to a) drug repurposing for Alzheimer’s disease with RWD, and b) improve our understanding of and ability to predict, treat, and prevent the post-acute sequelae of SARSCoV-2 (or Long COVID). We will conclude this tutorial with discussions and potential future research directions.</p>
+            `,
+        "tutorial3":
+        `
+                <p>Tuesday, June 4, 8:30 AM - 12:00 PM @334 Third floor</p>
+                <h3>Tutorial 3: Usable Interpretability for Large Language Models</h3>
+                <h5>Yucheng Shi, Haiyan Zhao, Fan Yang, Xuansheng Wu, Mengnan Du, Ninghao Liu</h5>
+                <p>Large Language Models (LLMs) have shown remarkable proficiency in natural language processing tasks. Despite these advancements, the opacity of their internal workings presents significant challenges, introducing potential risks for applications built upon these models. Consequently, comprehending and elucidating the operations of LLMs is essential to fully understand their behavior, identify their limitations, and assess their broader social implications. Interpretation methods serve as a crucial tool for understanding LLMs. In this half-day tutorial, we introduce several strategies for interpreting LLMs, as well as how the interpretation could guide the improvement of LLMs. Besides introducing the methodologies, we also provide several case studies. The target audience of this tutorial includes individuals with a biomedical background but are interested in leveraging LLMs for explainable solutions. The instructors consists of researchers from the University of Georgia, New Jersey Institute of Technology, and Wake Forest University. The instructors are experienced in Explainable AI (XAI), and have conducted preliminary research of LLM interpretation.</p>
+            `,
+        "doctoralconsortium":
+        `
+            <p>Tuesday, June 4, 8:30 AM - 12:00 PM @131 First floor</p>
+            <h3>Doctoral Consortium Papers</h3>
+            <ul>
+                <li>Automatic Segmentation of Effusion from Knee MRI Images
+                    <ul><li><i>Mohammad Chowdhury (Advisor: Juan Shan) (Pace University, USA)</i></li></ul>
+                </li>
+                <li>Advancing Personalized Hypoglycemia Risk Profiling by Leveraging ICU Length of Stay and Comorbidity Data
+                    <ul><li><i>Jennifer Daniel Onwuchekwa (Advisor: Maria Maleshkova) (University of Siegen, Germany)</i></li></ul>
+                </li>
+                <li>An Enhanced Multimodal Multilingual Dataset for Medical Misinformation Detection
+                    <ul><li><i>Zhaoyi Sun (Advisor: Fei Xia) (University of Washington, USA)</i></li></ul>
+                </li>
+                <li>Big Research Data Management Needs of Researchers at a Research-Intensive University - A Qualitative Study
+                    <ul><li><i>Fatih Gunaydin (Advisor: Besiki Stvilia) (Florida State University, USA)</i></li></ul>
+                </li>
+                <li>Clinicians' Perspective on the Role of Trustworthiness for AI Adoption in Healthcare
+                    <ul><li><i>Forhan Bin Emdad (Advisor: Zhe He) (Florida State University, USA)</i></li></ul>
+                </li>
+                <li>Comparing Approaches to Risk Threshold Selection for Venous Thromboembolism Prophylaxis in Medical Inpatients
+                    <ul><li><i>Benjamin Mittman (Advisor: Michael Rothberg) (Case Western Reserve University, USA)</i></li></ul>
+                </li>
+                <li>Implications of an Interactive Assistive Tool to Support Online Health Information Evaluation
+                    <ul><li><i>Jiaying Liu (Advisor: Yan Zhang) (University of Texas at Austin, USA)</i></li></ul>
+                </li>
+                <li>Integrating Medical Knowledge and Data with Large Language Models to Improve Clinical Information Extraction
+                    <ul><li><i>Yan Hu (Advisor: Hua Xu) (University of Texas Health Science Center at Houston, USA)</i></li></ul>
+                </li>
+                <li>Large Language Models Boosting Suicide-related Social Factor Mining
+                    <ul><li><i>Song Wang (Advisor: Joydeep Ghosh) (University of Texas at Austin, USA)</i></li></ul>
+                </li>
+                <li>Large Language Models Within the AI Pipeline
+                    <ul><li><i>Chancellor Woolsey (Advisor: Gondy Leroy) (University of Arizona, USA)</i></li></ul>
+                </li>
+                <li>Optimizing EHR Systems for Nursing: Adapting to Nurses’ Work Constraints and Workflow Integration for Enhanced Efficiency Across Seniority Levels
+                    <ul><li><i>Shan Yu (Advisor: Lisiane Pruinelli) (University of Florida, USA)</i></li></ul>
+                </li>
+                <li>Supporting Patient Information Sharing and Collection in Pre-Hospital Care through Hands-Free Smart Glasses
+                    <ul><li><i>Enze Bai (Advisor: Zhan Zhang) (Pace University, USA)</i></li></ul>
+                </li>
+                <li>Uncertainty Quantification in Critical Care Systems Using Bayesian Variational Autoencoders
+                    <ul><li><i>Elham Estiri (Advisor: Hossein Mirinejad) (Kent State University, USA)</i></li></ul>
+                </li>
+            </ul>
+
+        `,
+        "analytics1":
+        `
+            <p>Tuesday, June 4, 2:30 PM - 4:00 PM @333 Third floor</p>
+            <h3>Analytics 1: Patient Similarity and Physical Activites</h3>
+            <ul>
+                <li>Developing a computational representation of human physical activity and exercise using open ontology-based approach: a Tai Chi use case
+                    <ul><li><i>Eloisa Nguyen, Rebecca Z. Lin, Yang Gong, Cui Tao and Muhammad Amith</i></li></ul>
+                </li>
+                <li>Fine-grained Patient Similarity Measuring using Contrastive Graph Similarity Networks
+                    <ul><li><i>Yuxi Liu, Zhenhao Zhang, Shaowen Qin, Flora Dilys Salim, Jiang Bian and Antonio Jimeno Yepes</i></li></ul>
+                </li>
+                <li>Representing Outcome-driven Higher-order Dependencies in Graphs of Disease Trajectories
+                    <ul><li><i>Steven Krieg, Nitesh V. Chawla and Keith Feldman</i></li></ul>
+                </li>
+                <li>Sequence-walking Decision Tree for Multivariate Healthcare Data
+                    <ul><li><i>Pietro Sala and Omid Zare</i></li></ul>
+                </li>
+            </ul>
+        `,
+        "analytics2":
+        `
+            <p>Wednesday, June 5, 10:30 PM - 12:00 PM @Auditorium</p>
+            <h3>Analytics 2: Medical Image Analysis</h3>
+            <ul>
+                <li>Cascaded Network for Multiscale Feature Extraction
+                    <ul><li><i>Muhammad Zubair Khan, Muazzam Ali Khan and Belinda Copus</i></li></ul>
+                </li>
+                <li>Comparative Analysis of U-Net 3D, VNet, and Attention U-Net Architectures on the BRATS 2021
+                    <ul><li><i>Zarqua Neyaz and Himanshu Mittal</i></li></ul>
+                </li>
+                <li>Multiple Multi-Modal Methods of Malignant Mammogram Classification (M6C)
+                    <ul><li><i>Christopher Vattheuer, Carson Leung and Jase Tran</i></li></ul>
+                </li>
+                <li>Semantic Neural Network for Micro-Vessels Extraction
+                    <ul><li><i>Muhammad Zubair Khan and Muazzam Ali Khan</i></li></ul>
+                </li>
+                <li>Supporting Mitosis Detection AI Training with Inter-Observer Eye-Gaze Consistencies
+                    <ul><li><i>Hongyan Gu, Zihan Yan, Ayesha Alvi, Brandon Day, Chunxu Yang, Zida Wu, Shino Magaki, Mohammad Haeri and Xiang'Anthony' Chen</i></li></ul>
+                </li>
+            </ul>
+        `,
+        "analytics3": 
+            `
+            <p>Wednesday, June 5, 1:00 PM - 2:30 PM @333 Third floor</p>
+            <h3>Analytics 3: Healthcare Delivery and Genomics</h3>
+            <ul>
+                <li>An average-case efficient two-stage algorithm for enumerating all longest common substrings of minimum length k between genome pairs
+                    <ul><li><i>Mattia Prosperi, Simone Marini and Christina Boucher</i></li></ul>
+                </li>
+                <li>Classifying Cancer Stage with Open-Source Clinical Large Language Models
+                    <ul><li>Chia-Hsuan Chang, Mary Lucas, Grace Lu-Yao and Christopher Yang<i></i></li></ul>
+                </li>
+                <li>End-to-End Risk-aware Reinforcement Learning to Detect Asymptomatic Cases in Healthcare Facilities
+                    <ul><li><i>Yongjian Zhong, Weiyu Huang and Bijaya Adhikari</i></li></ul>
+                </li>
+                <li>Inhomogeneous Poisson Process for Ambulance Dispatch
+                    <ul><li><i>Félicien Hêche, Oussama Barakat, Thibaut Desmettre and Stephan Robert-Nicoud</i></li></ul>
+                </li>
+                <li>SparseHE: an efficient privacy-preserving biomedical prediction approach using sparse homomorphic encryption
+                    <ul><li><i>Chen Song, Wenkang Zhan and Xinghua Shi</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "analytics4": 
+            `
+            <p>Wednesday, June 5, 1:00 PM - 2:30 PM @334 Third floor</p>
+            <h3>Analytics 4: Disease Modeling and Prediction</h3>
+            <ul>
+                <li>Applying Reinforcement Learning to Epidemic Management: Strategic Influenza Control in Multiple Scenarios
+                    <ul><li><i>Xukun Qin, Yihan Deng, Zhiya Zuo and Xi Wang</i></li></ul>
+                </li>
+                <li>Hypergraph Convolutional Networks for Fine-grained ICU Patient Similarity Analysis and Risk Prediction
+                    <ul><li><i>Yuxi Liu, Zhenhao Zhang, Shaowen Qin, Flora Dilys Salim, Antonio Jimeno Yepes, Jun Shen and Jiang Bian</i></li></ul>
+                </li>
+                <li>ICD Codes are Insufficient to Create Datasets for Machine Learning: An Evaluation Using All of Us Data for Coccidioidomycosis and Myocardial Infarction
+                    <ul><li><i>Abigail Whitlock, Gondy Leroy, Fariba Donovan and John Galgiani</i></li></ul>
+                </li>
+                <li>Multi-Task Deep Neural Networks for Irregularly Sampled Multivariate Clinical Time Series
+                    <ul><li><i>Yuxi Liu, Zhenhao Zhang, Shaowen Qin and Jiang Bian</i></li></ul>
+                </li>
+                <li>Node2VecFuseClassifier: Bridging Perspectives in Modeling Transplantation Attitudes Among Dialysis Patients
+                    <ul><li><i>Rafaa Aljurbua, Avrum Gillespie, Jumanah Alshehri, Abdulrahman Alharbi, Nouf Albarakati and Zoran Obradovic</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "analytics5":
+            `
+            <p>Wednesday, June 5, 3:00 PM - 4:30 PM @Auditorium</p>
+            <h3>Analytics 5: Predictive Modeling</h3>
+            <ul>
+                <li>An ExplainableFair Framework for Predictive Modeling in Healthcare
+                    <ul><li><i>Mary Lucas, Xiaoyang Wang, Chia-Hsuan Chang and Christopher Yang</i></li></ul>
+                </li>
+                <li>Attention-based Imputation of Missing Values in Electronic Health Records Tabular Data
+                    <ul><li><i>Manar Samad, Ibna Kowsar and Shourav Rabbani</i></li></ul>
+                </li>
+                <li>Machine learning Based Acute Kidney Injury Sub-phenotyping With Time Series Serum Creatinine Data
+                    <ul><li><i>Ho Yin Chan, Alan Yu and Mei Liu</i></li></ul>
+                </li>
+                <li>Sleep and Arousal Scoring for In-home EEG Signals: A Multitask Learning Approach
+                    <ul><li><i>Juan Carlos Neira Almanza, Leo Ota, Kazumasa Horie, Fusae Kawana, Toshio Kokubo, Masashi Yanagisawa and Hiroyuki Kitagawa</i></li></ul>
+                </li>
+                <li>TCPNet: A Novel Tumor Contour Prediction Network using MRIs
+                    <ul><li><i>Shraddha Agarwal, Vinod Kumar Kurmi, Abhirup Banerjee and Tanmay Basu</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "analytics6":
+            `
+            <p>Wednesday, June 5, 3:00 PM - 4:30 PM @134 First floor</p>
+            <h3>Analytics 6: Social Determinants of Health and Mental Health</h3>
+            <ul>
+                <li>Analyzing Social Factors to Enhance Suicide Prevention Across Population Groups
+                    <ul><li><i>Richard Xu, Song Wang, Zewei Wang, Yuhan Zhang, Yunyu Xiao, Jyotishman Pathak, David Hodge, Yan Leng, Craig Watkins, Ying Ding and Yifan Peng</i></li></ul>
+                </li>
+                <li>Measures of Reading Ease and NOVA Food Processing Classification on Ingredients Lists in the United States
+                    <ul><li><i>Kate Cooper, Alivia Ankrum, Martina A. Clarke, Julie Blaskewicz Boron, Jana Ponce and Erin Bass</i></li></ul>
+                </li>
+                <li>Mobility-Based Community Analysis for Early Detection of Complex Psychiatric Disorders
+                    <ul><li><i>Rama Krishna Thelagathoti and Hesham Ali</i></li></ul>
+                </li>
+                <li>Personalized Impact of Lifestyle on Type 1 Diabetes Patients: A Comprehensive Regression Analysis
+                    <ul><li><i>Sinan Xie, Jared Leitner and Sujit Dey</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "analytics7":
+            `
+            <p>Wednesday, June 5, 3:00 PM - 4:30 PM @333 Third floor</p>
+            <h3>Analytics 7: Patient Representation</h3>
+            <ul>
+                <li>A Multi-Graph Fusion Framework for Patient Representation Learning
+                    <ul><li><i>Yuxi Liu, Zhenhao Zhang, Shaowen Qin and Flora Dilys Salim</i></li></ul>
+                </li>
+                <li>Assertion Detection in Clinical Natural Language Processing using Large Language Models
+                    <ul><li><i>Yuelyu Ji, Zeshui Yu and Yanshan Wang</i></li></ul>
+                </li>
+                <li>Data Distribution Dynamics in Real-World WiFi-Based Patient Activity Monitoring for Home Healthcare
+                    <ul><li><i>Mahathir Monjur, Jia Liu, Jingye Xu, Yuntong Zhang, Xiaomeng Wang, Chengdong Li, Hyejin Park, Wei Wang, Karl Shieh, Sirajum Munir, Jing Wang, Lixin Song and Shahriar Nirjon</i></li></ul>
+                </li>
+                <li>Selection Bias from Data Processing in N3C
+                    <ul><li><i>Atefehsadat Haghighathoseini, Mohammad Qodrati, Hua Min, Timothy Leslie, Cara Frankenfeld, Nirup M Menon and Janusz Wojtusiak</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "analytics8":
+            `
+            <p>Wednesday, June 5, 3:00 PM - 4:30 PM @334 Third floor</p>
+            <h3>Analytics 8: Natural Language Processing</h3>
+            <ul>
+                <li>Automated Concept Indexing for Health Measurement Scale Items through Prompt Learning with Pre-trained Language Models
+                    <ul><li><i>Jie Hao, Zhen Guo, Qinglong Peng, Meng Zhang, Liu Shen, Shan Cong, Jiao Li and Sun Haixia</i></li></ul>
+                </li>
+                <li>Constructing Cross-lingual Consumer Health Vocabulary with Word-Embedding from Comparable User Generated Content
+                    <ul><li><i>Chia-Hsuan Chang, Lei Wang and Christopher Yang</i></li></ul>
+                </li>
+                <li>Investigating Large Language Models and Control Mechanisms to Improve Text Readability of Biomedical Abstracts
+                    <ul><li><i>Zihao Li, Samuel Belkadi, Nicolo Micheletti, Lifeng Han, Matthew Shardlow and Goran Nenadic</i></li></ul>
+                </li>
+                <li>Learning to Rank Complex Biomedical Hypotheses for Accelerating Scientific Discovery
+                    <ul><li><i>Juncheng Ding, Shailesh Dahal, Bijaya Adhikari and Kishlay Jha</i></li></ul>
+                </li>
+                <li>Using Generative Large Language Models for Hierarchical Relationship Prediction in Medical Ontologies
+                    <ul><li><i>Hao Liu, Shuxin Zhou, Zhehuan Chen, Yehoshua Perl and Jiayin Wang</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "humanfactors1":
+            `
+            <p>Tuesday, June 4, 2:30 PM - 4:00 PM @131 First floor</p>
+            <h3>Human Factors 1: Mental Health and Wellbeing</h3>
+            <ul>
+                <li>A Gamified Approach for Alcohol Use Disorder Therapy in Virtual Reality
+                    <ul><li><i>Alexander Bazhanov, Veronika Landhaeusser, Kornelius Kammler-Sücker, Bernd Lenz and Gerrit Meixner</i></li></ul>
+                </li>
+                <li>Co-designing a User-Centred Digital Portal to Support Health-related Self-management for Stroke Survivors
+                    <ul><li><i>Zhiqiang Huo, Timothy Neate, David Wyatt, Sophie Rowland-Coomber, Martin Chapman, Iain J. Marshall, Charles Wolfe, Matthew O'Connell and Vasa Curcin</i></li></ul>
+                </li>
+                <li>The Impact of social media on Caregiver's Mental Well-Being: An Empirical Study
+                    <ul><li><i>Bijun Wang and Yuze Zhang</i></li></ul>
+                </li>
+                <li>Understanding Digital Wellbeing Through Smartphone Usage Intentions and Regrettable Patterns
+                    <ul><li><i>Rania Islambouli, Sandy Ingram and Denis Gillet</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "humanfactors2":
+            `
+            <p>Wednesday, June 5, 10:30 AM - 12:00 PM @131 First floor</p>
+            <h3>Human Factors 2: Clinical care and self-management</h3>
+            <ul>
+                <li>Black-box Testing of the Interactive Prostate Cancer Information, Communication, and Support Program to Ensure Reliability for Patients and Caregivers
+                    <ul><li><i>Fei Yu, Daria Neidre, Nibras Rakib, Marcus Lambert, Chunxuan Ma, Amy Vondenberger and Lixin Song</i></li></ul>
+                </li>
+                <li>iCare – An AI-Powered Virtual Assistant for Mental Health
+                    <ul><li><i>Remya Mavila, Sugam Jaiswal, Raghav Naswa, Weichao Yuwen, Bill Erdly and Dong Si</i></li></ul>
+                </li>
+                <li>LESSONS FOR APPROACHING IMPLEMENTATION OF AI SYSTEMS IN CLINICAL SETTINGS
+                    <ul><li><i>Ayomide Owoyemi, Ebere Okapra, Milicent Okor, Farooq Awais, Sagar Harwani, Megan Salwei and Andy Boyd</i></li></ul>
+                </li>
+                <li>Patient Engagement and Medication Consistency with Adoelscent Heart Transplant Recipients
+                    <ul><li><i>Michael Killian, Sonnie Mayewski, Schyler Brumm, Lisa Schelbe, Mia Lustria and Dipankar Gupta</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "system1":
+            `
+            <p>Tuesday, June 4, 2:30 PM - 4:00 PM @234 Second floor</p>
+            <h3>System 1: NLP- and Multimodal Systems</h3>
+            <ul>
+                <li>A Mispronunciation-Based Voice-Omics Representation Framework for Screening Speech and Language Impairments in Children
+                    <ul><li><i>Wei Bo, Matthew Rubino and Wenyao Xu</i></li></ul>
+                </li>
+                <li>Identifying Symptoms of Delirium from Clinical Narratives Using Natural Language Processing
+                    <ul><li><i>Aokun Chen, Daniel Paredes, Zehao Yu, Xiwei Lou, Roberta Brunson, Jamie N. Thomas, Kimberly A. Martinez, Robert J. Lucero, Tanja Magoc, Laurence M. Solberg, Urszula A. Snigurska, Sarah E. Ser, Mattia Prosperi, Jiang Bian, Ragnhildur I. Bjarnadottir and Yonghui Wu</i></li></ul>
+                </li>
+                <li>Large Language Models for Image Generation to Enhance Health Literacy
+                    <ul><li><i>Chancellor Woolsey, Skye Miller, David Kauchak, Phillip Harber, Steven Rains and Gondy Leroy</i></li></ul>
+                </li>
+                <li>Mapping study variables to NIH Common Data Elements using GPT for Sheets: Towards standardized data collection and sharing
+                    <ul><li><i>Pritham Ram, Na Hong, Hua Xu and Xiaoqian Jiang</i></li></ul>
+                </li>
+                <li>Personalized Meal Planning in Inpatient Clinical Dietetics Using Generative Artificial Intelligence: System Description
+                    <ul><li><i>Leon Kopitar, Gregor Stiglic, Leon Bedrac and Jiang Bian</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "system2":
+            `
+            <p>Wednesday, June 5, 10:30 AM - 12:00 PM @234 Second floor</p>
+            <h3>System 2: Healthcare IT Systems</h3>
+            <ul>
+                <li>A migration framework for active BPMN processes in healthcare
+                    <ul><li><i>Matteo Mantovani, Emanuele Chini and Carlo Combi</i></li></ul>
+                </li>
+                <li>Data-Driven Real-time Surveillance System for Tracking Disease Outbreaks: A Case Study of Lassa Fever Outbreaks
+                    <ul><li><i>Aniket Wattamwar and Sampson Akwafuo</i></li></ul>
+                </li>
+                <li>Development of a GenAI-Powered Hypertension Management Assistant: Early Development Phases and Architectural Design
+                    <ul><li><i>Danissa V. Rodriguez, Katerina Andreadis, Ji Chen, Javier Gonzalez and Devin Mann</i></li></ul>
+                </li>
+                <li>GEN-RWD Sandbox ecosystem for privacy-preserving data sharing in healthcare research: the Processor module
+                    <ul><li><i>Benedetta Gottardelli, Roberto Gatta, Leonardo Nucciarelli, Andrada Mihaela Tudor, Mariachiara Savino, Mauro Vallati and Andrea Damiani</i></li></ul>
+                </li>
+                <li>The Development and Feasibility of a Triage System for Use in Primary Care
+                    <ul><li><i>Magnús Friðrik Helgason, Kári Steinn Hlífarson, Baldur Olsen, Steindór Oddur Ellertsson, Hrafn Loftsson and Stefán Ólafsson</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "system3":
+            `
+            <p>Wednesday, June 5, 1:00 PM - 2:30 PM @234 Second floor</p>
+            <h3>System 3: Generative AI-Based Systems</h3>
+            <ul>
+                <li>Automated Generation of Narrative Sleep Reports Utilizing Portable Electroencephalogram Data through ChatGPT
+                    <ul><li><i>Saki Tsumoto, Fusae Kawana, Kazumasa Horie, Minori Masaki, Kei Nishida, Kazuya Miyanishi, Jaehoon Seol, Morie Tominaga, Takashi Amemiya, Tetsuro Hiei, Akihiro Tani, Masaki Matsubara, Atsuyuki Morishima, Hiroyuki Kitagawa and Masashi Yanagisawa</i></li></ul>
+                </li>
+                <li>Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts
+                    <ul><li><i>Guangzeng Han, Weisi Liu, Xiaolei Huang and Brian Borsari</i></li></ul>
+                </li>
+                <li>Effects of Different Prompts on the Quality of GPT-4 Responses to Dementia Care Questions
+                    <ul><li><i>Zhuochun Li, Bo Xie, Robin Hilsabeck, Alyssa Aguirre, Ning Zou, Zhimeng Luo and Daqing He</i></li></ul>
+                </li>
+                <li>Leveraging Generative Pre-Trained Transformer Models for Standardizing Nursing Data
+                    <ul><li><i>Aseem Baranwal, Alexander Semenov, Patricia Salgado, Karen Priola, Yingwei Yao, Gail Keenan and Tamara Macieira</i></li></ul>
+                </li>
+                <li>Leveraging Professional Radiologists' Expertise to Enhance  LLMs' Evaluation for Radiology Reports
+                    <ul><li><i>Qingqing Zhu, Xiuying Chen, Qiao Jin, Benjamin Hou, Tejas Mathai, Pritam Mukherjee, Xin Gao, Ronald Summers and Zhiyong Lu</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "industry":
+            `
+            <p>Thursday, June 6, 10:00 AM - 12:00 PM @Auditorium</p>
+            <h3>Industry Track: Industry Research in Healthcare Informatics</h3>
+            <ul>
+                <li>Clustering Patterns of Use of an Application Delivering Visualizations of Robotic Surgery Data
+                    <ul><li><i>Robert Mostellar and Gretchen Jackson</i></li></ul>
+                </li>
+                <li>Detecting Clinical Intent in Electronic Healthcare Records in a UK National Healthcare Hospital
+                    <ul><li><i>Kawsar Noor, Katherine Smith, Niamh Ingram, Baptise Ribyere, Tom Searle, Wai Keong Wong and Richard Dobson</i></li></ul>
+                </li>
+                <li>Harness the Power of Generative AI in Healthcare with Amazon AI/ML Services
+                    <ul><li><i>Sherry Ding and Veda Raman</i></li></ul>
+                </li>
+                <li>Interpretable Hierarchical Attention Network for Medical Condition Identification
+                    <ul><li><i>Dongping Fang, Lian Duan, Xiaojing Yuan, Allyn Klunder, Kevin Tan, Suiting Cao, Yeqing Ji and Mike Xu</i></li></ul>
+                </li>
+                <li>Kamino: A Scalable Architecture to Support Medical AI Research Using Large Real World Data
+                    <ul><li><i>Fongci Lin, Patrick Young, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles Torre Jr and Wade Schulz</i></li></ul>
+                </li>
+                <li>Leveraging Electronic Health Record Systems and Interoperability for Improved Decision Making in Emergency Departments: A Case Study on Troponin Test Decision-Making	
+                    <ul><li><i>Joshi Herat</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "remote":
+            `
+            <p>Tuesday, June 4, 2:30 PM - 4:00 PM @334 Third floor</p>
+            <h3>Remote Presentation</h3>
+            <ul>
+                <li>A Topological Data Analysis of Unmet Health Care Needs Among Injured Patients
+                    <ul><li><i>Nelofar Kureshi and Syed Sibte Raza Abidi</i></li></ul>
+                </li>
+                <li>Online Transfer Learning for RSV Case Detection
+                    <ul><li><i>Yiming Sun, Yuhe Gao, Runxue Bao, Gregory F. Cooper, Jessi Espino, Harry Hochheiser, Marian G. Michaels, John M. Aronis and Ye Ye</i></li></ul>
+                </li>
+            </ul>
+            `,
+        "jhir":
+            `
+            <p>Tuesday, June 4, 2:30 PM - 4:00 PM @Auditorium</p>
+            <h3>JHIR Special Session: Journal of Healthcare Informatics Research Presentation</h3>
+            <ul>
+                <li>Applying Generation-Augmented Retrieval and Large Language Models to Automatic Clinical Assessment.
+                    <ul><li><i>Ping Yu, University of Wollongong</i></li></ul>
+                </li>
+                <li>Bias Analysis in Healthcare Time Series (BAHT) Decision Support Systems from Meta Data
+                    <ul><li><i>Sagnik Dakshit, Prabhakaran Balakrishnan</i></li></ul>
+                </li>
+                <li>Extracting Complementary and Integrative Health Approaches in Electronic Health Records
+                    <ul><li><i>Rui Zhang</i></li></ul>
+                </li>
+                <li>Towards More Generalizable and Accurate Sentence Classification in Medical Abstracts with Less Data
+                    <ul><li><i>Yan Hu</i></li></ul>
+                </li>
+            </ul>
+            `,
+
+
+            
     };
 
     var modal = document.getElementById("myModal");
