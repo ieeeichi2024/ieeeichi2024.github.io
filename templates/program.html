@@ -74,6 +74,19 @@ Program
             cursor: pointer; 
     }
 
+    .column-header {
+        position: sticky;
+        top: 56px;
+        z-index: 3;
+    }
+
+    .date-header {
+        background-color: #ffce93;
+        position: sticky;
+        top: 153px;
+        z-index: 3;
+    }
+
 
     @media screen and (max-width: 600px) {
         table, thead, tbody, th, td, tr {
@@ -153,10 +166,7 @@ Program
         For poster and demo session, please follow the <a href="./presenter_guidelines.html">Presenter Guidelines</a>.
     </p>
     <table class="tg table-responsive">
-        <tr style="background-color: #ffce93;">
-            <td colspan="7"><strong>Monday, June 3</strong></td>
-        </tr>
-        <tr>
+        <tr class="column-header">
             <th style="min-width: 0.5rem;">Time</th>
             <th>Lobby (First Floor)</th>
             <th>Auditorium (First Floor)</th>
@@ -164,6 +174,9 @@ Program
             <th>234 (Second Floor)</th>
             <th>333 (Third Floor)</th>
             <th>334 (Third Floor)</th>
+        </tr>
+        <tr class="date-header fixed-top" style="background-color: #ffce93;">
+            <td colspan="7"><strong>Monday, June 3</strong></td>
         </tr>
         <tr>
             <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
@@ -218,17 +231,8 @@ Program
             <td data-label="334">Workshop 6</td>
         </tr>
         <!-- Tuesday -->
-        <tr style="background-color: #ffce93;">
+        <tr class="date-header" style="background-color: #ffce93;">
             <td colspan="7"><strong>Tuesday, June 4</strong></td>
-        </tr>
-        <tr>
-            <th style="min-width: 120px;">Time</th>
-            <th>Lobby (First Floor)</th>
-            <th>Auditorium (First Floor)</th>
-            <th>131 (First Floor)</th>
-            <th>234 (Second Floor)</th>
-            <th>333 (Third Floor)</th>
-            <th>334 (Third Floor)</th>
         </tr>
         <tr>
             <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
@@ -302,17 +306,8 @@ Program
             <td data-label="131">IHI Town Hall</td>
         </tr>
         <!-- Wednesday -->
-        <tr style="background-color: #ffce93;">
+        <tr class="date-header" style="background-color: #ffce93;">
             <td colspan="7"><strong>Wednesday, June 5</strong></td>
-        </tr>
-        <tr>
-            <th style="min-width: 120px;">Time</th>
-            <th>Lobby (First Floor)</th>
-            <th>Auditorium (First Floor)</th>
-            <th>131 (First Floor)</th>
-            <th>234 (Second Floor)</th>
-            <th>333 (Third Floor)</th>
-            <th>334 (Third Floor)</th>
         </tr>
         <tr>
             <td data-label="Time">7:30 AM - <br> 9:00 AM</td>
@@ -389,17 +384,8 @@ Program
             <td colspan="6">Ceremony/Banquet @ Wave Hotel</td>
         </tr>
         <!-- Thursday -->
-        <tr style="background-color: #ffce93;">
+        <tr class="date-header" style="background-color: #ffce93;">
             <td colspan="7"><strong>Thursday, June 6</strong></td>
-        </tr>
-        <tr>
-            <th style="min-width: 120px;">Time</th>
-            <th>Lobby (First Floor)</th>
-            <th>Auditorium (First Floor)</th>
-            <th>131 (First Floor)</th>
-            <th>234 (Second Floor)</th>
-            <th>333 (Third Floor)</th>
-            <th>334 (Third Floor)</th>
         </tr>
         <tr>
             <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
