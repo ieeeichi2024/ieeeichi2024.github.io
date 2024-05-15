@@ -161,10 +161,11 @@ Program
             <!-- is available here! -->
         </a>
     </h5>   
-    <p style="margin-top: -0.7rem;">Last updated on 5/2/2024</p>
+    <p style="margin-top: -0.7rem;">Last updated on 5/15/2024</p>
     <p>
         For poster and demo session, please follow the <a href="./presenter_guidelines.html">Presenter Guidelines</a>.
     </p>
+
     <table class="tg table-responsive">
         <tr class="column-header">
             <th style="min-width: 0.5rem;">Time</th>
@@ -182,15 +183,67 @@ Program
             <td data-label="Time">7:30 AM - <br> 8:30 AM</td>
             <td data-label="Lobby" colspan="6">Registration<br>Coffee Bar</td>
         </tr>
+
         <tr>
+            <!-- <td class="td-time">
+                <div class="time time-line">
+                    &nbsp;
+                </div>
+                <div class="time time-bottom time-bottom-down">
+                    10:00 AM
+                </div>
+            </td> -->
+            <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
+
+            <td class="td-slot">     
+            </td>
+        
+            <td class="td-slot" data-content-key="workshop1">
+                <div onclick="show_session_info('w-1')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 1</b>
+                    <hr>
+                    The Third International Workshop on Health Informatics Education
+                </div>
+            </td>
+        
+            <td class="td-slot" data-content-key="workshop2">
+                <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 2</b>
+                    <hr>
+                    Human-Centred XAI: Enhancing AI Acceptability for Healthcare
+                </div>
+            </td>
+            
+            <td class="td-slot">     
+            </td>
+
+            <td class="td-slot" data-content-key="workshop3">
+                <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 3</b>
+                    <hr>
+                    The 2nd International Workshop on Ethics and Bias of Artificial Intelligence in Clinical Applications
+                </div>
+            </td>
+        
+            <td class="td-slot" data-content-key="workshop4">
+                <div onclick="show_session_info('w-4')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 4</b>
+                    <hr>
+                    Multimodal Representation Learning for Healthcare
+                </div>
+            </td>
+        
+        </tr>
+
+        <!-- <tr>
             <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Workshop 1</td>
+            <td data-label="Auditorium">Workshop 1: The Third International Workshop on Health Informatics Education</td>
             <td data-label="131">Workshop 2</td>
             <td data-label="234"></td>
             <td data-label="333">Workshop 3</td>
             <td data-label="334">Workshop 4</td>
-        </tr>
+        </tr> -->
         <tr>
             <td data-label="Time">10:00 AM - <br> 10:20 AM</td>
             <td data-label="Lobby" colspan="6">Coffee Break</td>
@@ -198,12 +251,37 @@ Program
         <tr>
             <td data-label="Time">10:20 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Workshop 1</td>
-            <td data-label="131">Workshop 2</td>
+            <td data-label="Auditorium" data-content-key="workshop1">
+                <div onclick="show_session_info('w-1')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 1</b>
+                    <hr>
+                    The Third International Workshop on Health Informatics Education
+                </div>
+            </td>
+            <td data-label="131" data-content-key="workshop2">
+                <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 2</b>
+                    <hr>
+                    Human-Centred XAI: Enhancing AI Acceptability for Healthcare
+                </div>
+            </td>
             <td data-label="234"></td>
-            <td data-label="333">Workshop 3</td>
-            <td data-label="334">Workshop 4</td>
+            <td data-label="333" data-content-key="workshop3">
+                <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 3</b>
+                    <hr>
+                    The 2nd International Workshop on Ethics and Bias of Artificial Intelligence in Clinical Applications
+                </div>
+            </td>
+            <td data-label="334" data-content-key="workshop4">
+                <div onclick="show_session_info('w-4')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 4</b>
+                    <hr>
+                    Multimodal Representation Learning for Healthcare
+                </div>
+            </td>
         </tr>
+
         <tr>
             <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
             <td data-label="Lobby" colspan="6">Lunch</td>
@@ -211,11 +289,41 @@ Program
         <tr>
             <td data-label="Time">1:00 PM - <br> 2:30 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Workshop 1</td>
-            <td data-label="131">Workshop 2</td>
-            <td data-label="234">Workshop 5</td>
-            <td data-label="333">Workshop 3</td>
-            <td data-label="334">Workshop 6</td>
+            <td data-label="Auditorium" data-content-key="workshop1">
+                <div onclick="show_session_info('w-1')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 1</b>
+                    <hr>
+                    The Third International Workshop on Health Informatics Education
+                </div>
+            </td>
+            <td data-label="131" data-content-key="workshop2">
+                <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 2</b>
+                    <hr>
+                    Human-Centred XAI: Enhancing AI Acceptability for Healthcare
+                </div>
+            </td>
+            <td data-label="234" data-content-key="workshop5">
+                <div onclick="show_session_info('w-5')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 5</b>
+                    <hr>
+                    Data privacy and data analysis in healthcare systems
+                </div>
+            </td>
+            <td data-label="333" data-content-key="workshop3">
+                <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 3</b>
+                    <hr>
+                    The 2nd International Workshop on Ethics and Bias of Artificial Intelligence in Clinical Applications
+                </div>
+            </td>
+            <td data-label="334" data-content-key="workshop6">
+                <div onclick="show_session_info('w-6')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 6</b>
+                    <hr>
+                    The First Workshop on Applying LLMs in LMICs for Healthcare Solutions
+                </div>
+            </td>
         </tr>
         <tr>
             <td data-label="Time">2:30 PM - <br> 2:50 PM</td>
@@ -224,12 +332,43 @@ Program
         <tr>
             <td data-label="Time">2:50 PM - <br> 4:30 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Workshop 1</td>
-            <td data-label="131">Workshop 2</td>
-            <td data-label="234">Workshop 5</td>
-            <td data-label="333">Workshop 3</td>
-            <td data-label="334">Workshop 6</td>
+            <td data-label="Auditorium" data-content-key="workshop1">
+                <div onclick="show_session_info('w-1')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 1</b>
+                    <hr>
+                    The Third International Workshop on Health Informatics Education
+                </div>
+            </td>
+            <td data-label="131" data-content-key="workshop2">
+                <div onclick="show_session_info('w-2')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 2</b>
+                    <hr>
+                    Human-Centred XAI: Enhancing AI Acceptability for Healthcare
+                </div>
+            </td>
+            <td data-label="234" data-content-key="workshop5">
+                <div onclick="show_session_info('w-5')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 5</b>
+                    <hr>
+                    Data privacy and data analysis in healthcare systems
+                </div>
+            </td>
+            <td data-label="333" data-content-key="workshop3">
+                <div onclick="show_session_info('w-3')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 3</b>
+                    <hr>
+                    The 2nd International Workshop on Ethics and Bias of Artificial Intelligence in Clinical Applications
+                </div>
+            </td>
+            <td data-label="334" data-content-key="workshop6">
+                <div onclick="show_session_info('w-6')" class="slot slot-small slot-session slot-session-w">
+                    <b>Workshop 6</b>
+                    <hr>
+                    The First Workshop on Applying LLMs in LMICs for Healthcare Solutions
+                </div>
+            </td>
         </tr>
+
         <!-- Tuesday -->
         <tr class="date-header" style="background-color: #ffce93;">
             <td colspan="7"><strong>Tuesday, June 4</strong></td>
@@ -241,11 +380,20 @@ Program
         <tr>
             <td data-label="Time">8:30 AM - <br> 10:00 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" data-content-key="tutorial1">Tutorial 1</td>
+            <td data-label="Auditorium" data-content-key="tutorial1">
+                <b>Tutorial 1</b>
+                <hr>Large Language Models in Healthcare: Prompt Engineering Competition
+            </td>
             <td data-label="131" data-content-key="doctoralconsortium">Doctoral Consortium</td>
-            <td data-label="234" data-content-key="tutorial2">Tutorial 2</td>
+            <td data-label="234" data-content-key="tutorial2">
+                <b>Tutorial 2</b>
+                <hr>Generating Real-World Evidence with Real-world Data and Machine Learning
+            </td>
             <td data-label="333"></td>
-            <td data-label="334" data-content-key="tutorial3">Tutorial 3</td>
+            <td data-label="334" data-content-key="tutorial3">
+                <b>Tutorial 3</b>
+                <hr>Usable Interpretability for Large Language Models
+            </td>
         </tr>
         <tr>
             <td data-label="Time">10:00 AM - <br> 10:20 AM</td>
@@ -254,11 +402,20 @@ Program
         <tr>
             <td data-label="Time">10:20 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" data-content-key="tutorial1">Tutorial 1</td>
+            <td data-label="Auditorium" data-content-key="tutorial1">
+                <b>Tutorial 1</b>
+                <hr>Large Language Models in Healthcare: Prompt Engineering Competition
+            </td>
             <td data-label="131" data-content-key="doctoralconsortium">Doctoral Consortium</td>
-            <td data-label="234" data-content-key="tutorial2">Tutorial 2</td>
+            <td data-label="234" data-content-key="tutorial2">
+                <b>Tutorial 2</b>
+                <hr>Generating Real-World Evidence with Real-world Data and Machine Learning
+            </td>
             <td data-label="333"></td>
-            <td data-label="334" data-content-key="tutorial3">Tutorial 3</td>
+            <td data-label="334" data-content-key="tutorial3">
+                <b>Tutorial 3</b>
+                <hr>Usable Interpretability for Large Language Models
+            </td>
         </tr>
         <tr>
             <td data-label="Time">12:00 PM - <br> 1:00 PM</td>
@@ -276,7 +433,7 @@ Program
         <tr>
             <td data-label="Time">1:20 PM - <br> 2:15 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Keynote 1: Dr. Jessica S. Ancker, Professor and Vice Chair for Education Affairs, Department of Biomedical Informatics at Vanderbilt University</td>
+            <td data-label="Auditorium" data-content-key="keynote1">Keynote 1: Dr. Jessica S. Ancker, Professor and Vice Chair for Education Affairs, Department of Biomedical Informatics at Vanderbilt University</td>
             <td data-label="131"></td>
             <td data-label="234"></td>
             <td data-label="333"></td>
@@ -289,11 +446,26 @@ Program
         <tr>
             <td data-label="Time">2:30 PM - <br> 4:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" data-content-key="jhir">JHIR Special Session</td>
-            <td data-label="131" data-content-key="humanfactors1">Paper Session: Human Factors 1</td>
-            <td data-label="234" data-content-key="system1">Paper Session: System 1</td>
-            <td data-label="333" data-content-key="analytics1">Paper Session: Analytics 1</td>
-            <td data-label="334" data-content-key="remote">Remote Session 1</td>
+            <td data-label="Auditorium" data-content-key="jhir">
+                <b>JHIR Special Session</b>
+                <hr>Journal of Healthcare Informatics Research Presentation
+            </td>
+            <td data-label="131" data-content-key="humanfactors1">
+                <b>Paper Session: Human Factors 1</b>
+                <hr> Mental Health and Wellbeing
+            </td>
+            <td data-label="234" data-content-key="system1">
+                <b>Paper Session: System 1</b>
+                <hr> NLP and Multimodal Systems
+            </td>
+            <td data-label="333" data-content-key="analytics1">
+                <b>Paper Session: Analytics 1</b>
+                <hr> Patient Similarity and Physical Activities
+            </td>
+            <td data-label="334" data-content-key="remote">
+                <b>Remote Session 1</b>
+                <hr> Remote Live Presentations
+            </td>
         </tr>
         <tr>
             <td data-label="Time">4:30 PM - <br> 6:00 PM</td>
@@ -325,7 +497,7 @@ Program
         <tr>
             <td data-label="Time">9:00 AM - <br> 10:00 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Keynote 2: Dr. Zhiyong Lu, Senior Investigator at the National Library of Medicine, NIH</td>
+            <td data-label="Auditorium" data-content-key="keynote2">Keynote 2: Dr. Zhiyong Lu, Senior Investigator at the National Library of Medicine, NIH</td>
             <td data-label="131"></td>
             <td data-label="234"></td>
             <td data-label="333"></td>
@@ -338,9 +510,18 @@ Program
         <tr>
             <td data-label="Time">10:30 AM - <br> 12:00 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" data-content-key="analytics2">Paper Session: Analytics 2</td>
-            <td data-label="131" data-content-key="humanfactors2">Paper Session: Human Factors 2</td>
-            <td data-label="234" data-content-key="system2">Paper Session: System 2</td>
+            <td data-label="Auditorium" data-content-key="analytics2">
+                <b>Paper Session: Analytics 2</b>
+                <hr> Medical Image Analysis
+            </td>
+            <td data-label="131" data-content-key="humanfactors2">
+                <b>Paper Session: Human Factors 2</b>
+                <hr> Clinical care and self-management
+            </td>
+            <td data-label="234" data-content-key="system2">
+                <b>Paper Session: System 2</b>
+                <hr>  Healthcare IT Systems
+            </td>
             <td data-label="333"></td>
             <td data-label="334"></td>
         </tr>
@@ -362,9 +543,18 @@ Program
             <td data-label="Lobby"></td>
             <td data-label="Auditorium">Panel Discussion on LLMs</td>
             <td data-label="131"></td>
-            <td data-label="234" data-content-key="system3">Paper Session: System 3</td>
-            <td data-label="333" data-content-key="analytics3">Paper Session: Analytics 3</td>
-            <td data-label="334" data-content-key="analytics4">Paper Session: Analytics 4</td>
+            <td data-label="234" data-content-key="system3">
+                <b>Paper Session: System 3</b>
+                <hr> Generative AI-Based Systems
+            </td>
+            <td data-label="333" data-content-key="analytics3">
+                <b>Paper Session: Analytics 3</b>
+                <hr> Healthcare Delivery and Genomics
+            </td>
+            <td data-label="334" data-content-key="analytics4">
+                <b>Paper Session: Analytics 4</b>
+                <hr> Disease Modeling and Prediction
+            </td>
         </tr>
         <tr>
             <td data-label="Time">2:30 PM - <br> 3:00 PM</td>
@@ -373,11 +563,23 @@ Program
         <tr>
             <td data-label="Time">3:00 PM - <br> 4:30 PM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium" data-content-key="analytics5">Paper Session: Analytics 5</td>
-            <td data-label="131" data-content-key="analytics6">Paper Session: Analytics 6</td>
+            <td data-label="Auditorium" data-content-key="analytics5">
+                <b>Paper Session: Analytics 5</b>
+                <hr> Predictive Modeling
+            </td>
+            <td data-label="131" data-content-key="analytics6">
+                <b>Paper Session: Analytics 6</b>
+                <hr> Social Determinants of Health and Mental Health
+            </td>
             <td data-label="234">Panel Discussion on XAI</td>
-            <td data-label="333" data-content-key="analytics7">Paper Session: Analytics 7</td>
-            <td data-label="334" data-content-key="analytics8">Paper Session: Analytics 8</td>
+            <td data-label="333" data-content-key="analytics7">
+                <b>Paper Session: Analytics 7</b>
+                <hr> Patient Representation
+            </td>
+            <td data-label="334" data-content-key="analytics8">
+                <b>Paper Session: Analytics 8</b>
+                <hr> Natural Language Processing
+            </td>
         </tr>
         <tr>
             <td data-label="Time">6:00 PM - <br> 8:00 PM</td>
@@ -394,7 +596,7 @@ Program
         <tr>
             <td data-label="Time">8:30 AM - <br> 9:30 AM</td>
             <td data-label="Lobby"></td>
-            <td data-label="Auditorium">Keynote 3: Dr. Jens Kleesiek, Professor of Translational Image-guided Oncology</td>
+            <td data-label="Auditorium" data-content-key="keynote3">Keynote 3: Dr. Jens Kleesiek, Professor of Translational Image-guided Oncology</td>
             <td data-label="131"></td>
             <td data-label="234"></td>
             <td data-label="333"></td>
@@ -424,6 +626,13 @@ Program
         </tr>
     </tbody>
     </table>
+
+    <h4>
+        Program Details
+    </h4>
+
+    {% include '_program_day1_detail.html' %}
+
     <br>
 </div>
 <script>
@@ -484,6 +693,112 @@ Program
             </ul>
             
             `,
+        "workshop1": 
+            `
+            <p>Monday, June 3, 8:30AM - 16:30 PM @Auditorium (First Floor)</p>
+                <h3>Workshop 1: The Third International Workshop on Health Informatics Education</h3>
+                <h5>Organizers:Leming Zhou, Huanmei Wu, Yanshan Wang</h5>
+                <p>Acronyms:
+                    HI-Edu 2024 Workshop
+                    <br>
+                    Institution:
+                    Nivi and Brandeis University, Cornell
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href="https://sites.pitt.edu/~lzhou1/HIEDU2024.html">
+                    https://sites.pitt.edu/~lzhou1/HIEDU2024.html
+                    </a>
+                </p>
+            `,
+        "workshop2": 
+            `
+            <p>Monday, June 3, 8:30AM - 16:30 PM @131(First Floor)</p>
+                <h3>Workshop 2: Human-Centred XAI: Enhancing AI Acceptability for Healthcare</h3>
+                <h5>Organizers:Gilles DEQUEN, Daniel Aïham GHAZALI, Emilien ARNAUD, Mahmoud ELBATTAH</h5>
+                <p>Acronyms:
+                    Human-Centred XAI Workshop
+                    <br>
+                    Institution:
+                    Université de Picardie Jules Verne, France
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href="https://mahmoud-elbattah.github.io/ichiworkshop2024/">
+                    https://mahmoud-elbattah.github.io/ichiworkshop2024/
+                    </a>
+                </p>
+            `,
+
+        "workshop3": 
+            `
+            <p>Monday, June 3, 8:30AM - 16:30 PM @333(Third Floor)</p>
+                <h3>Workshop 3: The 2nd International Workshop on Ethics and Bias of Artificial Intelligence in Clinical Applications</h3>
+                <h5>Organizers:Ahmad P. Tafti, Yanshan Wang, Hongfang Liu</h5>
+                <p>Acronyms:
+                    EBAIC 2024 Workshop
+                    <br>
+                    Institution:
+                    University of Pittsburgh, The University of Texas Health Science Center at Houston
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href="https://pitthexai.github.io/EBAIC2024/">
+                    https://pitthexai.github.io/EBAIC2024/
+                    </a>
+                </p>
+            `,
+        
+        "workshop4": 
+            `
+            <p>Monday, June 3, 8:30AM - 12:00 PM @334(Third Floor)</p>
+                <h3>Workshop 4: Multimodal Representation Learning for Healthcare</h3>
+                <h5>Organizers:Man Luo, Aisha Urooj, Theo Dapamede, Jason Fries, Bhavik Patel, Imon Banerjee</h5>
+                <p>Acronyms:
+                    Multimodal4Health Workshop
+                    <br>
+                    Institution:
+                    Mayo Clinic (AZ, MN), Emory, Stanford
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href="https://luomancs.github.io/Multimodal4Health-ICHI/">
+                    https://luomancs.github.io/Multimodal4Health-ICHI/
+                    </a>
+                </p>
+            `,
+        "workshop5": 
+            `
+            <p>Monday, June 3, 1:00PM - 4:30PM @234(Second Floor)</p>
+                <h3>Workshop 5: Data privacy and data analysis in healthcare systems</h3>
+                <h5>Organizers:Matteo Mantovani, Luca Bonomi</h5>
+                <p>Acronyms:
+                    DPDAHS Workshop
+                    <br>
+                    Institution:
+                    University of Verona, Italy; Vanderbilt University Medical Center (VUMC), TN, USA
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href=" https://dpdahs.github.io/">
+                    https://dpdahs.github.io/
+                    </a>
+                </p>
+            `,
+        "workshop6": 
+            `
+            <p>Monday, June 3, 1:00PM - 4:30PM @334(Third Floor)</p>
+                <h3>Workshop 6: The First Workshop on Applying LLMs in LMICs for Healthcare Solutions</h3>
+                <h5>Organizers:David Tresner-Kirsch, Emma Pierson</h5>
+                <p>Acronyms:
+                    ALL 4 Health 2024 Workshop
+                    <br>
+                    Institution:
+                    Nivi and Brandeis University, Cornell
+                    <br>
+                    More information of this workshop is on website link: <a target="_blank"
+                    href=" https://www.nivi.io/all4health/">
+                    https://www.nivi.io/all4health/
+                    </a>
+                </p>
+            `,
+            
+            
         "tutorial1": 
             `
                 <p>Tuesday, June 4, 8:30 AM - 12:00 PM @Auditorium</p>
@@ -510,48 +825,150 @@ Program
             <p>Tuesday, June 4, 8:30 AM - 12:00 PM @131 First floor</p>
             <h3>Doctoral Consortium Papers</h3>
             <ul>
-                <li>Automatic Segmentation of Effusion from Knee MRI Images
-                    <ul><li><i>Mohammad Chowdhury (Advisor: Juan Shan) (Pace University, USA)</i></li></ul>
+                <li>8:30AM-9:00AM: Peer Group Feedback
                 </li>
-                <li>Advancing Personalized Hypoglycemia Risk Profiling by Leveraging ICU Length of Stay and Comorbidity Data
-                    <ul><li><i>Jennifer Daniel Onwuchekwa (Advisor: Maria Maleshkova) (University of Siegen, Germany)</i></li></ul>
-                </li>
-                <li>An Enhanced Multimodal Multilingual Dataset for Medical Misinformation Detection
-                    <ul><li><i>Zhaoyi Sun (Advisor: Fei Xia) (University of Washington, USA)</i></li></ul>
-                </li>
-                <li>Big Research Data Management Needs of Researchers at a Research-Intensive University - A Qualitative Study
-                    <ul><li><i>Fatih Gunaydin (Advisor: Besiki Stvilia) (Florida State University, USA)</i></li></ul>
-                </li>
-                <li>Clinicians' Perspective on the Role of Trustworthiness for AI Adoption in Healthcare
-                    <ul><li><i>Forhan Bin Emdad (Advisor: Zhe He) (Florida State University, USA)</i></li></ul>
-                </li>
-                <li>Comparing Approaches to Risk Threshold Selection for Venous Thromboembolism Prophylaxis in Medical Inpatients
-                    <ul><li><i>Benjamin Mittman (Advisor: Michael Rothberg) (Case Western Reserve University, USA)</i></li></ul>
-                </li>
-                <li>Implications of an Interactive Assistive Tool to Support Online Health Information Evaluation
-                    <ul><li><i>Jiaying Liu (Advisor: Yan Zhang) (University of Texas at Austin, USA)</i></li></ul>
-                </li>
-                <li>Integrating Medical Knowledge and Data with Large Language Models to Improve Clinical Information Extraction
-                    <ul><li><i>Yan Hu (Advisor: Hua Xu) (University of Texas Health Science Center at Houston, USA)</i></li></ul>
-                </li>
-                <li>Large Language Models Boosting Suicide-related Social Factor Mining
-                    <ul><li><i>Song Wang (Advisor: Joydeep Ghosh) (University of Texas at Austin, USA)</i></li></ul>
-                </li>
-                <li>Large Language Models Within the AI Pipeline
-                    <ul><li><i>Chancellor Woolsey (Advisor: Gondy Leroy) (University of Arizona, USA)</i></li></ul>
-                </li>
-                <li>Optimizing EHR Systems for Nursing: Adapting to Nurses’ Work Constraints and Workflow Integration for Enhanced Efficiency Across Seniority Levels
-                    <ul><li><i>Shan Yu (Advisor: Lisiane Pruinelli) (University of Florida, USA)</i></li></ul>
-                </li>
-                <li>Supporting Patient Information Sharing and Collection in Pre-Hospital Care through Hands-Free Smart Glasses
+                <li>9:00AM-9:12AM: Supporting Patient Information Sharing and Collection in Pre-Hospital Care through Hands-Free Smart Glasses
                     <ul><li><i>Enze Bai (Advisor: Zhan Zhang) (Pace University, USA)</i></li></ul>
                 </li>
-                <li>Uncertainty Quantification in Critical Care Systems Using Bayesian Variational Autoencoders
+                <li>9:12AM-9:24AM: Implications of an Interactive Assistive Tool to Support Online Health Information Evaluation
+                    <ul><li><i>Jiaying Liu (Advisor: Yan Zhang) (University of Texas at Austin, USA)</i></li></ul>
+                </li>
+                <li>9:24AM-9:36AM: An Enhanced Multimodal Multilingual Dataset for Medical Misinformation Detection
+                    <ul><li><i>Zhaoyi Sun (Advisor: Fei Xia) (University of Washington, USA)</i></li></ul>
+                </li>
+                <li>9:36AM-9:48AM: Clinicians' Perspective on the Role of Trustworthiness for AI Adoption in Healthcare
+                    <ul><li><i>Forhan Bin Emdad (Advisor: Zhe He) (Florida State University, USA)</i></li></ul>
+                </li>
+                <li>9:48AM-10:00AM: Integrating Medical Knowledge and Data with Large Language Models to Improve Clinical Information Extraction
+                    <ul><li><i>Yan Hu (Advisor: Hua Xu) (University of Texas Health Science Center at Houston, USA)</i></li></ul>
+                </li>
+                <li>10:00AM-10:12AM: Optimizing EHR Systems for Nursing: Adapting to Nurses’ Work Constraints and Workflow Integration for Enhanced Efficiency Across Seniority Levels
+                    <ul><li><i>Shan Yu (Advisor: Lisiane Pruinelli) (University of Florida, USA)</i></li></ul>
+                </li>
+                <li>10:15AM-10:30AM: BREAK
+                </li>
+                <li>10:30AM-10:45AM: Life after Graduation Q&A
+                </li>
+                <li>10:45AM-10:57AM: Comparing Approaches to Risk Threshold Selection for Venous Thromboembolism Prophylaxis in Medical Inpatients
+                    <ul><li><i>Benjamin Mittman (Advisor: Michael Rothberg) (Case Western Reserve University, USA)</i></li></ul>
+                </li>
+                <li>10:57AM-11:09AM: Uncertainty Quantification in Critical Care Systems Using Bayesian Variational Autoencoders
                     <ul><li><i>Elham Estiri (Advisor: Hossein Mirinejad) (Kent State University, USA)</i></li></ul>
                 </li>
+                <li>11:09AM-11:21AM: Large Language Models Within the AI Pipeline
+                    <ul><li><i>Chancellor Woolsey (Advisor: Gondy Leroy) (University of Arizona, USA)</i></li></ul>
+                </li>
+                <li>11:21AM-11:33AM: Big Research Data Management Needs of Researchers at a Research-Intensive University - A Qualitative Study
+                    <ul><li><i>Fatih Gunaydin (Advisor: Besiki Stvilia) (Florida State University, USA)</i></li></ul>
+                </li>
+                <li>11:33AM-11:45AM: Large Language Models Boosting Suicide-related Social Factor Mining
+                    <ul><li><i>Song Wang (Advisor: Joydeep Ghosh) (University of Texas at Austin, USA)</i></li></ul>
+                </li>
+                <li>11:45AM-11:57AM: Automatic Segmentation of Effusion from Knee MRI Images
+                    <ul><li><i>Mohammad Chowdhury (Advisor: Juan Shan) (Pace University, USA)</i></li></ul>
+                </li>
+                <li>11:57AM-12:09PM: Advancing Personalized Hypoglycemia Risk Profiling by Leveraging ICU Length of Stay and Comorbidity Data
+                    <ul><li><i>Jennifer Daniel Onwuchekwa (Advisor: Maria Maleshkova) (University of Siegen, Germany)</i></li></ul>
+                </li>
+                <li>12:09PM-1:00PM: LUNCH Q&A
+                </li>
+    
             </ul>
 
         `,
+        "keynote1":
+        `   
+
+            <div class="row mt-5 mb-5">
+
+                <div class="col">
+
+                    <style="margin-bottom: 2em">
+                    <p>Tuesday, June 4, 1:20 PM - 2:15 PM @Auditorium (First Floor)</p>
+                    <h3>Keynote 1:
+                        <a target="_blank" href="https://www.vumc.org/dbmi/person/jessica-s-ancker-phd-mph-facmi">
+                            Dr. Jessica S. Ancker
+                        </a>
+                    </h3>
+                    <h5>Professor and Vice Chair for Education Affairs, Department of Biomedical Informatics at Vanderbilt University</h5>
+                    <p>
+                        <img class="keynote_img"
+                        src="./static/image/Ancker_Jessica.jpeg" 
+                        alt="Dr. Jessica S. Ancker">
+                        
+                    </p>
+
+                </div>
+            </div>
+        `,
+
+        "keynote2":
+        `   
+
+            <div class="row mt-5 mb-5">
+
+                <div class="col">
+
+                    <style="margin-bottom: 2em">
+                    <p>Wednesday, June 5, 9:00 AM - 10:00 AM @Auditorium (First Floor)</p>
+                    <h3>Keynote 2:
+                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu">
+                            Dr. Zhiyong Lu
+                        </a>
+                    </h3>
+        
+                    <h5>
+                        <ul>
+                            <li>Senior Investigator at the National Library of Medicine, NIH, and Deputy Director for Literature Search, National Center for Biotechnology Information (NCBI)
+                            </li>
+                            <li>Professor of Computer Science (Adjunct), University of Illinois Urbana-Champaign (UIUC).
+                            </li>
+                        </ul>
+                    </h5>
+                    
+                    <p>
+                        <img class="keynote_img"
+                        src="./static/image/ZhiyongLu.jpeg" 
+                        alt="Dr. Zhiyong Lu">
+                        
+                    </p>
+
+                </div>
+            </div>
+        `,
+
+        "keynote3":
+        `   
+
+            <div class="row mt-5 mb-5">
+
+                <div class="col">
+
+                    <style="margin-bottom: 2em">
+                    <p>Thursday, June 6, 8:30 AM - 9:30 AM @Auditorium (First Floor)</p>
+                    <h3>Keynote 3:
+                        <a target="_blank" href="https://mml.ikim.nrw/authors/jens-kleesiek/">
+                            Dr. Jens Kleesiek
+                        </a>
+                    </h3>
+        
+                    <h5>
+                        Professor of Translational Image-guided Oncology
+                        <br>
+                        Institute for AI in Medicine (IKIM), University Medicine Essen, Germany
+                    </h5>
+                    
+                    <p>
+                        <img class="keynote_img"
+                        src="https://mml.ikim.nrw/authors/jens-kleesiek/avatar_hu924d37d634ff8cc23e7f9a1c8ab4a7eb_28787_270x270_fill_q75_lanczos_center.jpeg" 
+                        alt="Dr. Jens Kleesiek">
+                        
+                    </p>
+
+                </div>
+            </div>
+        `,
+
         "analytics1":
         `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @333 Third floor</p>
