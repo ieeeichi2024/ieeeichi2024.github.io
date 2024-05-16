@@ -87,6 +87,16 @@ Program
         z-index: 3;
     }
 
+    .slot-session-t {
+        border-top: 3px solid #bbb;
+        border-color: rgb(53, 204, 78);
+    }
+    
+    .slot-session-t:hover {
+        border-top: 3px solid #bbb;
+        background-color: rgba(53, 204, 78, 0.05);
+    }
+
 
     @media screen and (max-width: 600px) {
         table, thead, tbody, th, td, tr {
@@ -627,11 +637,17 @@ Program
     </tbody>
     </table>
 
-    <h4>
+    <h2>
         Program Details
-    </h4>
+    </h2>
 
     {% include '_program_day1_detail.html' %}
+
+    {% include '_program_day2_detail.html' %}
+
+    {% include '_program_day3_detail.html' %}
+
+    {% include '_program_day4_detail.html' %}
 
     <br>
 </div>
