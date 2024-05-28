@@ -171,7 +171,7 @@ Program
             <!-- is available here! -->
         </a>
     </h5>   
-    <p style="margin-top: -0.7rem;">Last updated on 5/25/2024</p>
+    <p style="margin-top: -0.7rem;">Last updated on 5/28/2024</p>
     <p>
         For poster and demo session, please follow the <a href="./presenter_guidelines.html">Presenter Guidelines</a>.
     </p>
@@ -479,7 +479,7 @@ Program
         </tr>
         <tr>
             <td data-label="Time">4:30 PM - <br> 6:00 PM</td>
-            <td data-label="Lobby" colspan="6" data-content-key="poster-session">Poster Session & Reception</td>
+            <td data-label="Lobby" data-content-key="poster-session">Poster Session & Reception</td>
         </tr>
         <tr>
             <td data-label="Time">5:30 PM - <br> 6:30 PM</td>
@@ -523,7 +523,6 @@ Program
             <td data-label="Auditorium" data-content-key="analytics2">
                 <b>Paper Session: Analytics 2</b>
                 <hr> Medical Image Analysis
-            </td>
             <td data-label="131" data-content-key="humanfactors2">
                 <b>Paper Session: Human Factors 2</b>
                 <hr> Clinical care and self-management
@@ -583,7 +582,7 @@ Program
                 <b>Paper Session: Analytics 6</b>
                 <hr> Social Determinants of Health and Mental Health
             </td>
-            <td data-label="234">Panel Discussion on XAI</td>
+            <td data-label="234" data-content-key="panelXAI">Panel Discussion on XAI</td>
             <td data-label="333" data-content-key="analytics7">
                 <b>Paper Session: Analytics 7</b>
                 <hr> Patient Representation
@@ -664,7 +663,7 @@ Program
         "poster-session": 
             `
             <p> Tuesday, June 4, 4:30 PM - 6:00 PM @Lobby </p>
-            <h3>Poster Session and Reception</h3>
+            <h3>Posters & Demos (Session Chair: Dr. Xing He, Dr. Tuan Amith)</h3>
             <ul style="list-style-type:none;">
                 <li>1. Time Series Anomaly Detection with CNN for Environmental Sensors in Healthcare-IoT</li>
                 <ul><li><i>Mirza Akhi Khatun, Mangolika Bhattacharya, Ciarán Eising and Lubna Luxmi Dhirani</i></li></ul>
@@ -734,7 +733,7 @@ Program
             `,
         "workshop2": 
             `
-            <p>Monday, June 3, 8:30AM - 16:30 PM @131(First Floor)</p>
+            <p>Monday, June 3, 8:30AM - 12:00 PM @131(First Floor)</p>
                 <h3>Workshop 2: Human-Centred XAI: Enhancing AI Acceptability for Healthcare</h3>
                 <h5>Organizers:Gilles DEQUEN, Daniel Aïham GHAZALI, Emilien ARNAUD, Mahmoud ELBATTAH</h5>
                 <p>Acronyms:
@@ -842,6 +841,7 @@ Program
                 <h5>Yucheng Shi, Haiyan Zhao, Fan Yang, Xuansheng Wu, Mengnan Du, Ninghao Liu</h5>
                 <p>Large Language Models (LLMs) have shown remarkable proficiency in natural language processing tasks. Despite these advancements, the opacity of their internal workings presents significant challenges, introducing potential risks for applications built upon these models. Consequently, comprehending and elucidating the operations of LLMs is essential to fully understand their behavior, identify their limitations, and assess their broader social implications. Interpretation methods serve as a crucial tool for understanding LLMs. In this half-day tutorial, we introduce several strategies for interpreting LLMs, as well as how the interpretation could guide the improvement of LLMs. Besides introducing the methodologies, we also provide several case studies. The target audience of this tutorial includes individuals with a biomedical background but are interested in leveraging LLMs for explainable solutions. The instructors consists of researchers from the University of Georgia, New Jersey Institute of Technology, and Wake Forest University. The instructors are experienced in Explainable AI (XAI), and have conducted preliminary research of LLM interpretation.</p>
             `,
+
         "doctoralconsortium":
         `
             <p>Tuesday, June 4, 8:30 AM - 12:00 PM @131 First floor</p>
@@ -898,6 +898,7 @@ Program
             </ul>
 
         `,
+        
         "keynote1":
         `   
 
@@ -994,7 +995,11 @@ Program
         "analytics1":
         `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @333 Third floor</p>
-            <h3>Analytics 1: Patient Similarity and Physical Activites</h3>
+            <h3>Analytics 1: Patient Similarity and Physical Activites 
+                <br>
+                (Session Chair: Dr. Gayo Diallo)
+                </br>
+            </h3>
             <ul>
                 <li>Developing a computational representation of human physical activity and exercise using open ontology-based approach: a Tai Chi use case
                     <ul><li><i>Eloisa Nguyen, Rebecca Z. Lin, Yang Gong, Cui Tao and Muhammad Amith</i></li></ul>
@@ -1013,7 +1018,7 @@ Program
         "analytics2":
         `
             <p>Wednesday, June 5, 10:30 PM - 12:00 PM @Auditorium</p>
-            <h3>Analytics 2: Medical Image Analysis</h3>
+            <h3>Analytics 2: Medical Image Analysis  (Session Chair: Dr. Carson Leung)</h3>
             <ul>
                 <li>Cascaded Network for Multiscale Feature Extraction
                     <ul><li><i>Muhammad Zubair Khan, Muazzam Ali Khan and Belinda Copus</i></li></ul>
@@ -1035,7 +1040,10 @@ Program
         "analytics3": 
             `
             <p>Wednesday, June 5, 1:00 PM - 2:30 PM @333 Third floor</p>
-            <h3>Analytics 3: Healthcare Delivery and Genomics</h3>
+            <h3>Analytics 3: Healthcare Delivery and Genomics 
+                <br>(Session Chair: Dr. Qianqian Song)</br>
+
+            </h3>
             <ul>
                 <li>An average-case efficient two-stage algorithm for enumerating all longest common substrings of minimum length k between genome pairs
                     <ul><li><i>Mattia Prosperi, Simone Marini and Christina Boucher</i></li></ul>
@@ -1056,8 +1064,10 @@ Program
             `,
         "analytics4": 
             `
-            <p>Wednesday, June 5, 1:00 PM - 2:30 PM @334 Third floor</p>
-            <h3>Analytics 4: Disease Modeling and Prediction</h3>
+            <p>Wednesday, June 5, 1:00 PM - 2:30 PM @Auditorium (First Floor)</p>
+            <h3>Analytics 4: Disease Modeling and Prediction 
+                <br>(Session Chair: Dr. Mei Liu)</br>
+            </h3>
             <ul>
                 <li>Applying Reinforcement Learning to Epidemic Management: Strategic Influenza Control in Multiple Scenarios
                     <ul><li><i>Xukun Qin, Yihan Deng, Zhiya Zuo and Xi Wang</i></li></ul>
@@ -1079,7 +1089,7 @@ Program
         "analytics5":
             `
             <p>Wednesday, June 5, 3:00 PM - 4:30 PM @Auditorium</p>
-            <h3>Analytics 5: Predictive Modeling</h3>
+            <h3>Analytics 5: Predictive Modeling (Session Chair: Dr. Jie Xu)</h3>
             <ul>
                 <li>An ExplainableFair Framework for Predictive Modeling in Healthcare
                     <ul><li><i>Mary Lucas, Xiaoyang Wang, Chia-Hsuan Chang and Christopher Yang</i></li></ul>
@@ -1099,7 +1109,9 @@ Program
         "analytics6":
             `
             <p>Wednesday, June 5, 3:00 PM - 4:30 PM @134 First floor</p>
-            <h3>Analytics 6: Social Determinants of Health and Mental Health</h3>
+            <h3>Analytics 6: Social Determinants of Health and Mental Health
+                <br>(Session Chair: Dr. Ping Yu)</br>
+            </h3>
             <ul>
                 <li>Analyzing Social Factors to Enhance Suicide Prevention Across Population Groups
                     <ul><li><i>Richard Xu, Song Wang, Zewei Wang, Yuhan Zhang, Yunyu Xiao, Jyotishman Pathak, David Hodge, Yan Leng, Craig Watkins, Ying Ding and Yifan Peng</i></li></ul>
@@ -1118,7 +1130,7 @@ Program
         "analytics7":
             `
             <p>Wednesday, June 5, 3:00 PM - 4:30 PM @333 Third floor</p>
-            <h3>Analytics 7: Patient Representation</h3>
+            <h3>Analytics 7: Patient Representation (Session Chair: Dr. Keith Feldman)</h3>
             <ul>
                 <li>A Multi-Graph Fusion Framework for Patient Representation Learning
                     <ul><li><i>Yuxi Liu, Zhenhao Zhang, Shaowen Qin and Flora Dilys Salim</i></li></ul>
@@ -1140,7 +1152,7 @@ Program
         "analytics8":
             `
             <p>Wednesday, June 5, 3:00 PM - 4:30 PM @334 Third floor</p>
-            <h3>Analytics 8: Natural Language Processing</h3>
+            <h3>Analytics 8: Natural Language Processing (Session Chair: Dr. Zhe He)</h3>
             <ul>
                 <li>Automated Concept Indexing for Health Measurement Scale Items through Prompt Learning with Pre-trained Language Models
                     <ul><li><i>Jie Hao, Zhen Guo, Qinglong Peng, Meng Zhang, Liu Shen, Shan Cong, Jiao Li and Sun Haixia</i></li></ul>
@@ -1162,7 +1174,10 @@ Program
         "humanfactors1":
             `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @131 First floor</p>
-            <h3>Human Factors 1: Mental Health and Wellbeing</h3>
+            <h3>Human Factors 1: Mental Health and Wellbeing 
+                <br>(Session Chair: Dr. Oshani Seneviratne)</br>
+
+                </h3>
             <ul>
                 <li>A Gamified Approach for Alcohol Use Disorder Therapy in Virtual Reality
                     <ul><li><i>Alexander Bazhanov, Veronika Landhaeusser, Kornelius Kammler-Sücker, Bernd Lenz and Gerrit Meixner</i></li></ul>
@@ -1181,7 +1196,9 @@ Program
         "humanfactors2":
             `
             <p>Wednesday, June 5, 10:30 AM - 12:00 PM @131 First floor</p>
-            <h3>Human Factors 2: Clinical care and self-management</h3>
+            <h3>Human Factors 2: Clinical care and self-management 
+                <br>(Session Chair: Dr. Xing He)</br>
+            </h3>
             <ul>
                 <li>Black-box Testing of the Interactive Prostate Cancer Information, Communication, and Support Program to Ensure Reliability for Patients and Caregivers
                     <ul><li><i>Fei Yu, Daria Neidre, Nibras Rakib, Marcus Lambert, Chunxuan Ma, Amy Vondenberger and Lixin Song</i></li></ul>
@@ -1200,7 +1217,9 @@ Program
         "system1":
             `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @234 Second floor</p>
-            <h3>System 1: NLP- and Multimodal Systems</h3>
+            <h3>System 1: NLP- and Multimodal Systems 
+                <br>(Session Chair: Dr. Xiaolei Huang)</br>
+            </h3>
             <ul>
                 <li>A Mispronunciation-Based Voice-Omics Representation Framework for Screening Speech and Language Impairments in Children
                     <ul><li><i>Wei Bo, Matthew Rubino and Wenyao Xu</i></li></ul>
@@ -1222,7 +1241,7 @@ Program
         "system2":
             `
             <p>Wednesday, June 5, 10:30 AM - 12:00 PM @234 Second floor</p>
-            <h3>System 2: Healthcare IT Systems</h3>
+            <h3>System 2: Healthcare IT Systems (Session Chair: Dr. Pietro Sala)</h3>
             <ul>
                 <li>A migration framework for active BPMN processes in healthcare
                     <ul><li><i>Matteo Mantovani, Emanuele Chini and Carlo Combi</i></li></ul>
@@ -1244,7 +1263,7 @@ Program
         "system3":
             `
             <p>Wednesday, June 5, 1:00 PM - 2:30 PM @234 Second floor</p>
-            <h3>System 3: Generative AI-Based Systems</h3>
+            <h3>System 3: Generative AI-Based Systems (Session Chair: Dr. Yi Guo)</h3>
             <ul>
                 <li>Automated Generation of Narrative Sleep Reports Utilizing Portable Electroencephalogram Data through ChatGPT
                     <ul><li><i>Saki Tsumoto, Fusae Kawana, Kazumasa Horie, Minori Masaki, Kei Nishida, Kazuya Miyanishi, Jaehoon Seol, Morie Tominaga, Takashi Amemiya, Tetsuro Hiei, Akihiro Tani, Masaki Matsubara, Atsuyuki Morishima, Hiroyuki Kitagawa and Masashi Yanagisawa</i></li></ul>
@@ -1266,7 +1285,9 @@ Program
         "industry":
             `
             <p>Thursday, June 6, 10:00 AM - 12:00 PM @Auditorium</p>
-            <h3>Industry Track: Industry Research in Healthcare Informatics</h3>
+            <h3>Industry Track: Industry Research in Healthcare Informatics
+                <br>(Session Chair: Dr. Zhe He)</br>
+            </h3>
             <ul>
                 <li>Clustering Patterns of Use of an Application Delivering Visualizations of Robotic Surgery Data
                     <ul><li><i>Robert Mostellar and Gretchen Jackson</i></li></ul>
@@ -1291,7 +1312,7 @@ Program
         "remote":
             `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @334 Third floor</p>
-            <h3>Remote Presentation</h3>
+            <h3>Remote Presentation (Session Chair: Dr. Zhe He)</h3>
             <ul>
                 <li>A Controlled Virtual Reality Environment for Exploring Social Dynamics in Immersive Conversational Interactions
                     <ul><li><i>Tung Khau, Giuseppe De Luca, Martina Benvenuti, Elvis Mazzoni and Gerrit Meixner</i></li></ul>
@@ -1311,7 +1332,9 @@ Program
         "jhir":
             `
             <p>Tuesday, June 4, 2:30 PM - 4:00 PM @Auditorium</p>
-            <h3>JHIR Special Session: Journal of Healthcare Informatics Research Presentation</h3>
+            <h3>JHIR Special Session: Journal of Healthcare Informatics Research Presentation
+                <br>(Session Chair: Dr. Christopher Yang and PhD Student Mary Lucas)</br>
+            </h3>
             <ul>
                 <li>Applying Generation-Augmented Retrieval and Large Language Models to Automatic Clinical Assessment.
                     <ul><li><i>Ping Yu, University of Wollongong</i></li></ul>
@@ -1327,7 +1350,13 @@ Program
                 </li>
             </ul>
             `,
-
+        "panelXAI":
+            `
+                    <p>Wednesday, June 5, 3:00 PM - 4:30 PM @234 Second floor</p>
+                    <h3>Panel Discussions on XAI (Session Chair: Dr. Gregor Stiglic)</h3>
+                    <p>Session Chair will lead the discussion on XAI</p>
+                    
+                `,
 
             
     };
